@@ -18,5 +18,12 @@
     "ctaPrimary": "Commencer gratuitement",
     "ctaSecondary": "Voir la démo",
     "photoPlaceholder": "[ Photo hero ]"
+  },
+  "trustStrip": {
+    "eyebrow": "APPROUVÉ PAR DES ENTREPRENEURS PARTOUT AU CANADA",
+    "item1": "Tout connecté",
+    "item2": "Moins de travail manuel",
+    "item3": "Visibilité claire",
+    "item4": "Conçu pour grandir"
   }
 }

@@ -18,5 +18,12 @@
     "ctaPrimary": "Get started free",
     "ctaSecondary": "Watch demo",
     "photoPlaceholder": "[ Hero photo ]"
+  },
+  "trustStrip": {
+    "eyebrow": "TRUSTED BY BUSINESS OWNERS ACROSS CANADA",
+    "item1": "Everything connected",
+    "item2": "Less manual work",
+    "item3": "Clearer visibility",
+    "item4": "Built to grow"
   }
 }
