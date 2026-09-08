@@ -5,6 +5,7 @@ import Solutions from '@/components/sections/Solutions';
 import OnePlatform from '@/components/sections/OnePlatform';
 import Features from '@/components/sections/Features';
 import MeetVela from '@/components/sections/MeetVela';
+import Insights from '@/components/sections/Insights';
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <OnePlatform />
       <Features />
       <MeetVela />
+      <Insights />
     </>
   );
 }

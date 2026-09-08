@@ -104,5 +104,14 @@
     "headline1": "Ask anything.",
     "headline2": "Know everything.",
     "cta": "Try Vela free"
+  },
+  "insights": {
+    "eyebrow": "BUILT FOR WHAT IS NEXT",
+    "headline": "Turn your data into real opportunities.",
+    "statLabel": "PROFITABILITY",
+    "statValue": "+24%",
+    "statPeriod": "Last 6 months",
+    "cta": "See how it works",
+    "photoPlaceholder": "[ Insights photo ]"
   }
 }

@@ -104,5 +104,14 @@
     "headline1": "Demandez tout.",
     "headline2": "Sachez tout.",
     "cta": "Essayez Vela gratuitement"
+  },
+  "insights": {
+    "eyebrow": "CONÇU POUR L AVENIR",
+    "headline": "Transformez vos données en véritables opportunités.",
+    "statLabel": "RENTABILITÉ",
+    "statValue": "+24%",
+    "statPeriod": "6 derniers mois",
+    "cta": "Voir comment ça marche",
+    "photoPlaceholder": "[ Photo insights ]"
   }
 }
