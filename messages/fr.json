@@ -145,5 +145,10 @@
         "a": "Oui. Novala se connecte à vos comptes bancaires professionnels pour importer et catégoriser automatiquement les transactions. Photographiez vos reçus, associez les dépenses à des projets ou clients, et obtenez des rapports en temps réel."
       }
     }
+  },
+  "ctaBand": {
+    "heading": "Faites la suite avec Novala",
+    "ctaButton": "Voir les forfaits et tarifs",
+    "disclosure": "Informations importantes sur les tarifs et le produit"
   }
 }

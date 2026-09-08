@@ -8,6 +8,7 @@ import MeetVela from '@/components/sections/MeetVela';
 import Insights from '@/components/sections/Insights';
 import Testimonial from '@/components/sections/Testimonial';
 import FAQ from '@/components/sections/FAQ';
+import CTABand from '@/components/sections/CTABand';
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Insights />
       <Testimonial />
       <FAQ />
+      <CTABand />
     </>
   );
 }

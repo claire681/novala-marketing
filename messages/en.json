@@ -145,5 +145,10 @@
         "a": "Yes. Novala connects to your business bank accounts to automatically import and categorize transactions. Snap receipts with your phone, tag expenses to projects or clients, and get real-time reporting on where your money goes."
       }
     }
+  },
+  "ctaBand": {
+    "heading": "Run what is next with Novala",
+    "ctaButton": "See plans and pricing",
+    "disclosure": "Important pricing details and product information"
   }
 }
