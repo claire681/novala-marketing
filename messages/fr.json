@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "eyebrow": "GÉREZ VOTRE ENTREPRISE EN TOUTE CONFIANCE",
+    "headline1": "Sachez ce qui arrive.",
+    "headline2": "Gérez ce qui suit.",
+    "subheadline": "Paie, comptabilité, gestion de la main d'oeuvre, facturation et plus encore, dans une seule plateforme.",
+    "ctaPrimary": "Commencer gratuitement",
+    "ctaSecondary": "Voir la démo"
+  },
+  "landing": {
+    "welcomeTitle": "Novala",
+    "welcomeText": "Site marketing bientôt disponible. Construit avec TypeScript et Next.js."
+  }
+}

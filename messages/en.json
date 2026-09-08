@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "eyebrow": "RUN YOUR BUSINESS WITH CONFIDENCE",
+    "headline1": "Know what's coming.",
+    "headline2": "Run what's next.",
+    "subheadline": "Payroll, accounting, workforce management, invoicing and more, all in one platform.",
+    "ctaPrimary": "Get started free",
+    "ctaSecondary": "Watch demo"
+  },
+  "landing": {
+    "welcomeTitle": "Novala",
+    "welcomeText": "Marketing site coming soon. Building in TypeScript and Next.js."
+  }
+}
