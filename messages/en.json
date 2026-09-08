@@ -98,5 +98,11 @@
         "description": "CRA-ready records and filings on schedule, every time."
       }
     }
+  },
+  "meetVela": {
+    "eyebrow": "MEET VELA",
+    "headline1": "Ask anything.",
+    "headline2": "Know everything.",
+    "cta": "Try Vela free"
   }
 }

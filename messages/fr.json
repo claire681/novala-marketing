@@ -98,5 +98,11 @@
         "description": "Registres prêts pour l'ARC et déclarations à l'heure, à chaque fois."
       }
     }
+  },
+  "meetVela": {
+    "eyebrow": "RENCONTREZ VELA",
+    "headline1": "Demandez tout.",
+    "headline2": "Sachez tout.",
+    "cta": "Essayez Vela gratuitement"
   }
 }
