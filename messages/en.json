@@ -25,5 +25,41 @@
     "item2": "Less manual work",
     "item3": "Clearer visibility",
     "item4": "Built to grow"
+  },
+  "solutions": {
+    "heading": "Solutions built for businesses like yours",
+    "learnMore": "Learn more",
+    "sizeCards": {
+      "new": {
+        "title": "New business",
+        "description": "Handle your books and your first tax season with confidence."
+      },
+      "small": {
+        "title": "Small business",
+        "description": "Manage daily finances, pay your team, and stay on top of bookkeeping."
+      },
+      "mid": {
+        "title": "Mid-size business",
+        "description": "Streamline complex operations and manage your team in one integrated system."
+      }
+    },
+    "industries": {
+      "construction": {
+        "title": "Construction & trades",
+        "description": "Build with a connected workflow from project setup to job costing to final invoice."
+      },
+      "professional": {
+        "title": "Professional services",
+        "description": "Smart financial management so you have more time for your clients."
+      },
+      "wholesale": {
+        "title": "Wholesale & manufacturing",
+        "description": "Simplify operations while managing inventory, sales, and cash flow."
+      },
+      "healthcare": {
+        "title": "Healthcare & clinics",
+        "description": "Simplify staff scheduling, patient billing and payroll in one system for care providers."
+      }
+    }
   }
 }

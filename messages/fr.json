@@ -25,5 +25,41 @@
     "item2": "Moins de travail manuel",
     "item3": "Visibilité claire",
     "item4": "Conçu pour grandir"
+  },
+  "solutions": {
+    "heading": "Des solutions conçues pour votre entreprise",
+    "learnMore": "En savoir plus",
+    "sizeCards": {
+      "new": {
+        "title": "Nouvelle entreprise",
+        "description": "Gérez vos livres et votre première saison fiscale en toute confiance."
+      },
+      "small": {
+        "title": "Petite entreprise",
+        "description": "Gérez les finances quotidiennes, payez votre équipe et suivez votre comptabilité."
+      },
+      "mid": {
+        "title": "Entreprise de taille moyenne",
+        "description": "Rationalisez les opérations complexes et gérez votre équipe dans un système intégré."
+      }
+    },
+    "industries": {
+      "construction": {
+        "title": "Construction et métiers",
+        "description": "Construisez avec un flux connecté du démarrage du projet à la facture finale."
+      },
+      "professional": {
+        "title": "Services professionnels",
+        "description": "Gestion financière intelligente pour plus de temps avec vos clients."
+      },
+      "wholesale": {
+        "title": "Vente en gros et fabrication",
+        "description": "Simplifiez les opérations tout en gérant les stocks, les ventes et la trésorerie."
+      },
+      "healthcare": {
+        "title": "Santé et cliniques",
+        "description": "Simplifiez la planification du personnel, la facturation et la paie en un seul système."
+      }
+    }
   }
 }
