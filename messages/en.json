@@ -61,5 +61,12 @@
         "description": "Simplify staff scheduling, patient billing and payroll in one system for care providers."
       }
     }
+  },
+  "onePlatform": {
+    "eyebrow": "ALL BUSINESS OPERATIONS",
+    "headline1": "One platform.",
+    "headline2": "A clearer way forward.",
+    "subheadline": "Novala brings together everything you need to run your business.",
+    "cta": "Explore all features"
   }
 }

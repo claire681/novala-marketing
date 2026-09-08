@@ -61,5 +61,12 @@
         "description": "Simplifiez la planification du personnel, la facturation et la paie en un seul système."
       }
     }
+  },
+  "onePlatform": {
+    "eyebrow": "TOUTES LES OPÉRATIONS COMMERCIALES",
+    "headline1": "Une plateforme.",
+    "headline2": "Une voie plus claire.",
+    "subheadline": "Novala rassemble tout ce dont vous avez besoin pour gérer votre entreprise.",
+    "cta": "Explorer toutes les fonctionnalités"
   }
 }
