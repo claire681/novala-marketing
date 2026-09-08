@@ -68,5 +68,35 @@
     "headline2": "Une voie plus claire.",
     "subheadline": "Novala rassemble tout ce dont vous avez besoin pour gérer votre entreprise.",
     "cta": "Explorer toutes les fonctionnalités"
+  },
+  "features": {
+    "eyebrow": "OUTILS PUISSANTS",
+    "heading": "Six catégories. Un seul système.",
+    "items": {
+      "payroll": {
+        "title": "Paie",
+        "description": "Paie canadienne automatisée avec conformité ARC intégrée."
+      },
+      "accounting": {
+        "title": "Comptabilité",
+        "description": "Livres, rapports et rapprochement, dans un seul système."
+      },
+      "invoicing": {
+        "title": "Facturation",
+        "description": "Envoyez, suivez et soyez payé plus rapidement."
+      },
+      "workforce": {
+        "title": "Personnel",
+        "description": "Planification et suivi du temps que votre équipe utilisera vraiment."
+      },
+      "reporting": {
+        "title": "Rapports",
+        "description": "Aperçus en temps réel de chaque partie de votre entreprise."
+      },
+      "compliance": {
+        "title": "Conformité",
+        "description": "Registres prêts pour l'ARC et déclarations à l'heure, à chaque fois."
+      }
+    }
   }
 }

@@ -68,5 +68,35 @@
     "headline2": "A clearer way forward.",
     "subheadline": "Novala brings together everything you need to run your business.",
     "cta": "Explore all features"
+  },
+  "features": {
+    "eyebrow": "POWERFUL TOOLS",
+    "heading": "Six categories. One system.",
+    "items": {
+      "payroll": {
+        "title": "Payroll",
+        "description": "Automated Canadian payroll with CRA compliance built in."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Books, reports, and reconciliation, all in one system."
+      },
+      "invoicing": {
+        "title": "Invoicing",
+        "description": "Send, track, and get paid faster."
+      },
+      "workforce": {
+        "title": "Workforce",
+        "description": "Scheduling and time tracking your team will actually use."
+      },
+      "reporting": {
+        "title": "Reporting",
+        "description": "Real-time insights across every part of your business."
+      },
+      "compliance": {
+        "title": "Compliance",
+        "description": "CRA-ready records and filings on schedule, every time."
+      }
+    }
   }
 }

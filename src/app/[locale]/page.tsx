@@ -3,6 +3,7 @@ import Hero from '@/components/sections/Hero';
 import TrustStrip from '@/components/sections/TrustStrip';
 import Solutions from '@/components/sections/Solutions';
 import OnePlatform from '@/components/sections/OnePlatform';
+import Features from '@/components/sections/Features';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <TrustStrip />
       <Solutions />
       <OnePlatform />
+      <Features />
     </>
   );
 }
