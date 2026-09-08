@@ -119,5 +119,31 @@
     "quote": "Novala me donne une visibilité complète sur mon entreprise.",
     "author": "Propriétaire d entreprise",
     "photoPlaceholder": "[ Photo client ]"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "seeMore": "Voir plus de questions fréquentes",
+    "items": {
+      "whatIs": {
+        "q": "Qu est-ce que Novala?",
+        "a": "Novala est une plateforme de gestion tout-en-un pour les petites et moyennes entreprises canadiennes. Elle réunit la paie, la comptabilité, la facturation, la gestion du personnel et les rapports dans un seul système connecté."
+      },
+      "easyToLearn": {
+        "q": "Novala est-il facile à apprendre?",
+        "a": "Oui. Novala est conçu pour les propriétaires d entreprise, pas pour les comptables. La plateforme offre une expérience guidée dès le premier jour avec un assistant de configuration interactif, une aide intégrée et Vela votre assistant IA qui répond à vos questions en français simple."
+      },
+      "cost": {
+        "q": "Combien coûte Novala?",
+        "a": "Les tarifs dépendent de la taille de votre entreprise et des modules dont vous avez besoin. Les petites entreprises commencent généralement à des tarifs mensuels compétitifs. Contactez-nous pour un devis personnalisé ou commencez avec un essai gratuit."
+      },
+      "payroll": {
+        "q": "Novala gère-t-il la paie au Canada?",
+        "a": "Oui. Novala gère la paie canadienne avec une conformité ARC complète intégrée. Les calculs fiscaux fédéraux et provinciaux, RPC, AE, T4, T4A, RE et versements de paie sont tous automatisés."
+      },
+      "expenses": {
+        "q": "Novala peut-il suivre mes dépenses professionnelles?",
+        "a": "Oui. Novala se connecte à vos comptes bancaires professionnels pour importer et catégoriser automatiquement les transactions. Photographiez vos reçus, associez les dépenses à des projets ou clients, et obtenez des rapports en temps réel."
+      }
+    }
   }
 }

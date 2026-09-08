@@ -119,5 +119,31 @@
     "quote": "Novala gives me complete visibility across my business.",
     "author": "Business Owner",
     "photoPlaceholder": "[ Customer photo ]"
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "seeMore": "See more frequently asked questions",
+    "items": {
+      "whatIs": {
+        "q": "What is Novala?",
+        "a": "Novala is an all-in-one business management platform for Canadian small and mid-size businesses. It brings together payroll, accounting, invoicing, workforce management, and reporting in a single connected system."
+      },
+      "easyToLearn": {
+        "q": "Is Novala easy to learn?",
+        "a": "Yes. Novala is designed for business owners, not accountants. The platform provides a guided experience from day one with an interactive setup wizard, built-in help, and Vela your AI assistant that answers questions in plain English."
+      },
+      "cost": {
+        "q": "How much does Novala cost?",
+        "a": "Pricing depends on the size of your business and the modules you need. Small businesses typically start at competitive monthly rates. Contact us for a personalized quote or start with a free trial to see the value first."
+      },
+      "payroll": {
+        "q": "Does Novala handle payroll in Canada?",
+        "a": "Yes. Novala handles Canadian payroll with full CRA compliance built in. Federal and provincial tax calculations, CPP, EI, T4s, T4As, ROEs, and payroll remittances are all automated."
+      },
+      "expenses": {
+        "q": "Can Novala track my business expenses?",
+        "a": "Yes. Novala connects to your business bank accounts to automatically import and categorize transactions. Snap receipts with your phone, tag expenses to projects or clients, and get real-time reporting on where your money goes."
+      }
+    }
   }
 }

@@ -7,6 +7,7 @@ import Features from '@/components/sections/Features';
 import MeetVela from '@/components/sections/MeetVela';
 import Insights from '@/components/sections/Insights';
 import Testimonial from '@/components/sections/Testimonial';
+import FAQ from '@/components/sections/FAQ';
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <MeetVela />
       <Insights />
       <Testimonial />
+      <FAQ />
     </>
   );
 }
