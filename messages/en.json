@@ -113,5 +113,11 @@
     "statPeriod": "Last 6 months",
     "cta": "See how it works",
     "photoPlaceholder": "[ Insights photo ]"
+  },
+  "testimonial": {
+    "eyebrow": "CUSTOMER STORY",
+    "quote": "Novala gives me complete visibility across my business.",
+    "author": "Business Owner",
+    "photoPlaceholder": "[ Customer photo ]"
   }
 }
