@@ -449,5 +449,10 @@
     "ctaPrimary": "Trouver ma solution",
     "ctaSecondary": "Non merci",
     "closeLabel": "Fermer"
+  },
+  "languageBanner": {
+    "message": "Cette page est disponible en {language}",
+    "switchTo": "Passer à {language}",
+    "dismiss": "Fermer"
   }
 }

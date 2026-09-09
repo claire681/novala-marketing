@@ -449,5 +449,10 @@
     "ctaPrimary": "Find your fit",
     "ctaSecondary": "No thanks",
     "closeLabel": "Close"
+  },
+  "languageBanner": {
+    "message": "This page is available in {language}",
+    "switchTo": "Switch to {language}",
+    "dismiss": "Dismiss"
   }
 }
