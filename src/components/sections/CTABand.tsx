@@ -11,16 +11,13 @@ export default function CTABand() {
         minHeight: '400px',
       }}
     >
-      <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-[#161616] text-center mb-16 tracking-tight leading-tight max-w-4xl">
+      <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-center mb-16 tracking-tight leading-tight max-w-4xl" style={{ color: '#161616' }}>
         {t('heading')}
       </h2>
-      <button className="bg-emerald-bright hover:bg-emerald-rich text-white px-8 py-4 rounded-lg text-lg font-bold min-w-[230px] transition-colors cursor-pointer">
+      <button className="bg-emerald-bright hover:bg-emerald-rich text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors cursor-pointer" style={{ minWidth: '230px' }}>
         {t('ctaButton')}
       </button>
-      
-        href="#"
-        className="absolute bottom-8 text-base font-bold text-[#161616] hover:text-emerald-rich transition-colors"
-      >
+      <a href="#" className="absolute bottom-8 text-base font-bold hover:text-emerald-rich transition-colors" style={{ color: '#161616' }}>
         {t('disclosure')}
       </a>
     </section>
