@@ -150,5 +150,39 @@
     "heading": "Run what is next with Novala",
     "ctaButton": "See plans and pricing",
     "disclosure": "Important pricing details and product information"
+  },
+  "newsletter": {
+    "heading": "Get expert insights for your business",
+    "subheadline": "Sign up to receive tips on payroll, accounting, tax and workforce, straight to your inbox.",
+    "thanksTitle": "Thanks for subscribing",
+    "thanksText": "We will send you the latest insights soon.",
+    "cta": "Subscribe",
+    "consent": "I agree to receive marketing emails from Novala. I can unsubscribe anytime.",
+    "fields": {
+      "firstName": {
+        "label": "First name *",
+        "placeholder": "First name"
+      },
+      "lastName": {
+        "label": "Last name *",
+        "placeholder": "Last name"
+      },
+      "businessName": {
+        "label": "Business name",
+        "placeholder": "Business name"
+      },
+      "email": {
+        "label": "Work email *",
+        "placeholder": "name@company.com"
+      },
+      "phone": {
+        "label": "Phone (optional)",
+        "placeholder": "+1 555 000 0000"
+      },
+      "employees": {
+        "label": "Employees (optional)",
+        "placeholder": "Select size"
+      }
+    }
   }
 }

@@ -150,5 +150,39 @@
     "heading": "Faites la suite avec Novala",
     "ctaButton": "Voir les forfaits et tarifs",
     "disclosure": "Informations importantes sur les tarifs et le produit"
+  },
+  "newsletter": {
+    "heading": "Recevez des conseils d experts pour votre entreprise",
+    "subheadline": "Inscrivez-vous pour recevoir des conseils sur la paie, la comptabilité, les taxes et le personnel, directement dans votre boîte de réception.",
+    "thanksTitle": "Merci de votre inscription",
+    "thanksText": "Nous vous enverrons bientôt les derniers conseils.",
+    "cta": "S abonner",
+    "consent": "J accepte de recevoir les courriels marketing de Novala. Je peux me désabonner à tout moment.",
+    "fields": {
+      "firstName": {
+        "label": "Prénom *",
+        "placeholder": "Prénom"
+      },
+      "lastName": {
+        "label": "Nom *",
+        "placeholder": "Nom"
+      },
+      "businessName": {
+        "label": "Nom de l entreprise",
+        "placeholder": "Nom de l entreprise"
+      },
+      "email": {
+        "label": "Courriel professionnel *",
+        "placeholder": "nom@entreprise.com"
+      },
+      "phone": {
+        "label": "Téléphone (optionnel)",
+        "placeholder": "+1 555 000 0000"
+      },
+      "employees": {
+        "label": "Employés (optionnel)",
+        "placeholder": "Choisir la taille"
+      }
+    }
   }
 }

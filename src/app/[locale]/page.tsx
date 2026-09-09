@@ -9,6 +9,7 @@ import Insights from '@/components/sections/Insights';
 import Testimonial from '@/components/sections/Testimonial';
 import FAQ from '@/components/sections/FAQ';
 import CTABand from '@/components/sections/CTABand';
+import Newsletter from '@/components/sections/Newsletter';
 
 export default function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default function HomePage() {
       <Testimonial />
       <FAQ />
       <CTABand />
+      <Newsletter />
     </>
   );
 }
