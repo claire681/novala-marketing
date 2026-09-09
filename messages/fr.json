@@ -103,7 +103,98 @@
     "eyebrow": "RENCONTREZ VELA",
     "headline1": "Demandez tout.",
     "headline2": "Sachez tout.",
-    "cta": "Essayez Vela gratuitement"
+    "cta": "Essayez Vela gratuitement",
+    "workingLabel": "Traitement…",
+    "pills": {
+      "accounting": "Comptabilité",
+      "salesGetPaid": "Ventes et paiements",
+      "payroll": "Paie",
+      "workforce": "Personnel"
+    },
+    "questions": {
+      "payroll": {
+        "pillKey": "payroll",
+        "text": "Combien coûtera la paie ce vendredi?",
+        "working": "Analyse des heures et des taux",
+        "label": "PAIE · VENDREDI",
+        "value": "142 540 $",
+        "sub": "Total projeté",
+        "grid": [
+          {
+            "k": "EMPLOYÉS",
+            "v": "47"
+          },
+          {
+            "k": "HEURES",
+            "v": "3 720"
+          },
+          {
+            "k": "HEURES SUP",
+            "v": "184",
+            "tint": "warning"
+          },
+          {
+            "k": "FONDS",
+            "v": "✓ Prêt",
+            "tint": "success"
+          }
+        ]
+      },
+      "accounting": {
+        "pillKey": "accounting",
+        "text": "Quelles sont mes marges bénéficiaires cette année?",
+        "working": "Analyse des revenus et dépenses",
+        "label": "PROFIT · CUM",
+        "value": "+24 %",
+        "sub": "vs année précédente",
+        "grid": [
+          {
+            "k": "REVENUS",
+            "v": "1,2 M$"
+          },
+          {
+            "k": "DÉPENSES",
+            "v": "912 K$"
+          },
+          {
+            "k": "NET",
+            "v": "288 K$",
+            "tint": "success"
+          },
+          {
+            "k": "TENDANCE",
+            "v": "↑ Croissance"
+          }
+        ]
+      },
+      "invoices": {
+        "pillKey": "salesGetPaid",
+        "text": "Quelles factures sont en retard?",
+        "working": "Vérification des comptes clients",
+        "label": "FACTURES EN RETARD",
+        "value": "12 180 $",
+        "sub": "3 en retard",
+        "grid": [
+          {
+            "k": "PLUS ANCIENNE",
+            "v": "42 jours"
+          },
+          {
+            "k": "JRS MOYENS",
+            "v": "18"
+          },
+          {
+            "k": "À RISQUE",
+            "v": "4 200 $",
+            "tint": "warning"
+          },
+          {
+            "k": "ACTION",
+            "v": "Envoyer rappel"
+          }
+        ]
+      }
+    }
   },
   "insights": {
     "eyebrow": "CONÇU POUR L AVENIR",

@@ -103,7 +103,98 @@
     "eyebrow": "MEET VELA",
     "headline1": "Ask anything.",
     "headline2": "Know everything.",
-    "cta": "Try Vela free"
+    "cta": "Try Vela free",
+    "workingLabel": "Working…",
+    "pills": {
+      "accounting": "Accounting",
+      "salesGetPaid": "Sales & Get Paid",
+      "payroll": "Payroll",
+      "workforce": "Workforce"
+    },
+    "questions": {
+      "payroll": {
+        "pillKey": "payroll",
+        "text": "How much will payroll cost this Friday?",
+        "working": "Analyzing hours and rates",
+        "label": "PAYROLL · FRIDAY",
+        "value": "$142,540",
+        "sub": "Projected total",
+        "grid": [
+          {
+            "k": "EMPLOYEES",
+            "v": "47"
+          },
+          {
+            "k": "HOURS",
+            "v": "3,720"
+          },
+          {
+            "k": "OVERTIME",
+            "v": "184",
+            "tint": "warning"
+          },
+          {
+            "k": "FUNDING",
+            "v": "✓ Ready",
+            "tint": "success"
+          }
+        ]
+      },
+      "accounting": {
+        "pillKey": "accounting",
+        "text": "What are my profit margins this year?",
+        "working": "Analyzing revenue vs expenses",
+        "label": "PROFIT · YTD",
+        "value": "+24%",
+        "sub": "vs prior year",
+        "grid": [
+          {
+            "k": "REVENUE",
+            "v": "$1.2M"
+          },
+          {
+            "k": "EXPENSES",
+            "v": "$912K"
+          },
+          {
+            "k": "NET",
+            "v": "$288K",
+            "tint": "success"
+          },
+          {
+            "k": "TREND",
+            "v": "↑ Growing"
+          }
+        ]
+      },
+      "invoices": {
+        "pillKey": "salesGetPaid",
+        "text": "Which invoices are overdue?",
+        "working": "Checking accounts receivable",
+        "label": "OVERDUE INVOICES",
+        "value": "$12,180",
+        "sub": "3 past due",
+        "grid": [
+          {
+            "k": "OLDEST",
+            "v": "42 days"
+          },
+          {
+            "k": "AVG DAYS",
+            "v": "18"
+          },
+          {
+            "k": "AT RISK",
+            "v": "$4,200",
+            "tint": "warning"
+          },
+          {
+            "k": "ACTION",
+            "v": "Send reminder"
+          }
+        ]
+      }
+    }
   },
   "insights": {
     "eyebrow": "BUILT FOR WHAT IS NEXT",
