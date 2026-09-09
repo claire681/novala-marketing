@@ -454,5 +454,13 @@
     "message": "This page is available in {language}",
     "switchTo": "Switch to {language}",
     "dismiss": "Dismiss"
+  },
+  "velaChat": {
+    "greeting": "Hi! I am Vela, your AI business assistant. Ask me about payroll, accounting, or anything about your business.",
+    "note": "Sign up to try Vela with your real business data",
+    "cta": "Get started free",
+    "openLabel": "Open Vela chat",
+    "closeLabel": "Close Vela chat",
+    "role": "AI assistant"
   }
 }

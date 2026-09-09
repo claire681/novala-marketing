@@ -3,6 +3,7 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import LanguageBanner from '@/components/LanguageBanner';
+import VelaChat from '@/components/VelaChat';
 import "../globals.css";
 
 export const metadata: Metadata = {
@@ -33,6 +34,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <LanguageBanner />
           {children}
+          <VelaChat />
         </NextIntlClientProvider>
       </body>
     </html>

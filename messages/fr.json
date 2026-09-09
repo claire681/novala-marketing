@@ -454,5 +454,13 @@
     "message": "Cette page est disponible en {language}",
     "switchTo": "Passer à {language}",
     "dismiss": "Fermer"
+  },
+  "velaChat": {
+    "greeting": "Bonjour! Je suis Vela, votre assistante IA. Posez-moi une question sur la paie, la comptabilité ou votre entreprise.",
+    "note": "Inscrivez-vous pour essayer Vela avec vos vraies données",
+    "cta": "Commencer gratuitement",
+    "openLabel": "Ouvrir le chat Vela",
+    "closeLabel": "Fermer le chat Vela",
+    "role": "Assistante IA"
   }
 }
