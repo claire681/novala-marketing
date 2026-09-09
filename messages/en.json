@@ -126,43 +126,112 @@
     "items": {
       "whatIs": {
         "q": "What is Novala?",
-        "a": "Novala is an all-in-one business management platform for Canadian small and mid-size businesses. It brings together payroll, accounting, invoicing, workforce management, and reporting in a single connected system."
+        "a": "Novala is an all-in-one business management platform built for Canadian small and mid-size businesses. It brings together everything you need to run your business in a single connected system.",
+        "bullets": [
+          "Payroll: Full Canadian compliance from CPP and EI to T4s and ROEs",
+          "Accounting: Books, reconciliation, and financial reports in one place",
+          "Invoicing: Send, track, and get paid faster",
+          "Workforce: Scheduling, time tracking, and team management",
+          "Vela AI: Ask questions in plain English and get answers from your business data"
+        ]
       },
       "easyToLearn": {
         "q": "Is Novala easy to learn?",
-        "a": "Yes. Novala is designed for business owners, not accountants. The platform provides a guided experience from day one with an interactive setup wizard, built-in help, and Vela your AI assistant that answers questions in plain English."
+        "a": "Absolutely. Novala is designed for business owners, not accountants. The platform provides a guided experience from day one with everything set up to help you succeed.",
+        "bullets": [
+          "Guided setup wizard walks you through connecting your bank, adding employees, and creating your first invoice",
+          "Vela AI assistant answers questions in plain English using your business data",
+          "Interactive tutorials and tooltips throughout the app",
+          "Live Canadian support via chat or email during business hours"
+        ]
       },
       "cost": {
         "q": "How much does Novala cost?",
-        "a": "Pricing depends on the size of your business and the modules you need. Small businesses typically start at competitive monthly rates. Contact us for a personalized quote or start with a free trial to see the value first."
+        "a": "Pricing is straightforward and scales with your business. There are no long-term contracts and you can start with a free trial to see the value first.",
+        "bullets": [
+          "Solo plan for freelancers and single-person businesses",
+          "Small business plan for teams up to 25 employees",
+          "Growth plan for teams up to 100 employees",
+          "Enterprise plan for larger teams with custom needs",
+          "All plans include Vela AI, unlimited invoices, and Canadian support"
+        ]
       },
       "payroll": {
         "q": "Does Novala handle payroll in Canada?",
-        "a": "Yes. Novala handles Canadian payroll with full CRA compliance built in. Federal and provincial tax calculations, CPP, EI, T4s, T4As, ROEs, and payroll remittances are all automated."
+        "a": "Yes. Novala handles Canadian payroll from setup to filing with full CRA compliance built in. Federal and provincial calculations are automatic and always up to date with tax rate changes.",
+        "bullets": [
+          "Automatic CPP, EI, and income tax calculations for all provinces",
+          "T4, T4A, and ROE generation with one-click filing",
+          "Direct deposit for employees and contractors",
+          "Payroll remittances to CRA on time, every time",
+          "Full payroll history and audit trail"
+        ]
       },
       "expenses": {
         "q": "Can Novala track my business expenses?",
-        "a": "Yes. Novala connects to your business bank accounts to automatically import and categorize transactions. Snap receipts with your phone, tag expenses to projects or clients, and get real-time reporting on where your money goes."
+        "a": "Yes. Novala connects to your business bank accounts to automatically import and categorize transactions. Manual entry is optional, not required.",
+        "bullets": [
+          "Automatic bank feed connection with 200+ Canadian financial institutions",
+          "Snap photos of receipts with your phone to attach to transactions",
+          "Custom categories and rules for automatic sorting",
+          "Real-time reporting on where your money goes",
+          "Tag expenses to projects or clients for detailed profitability"
+        ]
       },
       "businessSize": {
         "q": "What size businesses is Novala for?",
-        "a": "Novala serves solo entrepreneurs, small businesses (2 to 49 employees), and mid-size businesses (50 to 500 employees). The platform scales with you as you grow, from a single freelancer to a multi-team operation."
+        "a": "Novala serves businesses of every size, from solo freelancers to mid-market operations. The platform scales with you as you grow.",
+        "bullets": [
+          "Solo entrepreneurs and freelancers",
+          "Small businesses (2 to 49 employees)",
+          "Mid-size businesses (50 to 500 employees)",
+          "Larger organizations with custom needs",
+          "Both service and product-based businesses"
+        ]
       },
       "importData": {
         "q": "Can I import data from QuickBooks or another accounting tool?",
-        "a": "Yes. Novala provides guided import for QuickBooks Online, Xero, FreshBooks, Wave, and Sage. Your chart of accounts, historical transactions, customers, vendors, and open balances migrate over in a few clicks."
+        "a": "Yes. Novala provides guided import from all major accounting platforms. Your data migrates over in a few clicks, not weeks.",
+        "bullets": [
+          "QuickBooks Online and QuickBooks Desktop",
+          "Xero, FreshBooks, Wave, and Sage",
+          "Bank statements in CSV or OFX format",
+          "Chart of accounts, customers, vendors, and open balances",
+          "Historical transactions preserved for reporting"
+        ]
       },
       "mobile": {
         "q": "Does Novala work on mobile?",
-        "a": "Yes. The Novala web app is fully responsive and works on any smartphone or tablet browser. A dedicated mobile app for iOS and Android is on the roadmap for employees to clock in and out and submit expenses."
+        "a": "Yes. The Novala web app is fully responsive and works on any smartphone or tablet browser. A dedicated mobile app is coming for employees.",
+        "bullets": [
+          "Full web app works on any mobile browser",
+          "Approve payroll and send invoices from your phone",
+          "Snap receipts on the go with camera integration",
+          "Employee mobile app coming for iOS and Android",
+          "Push notifications for approvals and reminders"
+        ]
       },
       "security": {
         "q": "Is my data secure?",
-        "a": "Absolutely. Novala uses bank-level 256-bit SSL encryption for all data in transit and AES-256 encryption at rest. Your data is stored in SOC 2 compliant Canadian data centers with automated backups, and we never share your information with third parties."
+        "a": "Absolutely. Security is a first-class concern at Novala. Your data is protected by bank-level encryption and stored only in Canadian data centers.",
+        "bullets": [
+          "Bank-level 256-bit SSL encryption for all data in transit",
+          "AES-256 encryption at rest with automated backups",
+          "SOC 2 compliant Canadian data centers",
+          "Two-factor authentication for all users",
+          "Never share your information with third parties"
+        ]
       },
       "needAccountant": {
         "q": "Do I need an accountant to use Novala?",
-        "a": "No. Novala is designed for business owners without accounting expertise. That said, you can invite your accountant to collaborate directly in the platform. Many customers use Novala independently and check in with their accountant only at tax time."
+        "a": "No. Novala is designed for business owners without accounting expertise. That said, you can invite your accountant to collaborate directly in the platform if you have one.",
+        "bullets": [
+          "Guided workflows explain every step in plain English",
+          "Vela AI answers accounting questions using your data",
+          "Accountant collaboration built in with role-based access",
+          "Year-end and tax packages generated automatically",
+          "Many customers use Novala independently and only check with their accountant at tax time"
+        ]
       }
     }
   },

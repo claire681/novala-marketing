@@ -6,7 +6,7 @@ import { useLocale } from 'next-intl';
 
 interface Country {
   id: string;
-  flag: string;
+  flag: string | null;
   name: string;
   locale: 'en' | 'fr' | null;
   available: boolean;
@@ -22,6 +22,7 @@ const COUNTRIES: Country[] = [
   { id: 'fr-fr', flag: 'fr', name: 'France', locale: null, available: false },
   { id: 'mx', flag: 'mx', name: 'México', locale: null, available: false },
   { id: 'br', flag: 'br', name: 'Brasil', locale: null, available: false },
+  { id: 'other', flag: null, name: 'Other countries', locale: null, available: false },
 ];
 
 export default function CountryPicker() {
@@ -51,11 +52,20 @@ export default function CountryPicker() {
     setOpen(false);
   };
 
+  const renderFlag = (country: Country, sizeClass: string) => {
+    if (country.flag) {
+      return (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={`https://flagcdn.com/w40/${country.flag}.png`} alt={country.name} className={`${sizeClass} object-cover rounded-sm flex-shrink-0`} />
+      );
+    }
+    return <span className={`${sizeClass} inline-flex items-center justify-center text-base`}>🌐</span>;
+  };
+
   return (
     <div className="relative" ref={dropdownRef}>
       <button onClick={() => setOpen(!open)} className="flex items-center gap-3 text-sm hover:text-emerald-bright transition-colors cursor-pointer">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={`https://flagcdn.com/w40/${currentCountry.flag}.png`} alt={currentCountry.name} className="w-6 h-4 object-cover rounded-sm" />
+        {renderFlag(currentCountry, 'w-6 h-4')}
         <span>{currentCountry.name}</span>
         <span className="text-xs">{open ? '▴' : '▾'}</span>
       </button>
@@ -72,8 +82,7 @@ export default function CountryPicker() {
                 className={`w-full px-4 py-3 flex items-center gap-3 text-sm text-left transition-colors ${country.available ? 'text-near-black cursor-pointer hover:bg-mint-pale' : 'text-gray-400 cursor-not-allowed'}`}
                 style={{ background: isActive ? '#F4FBF7' : 'white' }}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={`https://flagcdn.com/w40/${country.flag}.png`} alt={country.name} className="w-6 h-4 object-cover rounded-sm flex-shrink-0" />
+                {renderFlag(country, 'w-6 h-4')}
                 <span className="flex-1">{country.name}</span>
                 {!country.available && <span className="text-xs text-gray-400 italic">Coming soon</span>}
                 {isActive && <span className="text-emerald-rich">✓</span>}

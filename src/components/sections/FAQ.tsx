@@ -6,6 +6,12 @@ import { useState } from 'react';
 const ALL_QUESTIONS = ['whatIs', 'easyToLearn', 'cost', 'payroll', 'expenses', 'businessSize', 'importData', 'mobile', 'security', 'needAccountant'] as const;
 const INITIAL_COUNT = 5;
 
+interface FAQItem {
+  q: string;
+  a: string;
+  bullets?: string[];
+}
+
 export default function FAQ() {
   const t = useTranslations('faq');
   const [openIndex, setOpenIndex] = useState<number | null>(1);
@@ -22,11 +28,12 @@ export default function FAQ() {
       <div className="max-w-5xl mx-auto">
         {visibleQuestions.map((key, idx) => {
           const isOpen = openIndex === idx;
+          const item = t.raw(`items.${key}`) as FAQItem;
           return (
             <div key={key} className="border-t border-[#D9D9D9]">
               <button onClick={() => setOpenIndex(isOpen ? null : idx)} className="w-full py-7 flex items-center justify-between text-left cursor-pointer gap-4">
                 <span className="text-lg font-bold transition-colors" style={{ color: isOpen ? '#046A38' : '#161616' }}>
-                  {t(`items.${key}.q`)}
+                  {item.q}
                 </span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke={isOpen ? '#046A38' : '#161616'} strokeWidth="2" className="flex-shrink-0 transition-transform" style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0)' }}>
                   <polyline points="5 8 10 13 15 8" />
@@ -34,7 +41,17 @@ export default function FAQ() {
               </button>
               {isOpen && (
                 <div className="pb-11 max-w-3xl">
-                  <p className="text-base text-[#161616] leading-relaxed">{t(`items.${key}.a`)}</p>
+                  <p className="text-base text-[#161616] leading-relaxed mb-5">{item.a}</p>
+                  {item.bullets && item.bullets.length > 0 && (
+                    <ul className="space-y-3">
+                      {item.bullets.map((b, i) => (
+                        <li key={i} className="text-base text-[#161616] leading-relaxed flex gap-3">
+                          <span className="text-[#161616] font-bold flex-shrink-0">•</span>
+                          <span>{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               )}
             </div>
