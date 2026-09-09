@@ -184,5 +184,66 @@
         "placeholder": "Select size"
       }
     }
+  },
+  "footer": {
+    "columns": {
+      "products": {
+        "title": "Products",
+        "links": {
+          "payroll": "Payroll",
+          "accounting": "Accounting",
+          "invoicing": "Invoicing",
+          "workforce": "Workforce",
+          "vela": "Vela assistant"
+        }
+      },
+      "features": {
+        "title": "Features",
+        "links": {
+          "payments": "Accept payments",
+          "cashFlow": "Cash flow",
+          "scheduling": "Scheduling",
+          "craFiling": "CRA tax filing",
+          "t4Forms": "T4 forms"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "links": {
+          "sbHub": "Small business hub",
+          "payrollCalc": "Payroll calculator",
+          "invoiceGen": "Invoice generator",
+          "guides": "Guides",
+          "blog": "Blog"
+        }
+      },
+      "learn": {
+        "title": "Learn & Support",
+        "links": {
+          "helpCenter": "Help center",
+          "gettingStarted": "Getting started",
+          "tutorials": "Tutorials",
+          "contactSupport": "Contact support",
+          "systemStatus": "System status"
+        }
+      }
+    },
+    "sitemap": "Sitemap",
+    "country": {
+      "label": "Canada (English)"
+    },
+    "corporate": {
+      "about": "About Novala",
+      "careers": "Careers",
+      "press": "Press",
+      "partners": "Partners"
+    },
+    "copyright": "© 2026 Novala. All rights reserved.",
+    "trademark": "Novala and Vela are trademarks of Novala.",
+    "legal": {
+      "legal": "Legal",
+      "privacy": "Privacy",
+      "security": "Security"
+    }
   }
 }

@@ -184,5 +184,66 @@
         "placeholder": "Choisir la taille"
       }
     }
+  },
+  "footer": {
+    "columns": {
+      "products": {
+        "title": "Produits",
+        "links": {
+          "payroll": "Paie",
+          "accounting": "Comptabilité",
+          "invoicing": "Facturation",
+          "workforce": "Personnel",
+          "vela": "Assistant Vela"
+        }
+      },
+      "features": {
+        "title": "Fonctionnalités",
+        "links": {
+          "payments": "Accepter les paiements",
+          "cashFlow": "Flux de trésorerie",
+          "scheduling": "Planification",
+          "craFiling": "Déclaration ARC",
+          "t4Forms": "Formulaires T4"
+        }
+      },
+      "resources": {
+        "title": "Ressources",
+        "links": {
+          "sbHub": "Centre PME",
+          "payrollCalc": "Calculateur de paie",
+          "invoiceGen": "Générateur de factures",
+          "guides": "Guides",
+          "blog": "Blogue"
+        }
+      },
+      "learn": {
+        "title": "Apprendre et Soutien",
+        "links": {
+          "helpCenter": "Centre d aide",
+          "gettingStarted": "Bien commencer",
+          "tutorials": "Tutoriels",
+          "contactSupport": "Contacter le soutien",
+          "systemStatus": "État du système"
+        }
+      }
+    },
+    "sitemap": "Plan du site",
+    "country": {
+      "label": "Canada (Français)"
+    },
+    "corporate": {
+      "about": "À propos de Novala",
+      "careers": "Carrières",
+      "press": "Presse",
+      "partners": "Partenaires"
+    },
+    "copyright": "© 2026 Novala. Tous droits réservés.",
+    "trademark": "Novala et Vela sont des marques de commerce de Novala.",
+    "legal": {
+      "legal": "Mentions légales",
+      "privacy": "Confidentialité",
+      "security": "Sécurité"
+    }
   }
 }
