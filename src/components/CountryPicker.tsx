@@ -3,12 +3,26 @@
 import { useState, useEffect, useRef } from 'react';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { useLocale } from 'next-intl';
-import { routing } from '@/i18n/routing';
 
-const LOCALE_LABELS: Record<string, { flag: string; name: string }> = {
-  en: { flag: '🇨🇦', name: 'Canada (English)' },
-  fr: { flag: '🇨🇦', name: 'Canada (Français)' },
-};
+interface Country {
+  id: string;
+  flag: string;
+  name: string;
+  locale: 'en' | 'fr' | null;
+  available: boolean;
+}
+
+const COUNTRIES: Country[] = [
+  { id: 'ca-en', flag: 'ca', name: 'Canada (English)', locale: 'en', available: true },
+  { id: 'ca-fr', flag: 'ca', name: 'Canada (Français)', locale: 'fr', available: true },
+  { id: 'us', flag: 'us', name: 'United States', locale: null, available: false },
+  { id: 'gb', flag: 'gb', name: 'United Kingdom', locale: null, available: false },
+  { id: 'au', flag: 'au', name: 'Australia', locale: null, available: false },
+  { id: 'in', flag: 'in', name: 'India', locale: null, available: false },
+  { id: 'fr-fr', flag: 'fr', name: 'France', locale: null, available: false },
+  { id: 'mx', flag: 'mx', name: 'México', locale: null, available: false },
+  { id: 'br', flag: 'br', name: 'Brasil', locale: null, available: false },
+];
 
 export default function CountryPicker() {
   const [open, setOpen] = useState(false);
@@ -17,7 +31,7 @@ export default function CountryPicker() {
   const pathname = usePathname();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const currentLabel = LOCALE_LABELS[locale] ?? LOCALE_LABELS.en;
+  const currentCountry = COUNTRIES.find(c => c.locale === locale) ?? COUNTRIES[0];
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -31,33 +45,37 @@ export default function CountryPicker() {
     }
   }, [open]);
 
-  const switchLocale = (newLocale: string) => {
-    router.replace(pathname, { locale: newLocale as 'en' | 'fr' });
+  const handleSelect = (country: Country) => {
+    if (!country.available || !country.locale) return;
+    router.replace(pathname, { locale: country.locale });
     setOpen(false);
   };
 
   return (
     <div className="relative" ref={dropdownRef}>
-      <button onClick={() => setOpen(!open)} className="flex items-center gap-3.5 text-sm hover:text-emerald-bright transition-colors cursor-pointer">
-        <span className="text-xl">{currentLabel.flag}</span>
-        <span>{currentLabel.name}</span>
+      <button onClick={() => setOpen(!open)} className="flex items-center gap-3 text-sm hover:text-emerald-bright transition-colors cursor-pointer">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={`https://flagcdn.com/w40/${currentCountry.flag}.png`} alt={currentCountry.name} className="w-6 h-4 object-cover rounded-sm" />
+        <span>{currentCountry.name}</span>
         <span className="text-xs">{open ? '▴' : '▾'}</span>
       </button>
 
       {open && (
-        <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 bg-white rounded-lg shadow-xl overflow-hidden min-w-[220px] z-50">
-          {routing.locales.map((loc) => {
-            const isActive = loc === locale;
-            const label = LOCALE_LABELS[loc] ?? LOCALE_LABELS.en;
+        <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 bg-white rounded-lg shadow-2xl overflow-hidden min-w-[280px] z-50 max-h-96 overflow-y-auto">
+          {COUNTRIES.map((country) => {
+            const isActive = country.locale === locale && country.available;
             return (
               <button
-                key={loc}
-                onClick={() => switchLocale(loc)}
-                className="w-full px-4 py-3 flex items-center gap-3 text-sm text-near-black transition-colors cursor-pointer text-left"
+                key={country.id}
+                onClick={() => handleSelect(country)}
+                disabled={!country.available}
+                className={`w-full px-4 py-3 flex items-center gap-3 text-sm text-left transition-colors ${country.available ? 'text-near-black cursor-pointer hover:bg-mint-pale' : 'text-gray-400 cursor-not-allowed'}`}
                 style={{ background: isActive ? '#F4FBF7' : 'white' }}
               >
-                <span className="text-lg">{label.flag}</span>
-                <span className="flex-1">{label.name}</span>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={`https://flagcdn.com/w40/${country.flag}.png`} alt={country.name} className="w-6 h-4 object-cover rounded-sm flex-shrink-0" />
+                <span className="flex-1">{country.name}</span>
+                {!country.available && <span className="text-xs text-gray-400 italic">Coming soon</span>}
                 {isActive && <span className="text-emerald-rich">✓</span>}
               </button>
             );

@@ -143,6 +143,26 @@
       "expenses": {
         "q": "Can Novala track my business expenses?",
         "a": "Yes. Novala connects to your business bank accounts to automatically import and categorize transactions. Snap receipts with your phone, tag expenses to projects or clients, and get real-time reporting on where your money goes."
+      },
+      "businessSize": {
+        "q": "What size businesses is Novala for?",
+        "a": "Novala serves solo entrepreneurs, small businesses (2 to 49 employees), and mid-size businesses (50 to 500 employees). The platform scales with you as you grow, from a single freelancer to a multi-team operation."
+      },
+      "importData": {
+        "q": "Can I import data from QuickBooks or another accounting tool?",
+        "a": "Yes. Novala provides guided import for QuickBooks Online, Xero, FreshBooks, Wave, and Sage. Your chart of accounts, historical transactions, customers, vendors, and open balances migrate over in a few clicks."
+      },
+      "mobile": {
+        "q": "Does Novala work on mobile?",
+        "a": "Yes. The Novala web app is fully responsive and works on any smartphone or tablet browser. A dedicated mobile app for iOS and Android is on the roadmap for employees to clock in and out and submit expenses."
+      },
+      "security": {
+        "q": "Is my data secure?",
+        "a": "Absolutely. Novala uses bank-level 256-bit SSL encryption for all data in transit and AES-256 encryption at rest. Your data is stored in SOC 2 compliant Canadian data centers with automated backups, and we never share your information with third parties."
+      },
+      "needAccountant": {
+        "q": "Do I need an accountant to use Novala?",
+        "a": "No. Novala is designed for business owners without accounting expertise. That said, you can invite your accountant to collaborate directly in the platform. Many customers use Novala independently and check in with their accountant only at tax time."
       }
     }
   },

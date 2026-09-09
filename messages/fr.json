@@ -143,6 +143,26 @@
       "expenses": {
         "q": "Novala peut-il suivre mes dépenses professionnelles?",
         "a": "Oui. Novala se connecte à vos comptes bancaires professionnels pour importer et catégoriser automatiquement les transactions. Photographiez vos reçus, associez les dépenses à des projets ou clients, et obtenez des rapports en temps réel."
+      },
+      "businessSize": {
+        "q": "À quelles tailles d entreprises Novala est-il destiné?",
+        "a": "Novala sert les entrepreneurs individuels, les petites entreprises (2 à 49 employés) et les moyennes entreprises (50 à 500 employés). La plateforme évolue avec vous à mesure que vous grandissez."
+      },
+      "importData": {
+        "q": "Puis-je importer des données de QuickBooks ou d un autre outil?",
+        "a": "Oui. Novala propose une importation guidée pour QuickBooks Online, Xero, FreshBooks, Wave et Sage. Votre plan comptable, vos transactions historiques, clients, fournisseurs et soldes migrent en quelques clics."
+      },
+      "mobile": {
+        "q": "Novala fonctionne-t-il sur mobile?",
+        "a": "Oui. L application web Novala est entièrement responsive et fonctionne sur n importe quel navigateur de smartphone ou tablette. Une application mobile dédiée pour iOS et Android est prévue pour permettre aux employés de pointer et soumettre leurs dépenses."
+      },
+      "security": {
+        "q": "Mes données sont-elles sécurisées?",
+        "a": "Absolument. Novala utilise un chiffrement SSL 256 bits de niveau bancaire pour toutes les données en transit et un chiffrement AES-256 au repos. Vos données sont stockées dans des centres de données canadiens conformes SOC 2."
+      },
+      "needAccountant": {
+        "q": "Ai-je besoin d un comptable pour utiliser Novala?",
+        "a": "Non. Novala est conçu pour les propriétaires d entreprise sans expertise comptable. Cela dit, vous pouvez inviter votre comptable à collaborer directement dans la plateforme."
       }
     }
   },
