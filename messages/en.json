@@ -425,5 +425,29 @@
       "privacy": "Privacy",
       "security": "Security"
     }
+  },
+  "onboardingPopup": {
+    "eyebrow": "FIND YOUR FIT",
+    "title": "Let us build your custom view.",
+    "subtitle": "Answer 2 quick questions and we will highlight what fits.",
+    "q1Label": "How many employees do you have?",
+    "q1Options": {
+      "solo": "Just me",
+      "small": "2 to 9",
+      "large": "10+"
+    },
+    "q2Label": "Your business needs?",
+    "q2Note": "Select all that apply",
+    "q2Options": {
+      "getPaid": "Get paid",
+      "payTeam": "Pay team",
+      "expenses": "Track expenses",
+      "customers": "Customers",
+      "salesTax": "Sales tax",
+      "reports": "Reports"
+    },
+    "ctaPrimary": "Find your fit",
+    "ctaSecondary": "No thanks",
+    "closeLabel": "Close"
   }
 }

@@ -425,5 +425,29 @@
       "privacy": "Confidentialité",
       "security": "Sécurité"
     }
+  },
+  "onboardingPopup": {
+    "eyebrow": "PERSONNALISEZ",
+    "title": "Créons votre vue personnalisée.",
+    "subtitle": "Répondez à 2 questions rapides pour voir ce qui vous convient.",
+    "q1Label": "Combien d employés avez-vous?",
+    "q1Options": {
+      "solo": "Juste moi",
+      "small": "2 à 9",
+      "large": "10+"
+    },
+    "q2Label": "Vos besoins d entreprise?",
+    "q2Note": "Sélectionnez tout ce qui s applique",
+    "q2Options": {
+      "getPaid": "Être payé",
+      "payTeam": "Payer l équipe",
+      "expenses": "Suivre les dépenses",
+      "customers": "Clients",
+      "salesTax": "TPS/TVH",
+      "reports": "Rapports"
+    },
+    "ctaPrimary": "Trouver ma solution",
+    "ctaSecondary": "Non merci",
+    "closeLabel": "Fermer"
   }
 }

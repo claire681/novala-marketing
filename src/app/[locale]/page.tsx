@@ -11,6 +11,7 @@ import FAQ from '@/components/sections/FAQ';
 import CTABand from '@/components/sections/CTABand';
 import Newsletter from '@/components/sections/Newsletter';
 import Footer from '@/components/sections/Footer';
+import OnboardingPopup from '@/components/OnboardingPopup';
 
 export default function HomePage() {
   return (
@@ -28,6 +29,7 @@ export default function HomePage() {
       <CTABand />
       <Newsletter />
       <Footer />
+      <OnboardingPopup />
     </>
   );
 }
