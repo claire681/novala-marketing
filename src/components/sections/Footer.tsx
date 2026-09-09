@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import CountryPicker from '@/components/CountryPicker';
 
 const PRODUCT_LINKS = ['payroll', 'accounting', 'invoicing', 'workforce', 'vela'] as const;
 const FEATURE_LINKS = ['payments', 'cashFlow', 'scheduling', 'craFiling', 't4Forms'] as const;
@@ -13,7 +14,6 @@ export default function Footer() {
   return (
     <footer className="bg-emerald-deep text-white pt-20 pb-10 px-8 md:px-16">
       <div className="max-w-7xl mx-auto">
-        {/* Tier 1: 4 columns */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-16">
           <div>
             <div className="text-base font-bold mb-6">{t('columns.products.title')}</div>
@@ -57,14 +57,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Tier 2: Utility row */}
         <div className="border-t border-white/20 border-b py-6 mb-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <a href="#" className="text-sm hover:text-emerald-bright transition-colors">{t('sitemap')}</a>
-          <div className="flex items-center gap-3.5">
-            <span className="text-xl">🇨🇦</span>
-            <span className="text-sm">{t('country.label')}</span>
-            <span className="text-xs">▾</span>
-          </div>
+          <CountryPicker />
           <div className="flex gap-7 text-xl">
             <a href="#" className="hover:text-emerald-bright transition-colors">f</a>
             <a href="#" className="hover:text-emerald-bright transition-colors">𝕏</a>
@@ -73,18 +68,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Tier 3: Wordmark */}
         <div className="mb-10">
-          <Image
-            src="/logo-mark.svg"
-            alt="Novala"
-            width={200}
-            height={56}
-            className="h-14 w-auto opacity-90"
-          />
+          <Image src="/logo-mark.svg" alt="Novala" width={200} height={56} className="h-14 w-auto opacity-90" />
         </div>
 
-        {/* Legal block */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="flex flex-col gap-3.5">
             {CORPORATE_LINKS.map(key => (
