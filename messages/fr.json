@@ -207,9 +207,9 @@
   },
   "testimonial": {
     "eyebrow": "HISTOIRE CLIENT",
-    "quote": "Novala me donne une visibilité complète sur mon entreprise.",
+    "quote": "Novala me donne une visibilité complète sur mon entreprise. Tout ce dont j ai besoin pour la paie et la conformité est au même endroit.",
     "author": "Propriétaire d entreprise",
-    "photoPlaceholder": "[ Photo client ]"
+    "role": "Petite entreprise, Canada"
   },
   "faq": {
     "heading": "Questions fréquentes",
