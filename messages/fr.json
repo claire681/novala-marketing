@@ -206,10 +206,24 @@
     "photoPlaceholder": "[ Photo insights ]"
   },
   "testimonial": {
-    "eyebrow": "HISTOIRE CLIENT",
-    "quote": "Novala me donne une visibilité complète sur mon entreprise. Tout ce dont j ai besoin pour la paie et la conformité est au même endroit.",
-    "author": "Propriétaire d entreprise",
-    "role": "Petite entreprise, Canada"
+    "eyebrow": "HISTOIRES CLIENTS",
+    "items": {
+      "t1": {
+        "quote": "Novala me donne une visibilité complète sur mon entreprise. Tout ce dont j ai besoin pour la paie et la conformité est au même endroit.",
+        "author": "Propriétaire d entreprise",
+        "role": "Petite entreprise"
+      },
+      "t2": {
+        "quote": "La configuration a pris un après-midi. Vela a répondu à toutes mes questions sans que j aie besoin d appeler le support.",
+        "author": "Fondateur",
+        "role": "Équipe en croissance"
+      },
+      "t3": {
+        "quote": "La conformité fiscale était ma plus grande inquiétude. Maintenant, cela se fait automatiquement en arrière-plan.",
+        "author": "Propriétaire",
+        "role": "Entreprise de services"
+      }
+    }
   },
   "faq": {
     "heading": "Questions fréquentes",

@@ -206,10 +206,24 @@
     "photoPlaceholder": "[ Insights photo ]"
   },
   "testimonial": {
-    "eyebrow": "CUSTOMER STORY",
-    "quote": "Novala gives me complete visibility across my business. Everything I need to run payroll and stay compliant is in one place.",
-    "author": "Business Owner",
-    "role": "Small business, Canada"
+    "eyebrow": "CUSTOMER STORIES",
+    "items": {
+      "t1": {
+        "quote": "Novala gives me complete visibility across my business. Everything I need to run payroll and stay compliant is in one place.",
+        "author": "Business Owner",
+        "role": "Small business"
+      },
+      "t2": {
+        "quote": "Setup took one afternoon. Vela answered every question I had without me needing to call support.",
+        "author": "Founder",
+        "role": "Growing team"
+      },
+      "t3": {
+        "quote": "Tax compliance used to be my biggest worry. Now it just happens in the background while I focus on customers.",
+        "author": "Owner",
+        "role": "Service business"
+      }
+    }
   },
   "faq": {
     "heading": "Frequently asked questions",
