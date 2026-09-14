@@ -1,46 +1,39 @@
+'use client';
+
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 
 export default function Header() {
   const t = useTranslations('header');
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 100);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-emerald-darker/95 backdrop-blur-md border-b border-white/5">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/95 backdrop-blur-md border-b border-white/10' : 'bg-transparent border-b border-transparent'}`}>
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image
-            src="/logo-mark.svg"
-            alt="Novala"
-            width={160}
-            height={44}
-            priority
-            className="h-11 w-auto"
-          />
+          <Image src="/logo-mark.svg" alt="Novala" width={160} height={44} priority className="h-11 w-auto" />
         </Link>
 
         <nav className="hidden md:flex gap-8">
-          <a href="#product" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">
-            {t('nav.product')}
-          </a>
-          <a href="#solutions" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">
-            {t('nav.solutions')}
-          </a>
-          <a href="#pricing" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">
-            {t('nav.pricing')}
-          </a>
-          <a href="#resources" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">
-            {t('nav.resources')}
-          </a>
+          <a href="#product" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">{t('nav.product')}</a>
+          <a href="#solutions" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">{t('nav.solutions')}</a>
+          <a href="#pricing" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">{t('nav.pricing')}</a>
+          <a href="#resources" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">{t('nav.resources')}</a>
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="#signin" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">
-            {t('signIn')}
-          </a>
-          <button className="bg-emerald-bright hover:bg-emerald-rich text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors cursor-pointer">
-            {t('getStarted')}
-          </button>
+          <a href="#signin" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">{t('signIn')}</a>
+          <button className="bg-emerald-bright hover:bg-emerald-rich text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors cursor-pointer">{t('getStarted')}</button>
         </div>
       </div>
     </header>
