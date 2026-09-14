@@ -97,7 +97,7 @@ export default function MeetVela() {
   }, []);
 
   return (
-    <section className="bg-[#0E2A2A] py-24 px-8 md:px-16">
+    <section className="bg-[#0A0A0A] py-24 px-8 md:px-16">
       <div className="text-center mb-16">
         <div className="text-xs font-bold text-emerald-bright uppercase tracking-widest mb-4">
           {t('eyebrow')}

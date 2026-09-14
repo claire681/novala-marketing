@@ -13,7 +13,7 @@ export default function Newsletter() {
   };
 
   return (
-    <section className="bg-[#0E2A2A] py-24 px-8 md:px-16 text-white">
+    <section className="bg-[#0A0A0A] py-24 px-8 md:px-16 text-white">
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-white text-center mb-8 leading-tight">
         {t('heading')}
       </h2>

@@ -5,7 +5,7 @@ export default function Insights() {
   const t = useTranslations('insights');
 
   return (
-    <section className="py-24 px-8 md:px-16 bg-gradient-to-br from-emerald-darker to-emerald-deep">
+    <section className="py-24 px-8 md:px-16 bg-gradient-to-br from-[#0A0A0A] to-black">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div className="rounded-3xl overflow-hidden shadow-2xl">
           <Image src="/photos/insights.jpg" alt="Business insights dashboard" width={1440} height={1080} className="w-full h-auto" />

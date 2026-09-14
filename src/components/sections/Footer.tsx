@@ -12,7 +12,7 @@ export default function Footer() {
   const t = useTranslations('footer');
 
   return (
-    <footer className="bg-emerald-deep text-white pt-20 pb-10 px-8 md:px-16">
+    <footer className="bg-[#0A0A0A] text-white pt-20 pb-10 px-8 md:px-16">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-16">
           <div>
