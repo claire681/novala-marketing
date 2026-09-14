@@ -32,42 +32,50 @@ export default function Solutions() {
       </div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div className="relative rounded-2xl overflow-hidden h-96">
-          <Image src="/photos/construction.jpg" alt="Construction and trades" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20"></div>
-          <div className="relative h-full p-8 flex flex-col justify-end">
-            <h3 className="text-2xl font-light text-white mb-4">{t('industries.construction.title')}</h3>
-            <p className="text-sm text-white leading-relaxed mb-6">{t('industries.construction.description')}</p>
-            <a href="#" className="text-sm text-white underline self-start">{t('learnMore')}</a>
+        <a href="#" className="group relative rounded-2xl overflow-hidden h-96 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
+          <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-110">
+            <Image src="/photos/construction.jpg" alt="Construction and trades" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
           </div>
-        </div>
-        <div className="relative rounded-2xl overflow-hidden h-96">
-          <Image src="/photos/professional-services.jpg" alt="Professional services" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30 group-hover:from-black/60 group-hover:via-black/40 group-hover:to-black/20 transition-all duration-500"></div>
           <div className="relative h-full p-8 flex flex-col justify-end">
-            <h3 className="text-2xl font-light text-white mb-4">{t('industries.professional.title')}</h3>
+            <h3 className="text-2xl font-light text-white mb-4 transition-transform duration-500 group-hover:-translate-y-1">{t('industries.construction.title')}</h3>
+            <p className="text-sm text-white leading-relaxed mb-6 transition-all duration-500 group-hover:opacity-100 opacity-95">{t('industries.construction.description')}</p>
+            <span className="text-sm text-white underline self-start transition-transform duration-500 group-hover:translate-x-1">{t('learnMore')} →</span>
+          </div>
+        </a>
+        <a href="#" className="group relative rounded-2xl overflow-hidden h-96 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
+          <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-110">
+            <Image src="/photos/professional-services.jpg" alt="Professional services" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30 group-hover:from-black/60 group-hover:via-black/40 group-hover:to-black/20 transition-all duration-500"></div>
+          <div className="relative h-full p-8 flex flex-col justify-end">
+            <h3 className="text-2xl font-light text-white mb-4 transition-transform duration-500 group-hover:-translate-y-1">{t('industries.professional.title')}</h3>
             <p className="text-sm text-white leading-relaxed mb-6">{t('industries.professional.description')}</p>
-            <a href="#" className="text-sm text-white underline self-start">{t('learnMore')}</a>
+            <span className="text-sm text-white underline self-start transition-transform duration-500 group-hover:translate-x-1">{t('learnMore')} →</span>
           </div>
-        </div>
-        <div className="relative rounded-2xl overflow-hidden h-96">
-          <Image src="/photos/wholesale.jpg" alt="Wholesale and manufacturing" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20"></div>
+        </a>
+        <a href="#" className="group relative rounded-2xl overflow-hidden h-96 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
+          <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-110">
+            <Image src="/photos/wholesale.jpg" alt="Wholesale and manufacturing" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30 group-hover:from-black/60 group-hover:via-black/40 group-hover:to-black/20 transition-all duration-500"></div>
           <div className="relative h-full p-8 flex flex-col justify-end">
-            <h3 className="text-2xl font-light text-white mb-4">{t('industries.wholesale.title')}</h3>
+            <h3 className="text-2xl font-light text-white mb-4 transition-transform duration-500 group-hover:-translate-y-1">{t('industries.wholesale.title')}</h3>
             <p className="text-sm text-white leading-relaxed mb-6">{t('industries.wholesale.description')}</p>
-            <a href="#" className="text-sm text-white underline self-start">{t('learnMore')}</a>
+            <span className="text-sm text-white underline self-start transition-transform duration-500 group-hover:translate-x-1">{t('learnMore')} →</span>
           </div>
-        </div>
-        <div className="relative rounded-2xl overflow-hidden h-96">
-          <Image src="/photos/healthcare.jpg" alt="Healthcare and clinics" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20"></div>
+        </a>
+        <a href="#" className="group relative rounded-2xl overflow-hidden h-96 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
+          <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-110">
+            <Image src="/photos/healthcare.jpg" alt="Healthcare and clinics" fill className="object-cover" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30 group-hover:from-black/60 group-hover:via-black/40 group-hover:to-black/20 transition-all duration-500"></div>
           <div className="relative h-full p-8 flex flex-col justify-end">
-            <h3 className="text-2xl font-light text-white mb-4">{t('industries.healthcare.title')}</h3>
+            <h3 className="text-2xl font-light text-white mb-4 transition-transform duration-500 group-hover:-translate-y-1">{t('industries.healthcare.title')}</h3>
             <p className="text-sm text-white leading-relaxed mb-6">{t('industries.healthcare.description')}</p>
-            <a href="#" className="text-sm text-white underline self-start">{t('learnMore')}</a>
+            <span className="text-sm text-white underline self-start transition-transform duration-500 group-hover:translate-x-1">{t('learnMore')} →</span>
           </div>
-        </div>
+        </a>
       </div>
     </section>
   );
