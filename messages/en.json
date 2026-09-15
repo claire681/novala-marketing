@@ -111,6 +111,12 @@
           }
         }
       }
+    },
+    "signInMenu": {
+      "novala": "Novala",
+      "accountantPortal": "Novala for Accountants",
+      "employeeApp": "Novala for Employees",
+      "needHelp": "Need help signing in?"
     }
   },
   "hero": {

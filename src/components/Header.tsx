@@ -29,6 +29,8 @@ const MENUS: Record<string, MenuConfig> = {
 
 type MenuKey = keyof typeof MENUS;
 
+const SIGNIN_ITEMS = ['novala', 'accountantPortal', 'employeeApp'] as const;
+
 export default function Header() {
   const t = useTranslations('header');
   const currentLocale = useLocale();
@@ -36,9 +38,11 @@ export default function Header() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<MenuKey | null>(null);
+  const [signInOpen, setSignInOpen] = useState(false);
   const [mobileOpenMenu, setMobileOpenMenu] = useState<MenuKey | null>(null);
   const openTimer = useRef<NodeJS.Timeout | null>(null);
   const closeTimer = useRef<NodeJS.Timeout | null>(null);
+  const signInCloseTimer = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (mobileMenuOpen) document.body.style.overflow = 'hidden';
@@ -48,7 +52,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') { setOpenMenu(null); setMobileMenuOpen(false); }
+      if (e.key === 'Escape') { setOpenMenu(null); setSignInOpen(false); setMobileMenuOpen(false); }
     };
     document.addEventListener('keydown', handleEscape);
     return () => document.removeEventListener('keydown', handleEscape);
@@ -60,6 +64,8 @@ export default function Header() {
   const handleTriggerMouseLeave = () => { if (openTimer.current) clearTimeout(openTimer.current); closeTimer.current = setTimeout(() => setOpenMenu(null), 200); };
   const handlePanelMouseEnter = () => { if (closeTimer.current) clearTimeout(closeTimer.current); };
   const handlePanelMouseLeave = () => { closeTimer.current = setTimeout(() => setOpenMenu(null), 200); };
+  const handleSignInMouseEnter = () => { if (signInCloseTimer.current) clearTimeout(signInCloseTimer.current); setSignInOpen(true); };
+  const handleSignInMouseLeave = () => { signInCloseTimer.current = setTimeout(() => setSignInOpen(false), 200); };
 
   const NAV_ITEMS: { key: string; menuKey?: MenuKey; href?: string }[] = [
     { key: 'productsFeatures', menuKey: 'productsFeatures' },
@@ -80,7 +86,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-emerald-deep" style={{ height: '72px' }}>
+      <header className="fixed top-0 left-0 right-0 z-50" style={{ height: '72px', background: '#0A0A0A' }}>
         <div className="w-full h-full px-8 md:px-10 flex items-center">
           <Link href="/" className="flex items-center flex-shrink-0" onClick={closeMobileMenu}>
             <Image src="/logo-mark.svg" alt="Novala" width={160} height={40} priority className="h-10 w-auto" />
@@ -112,10 +118,28 @@ export default function Header() {
             <span className="text-white/30">|</span>
             <button onClick={() => switchTo(currentLocale === 'en' ? 'fr' : 'en')} className="text-base text-white font-semibold cursor-pointer hover:text-white/80 transition-colors">{currentLocale === 'en' ? 'FR' : 'EN'}</button>
             <span className="text-white/30">|</span>
-            <a href="#signin" className="text-base text-white/95 hover:text-white transition-colors flex items-center gap-1">
-              {t('utility.signIn')}
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="2 4 5 7 8 4" /></svg>
-            </a>
+            <div className="relative" onMouseEnter={handleSignInMouseEnter} onMouseLeave={handleSignInMouseLeave}>
+              <button aria-expanded={signInOpen} aria-controls="signin-panel" onClick={() => setSignInOpen(!signInOpen)} className="text-base text-white/95 hover:text-white transition-colors flex items-center gap-1 cursor-pointer">
+                {t('utility.signIn')}
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2" className="transition-transform duration-200" style={{ transform: signInOpen ? 'rotate(180deg)' : 'rotate(0)' }}>
+                  <polyline points="2 4 5 7 8 4" />
+                </svg>
+              </button>
+              {signInOpen && (
+                <div id="signin-panel" role="menu" className="absolute top-full right-0 mt-2 bg-white shadow-2xl rounded-lg py-3 min-w-[280px]" style={{ animation: 'popup-slide-down 200ms ease-out' }}>
+                  {SIGNIN_ITEMS.map((key) => (
+                    <a key={key} href="#" onClick={() => setSignInOpen(false)} className="block px-5 py-2.5 text-[15px] text-[#161616] hover:bg-[#F4FBF7] hover:text-emerald-rich transition-colors">
+                      {t(`signInMenu.${key}`)}
+                    </a>
+                  ))}
+                  <div className="border-t border-gray-200 my-2"></div>
+                  <a href="#help-signin" onClick={() => setSignInOpen(false)} className="flex items-center justify-between px-5 py-2.5 text-[15px] text-[#161616] hover:bg-[#F4FBF7] hover:text-emerald-rich transition-colors">
+                    {t('signInMenu.needHelp')}
+                    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="10" cy="10" r="9" /><path d="M7.5 7.5 A 2.5 2.5 0 1 1 10 10 L 10 12" /><circle cx="10" cy="15.5" r="0.5" fill="currentColor" /></svg>
+                  </a>
+                </div>
+              )}
+            </div>
             <button className="bg-mint-pale hover:bg-white text-emerald-deep px-5 py-2.5 rounded-lg text-base font-semibold transition-colors cursor-pointer">{t('utility.getStarted')}</button>
           </div>
 
