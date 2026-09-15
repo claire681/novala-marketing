@@ -1,4 +1,5 @@
 import Header from '@/components/Header';
+import FadeIn from '@/components/FadeIn';
 import Hero from '@/components/sections/Hero';
 import TrustStrip from '@/components/sections/TrustStrip';
 import Solutions from '@/components/sections/Solutions';
@@ -18,17 +19,17 @@ export default function HomePage() {
     <>
       <Header />
       <Hero />
-      <TrustStrip />
-      <Solutions />
-      <OnePlatform />
-      <Features />
-      <MeetVela />
-      <Insights />
-      <Testimonial />
-      <FAQ />
-      <CTABand />
-      <Newsletter />
-      <Footer />
+      <FadeIn><TrustStrip /></FadeIn>
+      <FadeIn><Solutions /></FadeIn>
+      <FadeIn><OnePlatform /></FadeIn>
+      <FadeIn><Features /></FadeIn>
+      <FadeIn><MeetVela /></FadeIn>
+      <FadeIn><Insights /></FadeIn>
+      <FadeIn><Testimonial /></FadeIn>
+      <FadeIn><FAQ /></FadeIn>
+      <FadeIn><CTABand /></FadeIn>
+      <FadeIn><Newsletter /></FadeIn>
+      <FadeIn><Footer /></FadeIn>
       <OnboardingPopup />
     </>
   );
