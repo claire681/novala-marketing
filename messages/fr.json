@@ -2,10 +2,8 @@
   "header": {
     "logoAlt": "Novala",
     "nav": {
-      "product": "Produit",
-      "features": "Fonctionnalités",
-      "businessTypes": "Types d entreprise",
-      "pricing": "Tarifs",
+      "productsFeatures": "Produits et fonctionnalités",
+      "plansPricing": "Forfaits et tarifs",
       "resources": "Ressources"
     },
     "utility": {
@@ -13,128 +11,106 @@
       "signIn": "Connexion",
       "getStarted": "Commencer"
     },
+    "promoCard": {
+      "newLabel": "NOUVEAU",
+      "heading": "Rencontrez Vela",
+      "body": "Posez des questions en français simple et obtenez des réponses de vos propres données.",
+      "cta": "En savoir plus"
+    },
     "megaMenu": {
-      "product": {
+      "productsFeatures": {
         "columns": {
-          "manageAccounting": {
-            "label": "GÉRER VOTRE COMPTABILITÉ",
+          "products": {
+            "label": "Produits",
+            "links": {
+              "accounting": "Comptabilité",
+              "payroll": "Paie",
+              "invoicing": "Facturation",
+              "timeTracking": "Suivi du temps",
+              "businessManagement": "Gestion d entreprise"
+            }
+          },
+          "features": {
+            "label": "Fonctionnalités",
             "links": {
               "bookkeeping": "Tenue de livres",
               "getInsights": "Obtenir des analyses",
               "planAhead": "Planifier l avenir",
-              "workWithExpert": "Travailler avec un expert",
-              "accountingOverview": "Aperçu comptabilité"
-            }
-          },
-          "manageTeam": {
-            "label": "GÉRER VOTRE ÉQUIPE",
-            "links": {
-              "runPayroll": "Faire la paie",
-              "trackTime": "Suivre le temps",
-              "offerBenefits": "Offrir des avantages",
-              "manageHR": "Gérer les RH",
-              "teamOverview": "Aperçu équipe"
-            }
-          },
-          "manageMoney": {
-            "label": "GÉRER VOTRE ARGENT",
-            "links": {
-              "getPaidBills": "Être payé et payer les factures",
-              "manageBanking": "Gérer la banque",
-              "directDeposit": "Dépôt direct",
-              "moneyOverview": "Aperçu financier"
-            }
-          }
-        }
-      },
-      "features": {
-        "columns": {
-          "featuresLabel": {
-            "label": "FONCTIONNALITÉS",
-            "links": {
-              "payroll": "Paie",
-              "accounting": "Comptabilité",
-              "invoicing": "Facturation",
-              "workforce": "Personnel",
+              "expenseTracking": "Suivi des dépenses",
+              "manageBills": "Gérer les factures",
+              "receiptCapture": "Capture de reçus",
               "reporting": "Rapports",
-              "compliance": "Conformité"
-            }
-          }
-        }
-      },
-      "businessTypes": {
-        "columns": {
-          "industry": {
-            "label": "SECTEUR",
-            "links": {
-              "nonprofit": "OSBL",
-              "construction": "Construction",
-              "professional": "Services professionnels",
-              "retail": "Détail",
-              "restaurants": "Restaurants",
-              "healthcare": "Santé",
-              "seeAllIndustries": "Voir tous les secteurs"
+              "cashFlow": "Flux de trésorerie",
+              "manageCustomers": "Gérer les clients",
+              "directDeposit": "Dépôt direct",
+              "velaAI": "Vela IA",
+              "seeAllFeatures": "Voir toutes les fonctionnalités"
             }
           },
-          "stage": {
-            "label": "ÉTAPE",
+          "businessStage": {
+            "label": "Étape d entreprise",
             "links": {
               "newBusiness": "Nouvelle entreprise",
               "smallBusiness": "Petite entreprise",
               "midSized": "Moyenne entreprise",
-              "selfEmployed": "Travailleur autonome"
+              "freelance": "Travailleur autonome"
+            }
+          },
+          "industry": {
+            "label": "Secteur",
+            "links": {
+              "construction": "Construction",
+              "professional": "Services professionnels",
+              "wholesale": "Gros et fabrication",
+              "healthcare": "Santé",
+              "retail": "Détail",
+              "restaurants": "Restaurants",
+              "nonprofit": "OSBL",
+              "seeAllIndustries": "Voir tous les secteurs"
             }
           }
         }
       },
       "resources": {
         "columns": {
-          "whyNovala": {
-            "label": "POURQUOI NOVALA",
+          "compare": {
+            "label": "Comparer",
             "links": {
-              "exploreFeatures": "Explorer les fonctionnalités",
-              "compareNovala": "Comparer Novala",
-              "addApps": "Ajouter apps et intégrations"
+              "vsQuickbooks": "Novala vs QuickBooks",
+              "vsXero": "Novala vs Xero",
+              "vsWave": "Novala vs Wave"
             }
           },
-          "learn": {
-            "label": "APPRENDRE",
+          "exploreNovala": {
+            "label": "Explorer Novala",
+            "links": {
+              "whatsNew": "Quoi de neuf",
+              "moveToNovala": "Passer à Novala",
+              "appsIntegrations": "Apps et intégrations"
+            }
+          },
+          "freeTools": {
+            "label": "Outils et modèles gratuits",
+            "links": {
+              "invoiceGen": "Générateur de factures",
+              "payrollCalc": "Calculateur de paie",
+              "timesheetCalc": "Calculateur de feuille de temps",
+              "invoiceTemplates": "Modèles de factures",
+              "employeeCostCalc": "Calculateur de coût employé",
+              "seeAllTools": "Voir tous les outils"
+            }
+          },
+          "learnSupport": {
+            "label": "Apprendre et soutien",
             "links": {
               "blog": "Blogue",
               "guides": "Guides",
               "tutorials": "Tutoriels",
-              "seeMore": "Voir plus"
-            }
-          },
-          "freeTools": {
-            "label": "OUTILS GRATUITS",
-            "links": {
-              "invoiceGen": "Générateur de factures",
-              "paychequeCalc": "Calculateur de paie",
-              "timesheetCalc": "Calculateur de feuille de temps",
-              "invoiceTemplates": "Modèles de factures"
+              "productSupport": "Support produit"
             }
           }
         }
       }
-    },
-    "supportCards": {
-      "helpDecide": {
-        "heading": "Pas sûr de ce dont vous avez besoin?",
-        "body": "Obtenez une recommandation adaptée à votre entreprise.",
-        "link": "Aidez-moi à décider"
-      },
-      "getSupport": {
-        "heading": "Besoin d aide?",
-        "body": "Visitez le centre d aide ou contactez notre équipe.",
-        "link": "Obtenir de l aide"
-      }
-    },
-    "footerLinks": {
-      "seeAllProducts": "Voir tous les produits",
-      "tryDemo": "Essayer une démo",
-      "helpSupport": "Aide et soutien",
-      "contactUs": "Contactez-nous"
     }
   },
   "hero": {

@@ -2,10 +2,8 @@
   "header": {
     "logoAlt": "Novala",
     "nav": {
-      "product": "Product",
-      "features": "Features",
-      "businessTypes": "Business types",
-      "pricing": "Pricing",
+      "productsFeatures": "Products & features",
+      "plansPricing": "Plans & pricing",
       "resources": "Resources"
     },
     "utility": {
@@ -13,128 +11,106 @@
       "signIn": "Sign in",
       "getStarted": "Get started"
     },
+    "promoCard": {
+      "newLabel": "NEW",
+      "heading": "Meet Vela",
+      "body": "Ask questions in plain English and get answers from your own business data.",
+      "cta": "Learn more"
+    },
     "megaMenu": {
-      "product": {
+      "productsFeatures": {
         "columns": {
-          "manageAccounting": {
-            "label": "MANAGE YOUR ACCOUNTING",
+          "products": {
+            "label": "Products",
+            "links": {
+              "accounting": "Accounting",
+              "payroll": "Payroll",
+              "invoicing": "Invoicing",
+              "timeTracking": "Time tracking",
+              "businessManagement": "Business management"
+            }
+          },
+          "features": {
+            "label": "Features",
             "links": {
               "bookkeeping": "Bookkeeping",
               "getInsights": "Get insights",
               "planAhead": "Plan ahead",
-              "workWithExpert": "Work with an expert",
-              "accountingOverview": "Accounting overview"
-            }
-          },
-          "manageTeam": {
-            "label": "MANAGE YOUR TEAM",
-            "links": {
-              "runPayroll": "Run payroll",
-              "trackTime": "Track time",
-              "offerBenefits": "Offer benefits",
-              "manageHR": "Manage HR",
-              "teamOverview": "Team overview"
-            }
-          },
-          "manageMoney": {
-            "label": "MANAGE YOUR MONEY",
-            "links": {
-              "getPaidBills": "Get paid and pay bills",
-              "manageBanking": "Manage banking",
-              "directDeposit": "Direct deposit",
-              "moneyOverview": "Money overview"
-            }
-          }
-        }
-      },
-      "features": {
-        "columns": {
-          "featuresLabel": {
-            "label": "FEATURES",
-            "links": {
-              "payroll": "Payroll",
-              "accounting": "Accounting",
-              "invoicing": "Invoicing",
-              "workforce": "Workforce",
+              "expenseTracking": "Expense tracking",
+              "manageBills": "Manage bills",
+              "receiptCapture": "Receipt capture",
               "reporting": "Reporting",
-              "compliance": "Compliance"
-            }
-          }
-        }
-      },
-      "businessTypes": {
-        "columns": {
-          "industry": {
-            "label": "INDUSTRY",
-            "links": {
-              "nonprofit": "Nonprofit",
-              "construction": "Construction",
-              "professional": "Professional services",
-              "retail": "Retail",
-              "restaurants": "Restaurants",
-              "healthcare": "Healthcare",
-              "seeAllIndustries": "See all industries"
+              "cashFlow": "Cash flow",
+              "manageCustomers": "Manage customers",
+              "directDeposit": "Direct deposit",
+              "velaAI": "Vela AI",
+              "seeAllFeatures": "See all features"
             }
           },
-          "stage": {
-            "label": "STAGE",
+          "businessStage": {
+            "label": "Business stage",
             "links": {
               "newBusiness": "New business",
               "smallBusiness": "Small business",
               "midSized": "Mid sized business",
-              "selfEmployed": "Self employed"
+              "freelance": "Freelance and self employed"
+            }
+          },
+          "industry": {
+            "label": "Industry",
+            "links": {
+              "construction": "Construction",
+              "professional": "Professional services",
+              "wholesale": "Wholesale and manufacturing",
+              "healthcare": "Healthcare",
+              "retail": "Retail",
+              "restaurants": "Restaurants",
+              "nonprofit": "Nonprofit",
+              "seeAllIndustries": "See all industries"
             }
           }
         }
       },
       "resources": {
         "columns": {
-          "whyNovala": {
-            "label": "WHY NOVALA",
+          "compare": {
+            "label": "Compare",
             "links": {
-              "exploreFeatures": "Explore features",
-              "compareNovala": "Compare Novala",
-              "addApps": "Add apps and integrations"
+              "vsQuickbooks": "Novala vs QuickBooks",
+              "vsXero": "Novala vs Xero",
+              "vsWave": "Novala vs Wave"
             }
           },
-          "learn": {
-            "label": "LEARN",
+          "exploreNovala": {
+            "label": "Explore Novala",
+            "links": {
+              "whatsNew": "What is new",
+              "moveToNovala": "Move to Novala",
+              "appsIntegrations": "Apps and integrations"
+            }
+          },
+          "freeTools": {
+            "label": "Free tools and templates",
+            "links": {
+              "invoiceGen": "Invoice generator",
+              "payrollCalc": "Payroll calculator",
+              "timesheetCalc": "Timesheet calculator",
+              "invoiceTemplates": "Invoice templates",
+              "employeeCostCalc": "Employee cost calculator",
+              "seeAllTools": "See all tools"
+            }
+          },
+          "learnSupport": {
+            "label": "Learn and support",
             "links": {
               "blog": "Blog",
               "guides": "Guides",
               "tutorials": "Tutorials",
-              "seeMore": "See more"
-            }
-          },
-          "freeTools": {
-            "label": "FREE TOOLS",
-            "links": {
-              "invoiceGen": "Invoice generator",
-              "paychequeCalc": "Paycheque calculator",
-              "timesheetCalc": "Timesheet calculator",
-              "invoiceTemplates": "Invoice templates"
+              "productSupport": "Product support"
             }
           }
         }
       }
-    },
-    "supportCards": {
-      "helpDecide": {
-        "heading": "Not sure what you need?",
-        "body": "Get a recommendation tailored to your business.",
-        "link": "Help me decide"
-      },
-      "getSupport": {
-        "heading": "Need a hand?",
-        "body": "Visit the help centre or contact our team.",
-        "link": "Get support"
-      }
-    },
-    "footerLinks": {
-      "seeAllProducts": "See all products",
-      "tryDemo": "Try a demo",
-      "helpSupport": "Help and support",
-      "contactUs": "Contact us"
     }
   },
   "hero": {

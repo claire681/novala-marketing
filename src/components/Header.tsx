@@ -5,40 +5,25 @@ import { useEffect, useState, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/navigation';
 
-interface MenuColumn { labelKey: string; linkKeys: string[]; }
-interface MenuConfig { columns: MenuColumn[]; supportCard: 'helpDecide' | 'getSupport'; footerLinks: string[]; }
+interface MenuColumn { labelKey: string; linkKeys: string[]; seeAllKey?: string; }
+interface MenuConfig { columns: MenuColumn[]; }
 
 const MENUS: Record<string, MenuConfig> = {
-  product: {
+  productsFeatures: {
     columns: [
-      { labelKey: 'manageAccounting', linkKeys: ['bookkeeping', 'getInsights', 'planAhead', 'workWithExpert', 'accountingOverview'] },
-      { labelKey: 'manageTeam', linkKeys: ['runPayroll', 'trackTime', 'offerBenefits', 'manageHR', 'teamOverview'] },
-      { labelKey: 'manageMoney', linkKeys: ['getPaidBills', 'manageBanking', 'directDeposit', 'moneyOverview'] },
+      { labelKey: 'products', linkKeys: ['accounting', 'payroll', 'invoicing', 'timeTracking', 'businessManagement'] },
+      { labelKey: 'features', linkKeys: ['bookkeeping', 'getInsights', 'planAhead', 'expenseTracking', 'manageBills', 'receiptCapture', 'reporting', 'cashFlow', 'manageCustomers', 'directDeposit', 'velaAI'], seeAllKey: 'seeAllFeatures' },
+      { labelKey: 'businessStage', linkKeys: ['newBusiness', 'smallBusiness', 'midSized', 'freelance'] },
+      { labelKey: 'industry', linkKeys: ['construction', 'professional', 'wholesale', 'healthcare', 'retail', 'restaurants', 'nonprofit'], seeAllKey: 'seeAllIndustries' },
     ],
-    supportCard: 'helpDecide',
-    footerLinks: ['seeAllProducts', 'tryDemo'],
-  },
-  features: {
-    columns: [{ labelKey: 'featuresLabel', linkKeys: ['payroll', 'accounting', 'invoicing', 'workforce', 'reporting', 'compliance'] }],
-    supportCard: 'helpDecide',
-    footerLinks: ['seeAllProducts', 'tryDemo'],
-  },
-  businessTypes: {
-    columns: [
-      { labelKey: 'industry', linkKeys: ['nonprofit', 'construction', 'professional', 'retail', 'restaurants', 'healthcare', 'seeAllIndustries'] },
-      { labelKey: 'stage', linkKeys: ['newBusiness', 'smallBusiness', 'midSized', 'selfEmployed'] },
-    ],
-    supportCard: 'helpDecide',
-    footerLinks: ['seeAllProducts', 'tryDemo'],
   },
   resources: {
     columns: [
-      { labelKey: 'whyNovala', linkKeys: ['exploreFeatures', 'compareNovala', 'addApps'] },
-      { labelKey: 'learn', linkKeys: ['blog', 'guides', 'tutorials', 'seeMore'] },
-      { labelKey: 'freeTools', linkKeys: ['invoiceGen', 'paychequeCalc', 'timesheetCalc', 'invoiceTemplates'] },
+      { labelKey: 'compare', linkKeys: ['vsQuickbooks', 'vsXero', 'vsWave'] },
+      { labelKey: 'exploreNovala', linkKeys: ['whatsNew', 'moveToNovala', 'appsIntegrations'] },
+      { labelKey: 'freeTools', linkKeys: ['invoiceGen', 'payrollCalc', 'timesheetCalc', 'invoiceTemplates', 'employeeCostCalc'], seeAllKey: 'seeAllTools' },
+      { labelKey: 'learnSupport', linkKeys: ['blog', 'guides', 'tutorials', 'productSupport'] },
     ],
-    supportCard: 'getSupport',
-    footerLinks: ['helpSupport', 'contactUs'],
   },
 };
 
@@ -77,50 +62,64 @@ export default function Header() {
   const handlePanelMouseLeave = () => { closeTimer.current = setTimeout(() => setOpenMenu(null), 200); };
 
   const NAV_ITEMS: { key: string; menuKey?: MenuKey; href?: string }[] = [
-    { key: 'product', menuKey: 'product' },
-    { key: 'features', menuKey: 'features' },
-    { key: 'businessTypes', menuKey: 'businessTypes' },
-    { key: 'pricing', href: '#pricing' },
+    { key: 'productsFeatures', menuKey: 'productsFeatures' },
+    { key: 'plansPricing', href: '#pricing' },
     { key: 'resources', menuKey: 'resources' },
   ];
 
+  const VelaPromoCard = () => (
+    <div className="flex-shrink-0" style={{ width: '380px' }}>
+      <div className="p-8 relative" style={{ background: 'linear-gradient(#0E2A2A, #0E2A2A) padding-box, linear-gradient(135deg, #00A651, #4EDDA0) border-box', border: '2px solid transparent', borderRadius: '16px' }}>
+        <div className="inline-block px-2.5 py-1 rounded text-[11px] font-bold uppercase mb-4 tracking-wider" style={{ background: '#F4FBF7', color: '#023E22' }}>{t('promoCard.newLabel')}</div>
+        <h3 className="text-white text-3xl font-normal mb-3 leading-tight">{t('promoCard.heading')}</h3>
+        <p className="text-white/80 text-[15px] leading-relaxed mb-6">{t('promoCard.body')}</p>
+        <a href="#vela" onClick={() => setOpenMenu(null)} className="inline-block bg-emerald-bright hover:bg-emerald-rich text-white font-bold px-7 py-3.5 rounded-lg transition-colors">{t('promoCard.cta')} →</a>
+      </div>
+    </div>
+  );
+
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-emerald-deep" style={{ height: '80px' }}>
-        <div className="w-full h-full px-6 md:px-8 flex items-center justify-between">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-emerald-deep" style={{ height: '72px' }}>
+        <div className="w-full h-full px-8 md:px-10 flex items-center">
           <Link href="/" className="flex items-center flex-shrink-0" onClick={closeMobileMenu}>
-            <Image src="/logo-mark.svg" alt={t('logoAlt')} width={160} height={44} priority className="h-11 w-auto" />
+            <Image src="/logo-mark.svg" alt="Novala" width={160} height={40} priority className="h-10 w-auto" />
           </Link>
 
-          <nav className="hidden md:flex gap-8 mx-auto" aria-label="Primary">
+          <nav className="hidden md:flex gap-11 ml-44" aria-label="Primary">
             {NAV_ITEMS.map((item) => (
               item.menuKey ? (
                 <div key={item.key} className="relative" onMouseEnter={() => handleTriggerMouseEnter(item.menuKey!)} onMouseLeave={handleTriggerMouseLeave}>
-                  <button aria-expanded={openMenu === item.menuKey} aria-controls={`panel-${item.menuKey}`} onClick={() => setOpenMenu(openMenu === item.menuKey ? null : item.menuKey!)} className={`text-[15px] py-2 flex items-center gap-1.5 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm transition-all ${openMenu === item.menuKey ? 'text-white font-semibold' : 'text-white/90 font-normal hover:text-white'}`}>
+                  <button aria-expanded={openMenu === item.menuKey} aria-controls={`panel-${item.menuKey}`} onClick={() => setOpenMenu(openMenu === item.menuKey ? null : item.menuKey!)} className={`text-base py-2 flex items-center gap-2 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm transition-all ${openMenu === item.menuKey ? 'text-white font-semibold' : 'text-white/95 font-normal hover:text-white'}`}>
                     {t(`nav.${item.key}`)}
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" className="transition-transform duration-200" style={{ transform: openMenu === item.menuKey ? 'rotate(180deg)' : 'rotate(0)' }}>
-                      <polyline points="3 5 6 8 9 5" />
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" className="transition-transform duration-200" style={{ transform: openMenu === item.menuKey ? 'rotate(180deg)' : 'rotate(0)' }}>
+                      <polyline points="3 5 7 9 11 5" />
                     </svg>
                   </button>
+                  {openMenu === item.menuKey && <div className="absolute left-0 right-0 h-0.5 -bottom-1" style={{ background: '#F4FBF7' }}></div>}
                 </div>
               ) : (
-                <a key={item.key} href={item.href} className="text-[15px] text-white/90 hover:text-white transition-colors py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">{t(`nav.${item.key}`)}</a>
+                <a key={item.key} href={item.href} className="text-base text-white/95 hover:text-white transition-colors py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">{t(`nav.${item.key}`)}</a>
               )
             ))}
           </nav>
 
-          <div className="hidden md:flex items-center gap-6 flex-shrink-0">
-            <div className="flex items-center gap-1.5 text-sm">
-              <button onClick={() => switchTo('en')} className={`transition-colors cursor-pointer ${currentLocale === 'en' ? 'text-white font-semibold' : 'text-white/60 hover:text-white'}`}>EN</button>
-              <span className="text-white/40">|</span>
-              <button onClick={() => switchTo('fr')} className={`transition-colors cursor-pointer ${currentLocale === 'fr' ? 'text-white font-semibold' : 'text-white/60 hover:text-white'}`}>FR</button>
-            </div>
-            <a href="#talk-to-sales" className="text-[15px] text-white/90 hover:text-white transition-colors">{t('utility.talkToSales')}</a>
-            <a href="#signin" className="text-[15px] text-white/90 hover:text-white transition-colors">{t('utility.signIn')}</a>
-            <button className="bg-mint-pale hover:bg-white text-emerald-deep px-5 py-2.5 rounded-lg text-[15px] font-semibold transition-colors cursor-pointer">{t('utility.getStarted')}</button>
+          <div className="hidden md:flex items-center gap-5 ml-auto flex-shrink-0">
+            <a href="#talk-to-sales" className="text-base text-white/95 hover:text-white transition-colors flex items-center gap-1">
+              {t('utility.talkToSales')}
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="2 4 5 7 8 4" /></svg>
+            </a>
+            <span className="text-white/30">|</span>
+            <button onClick={() => switchTo(currentLocale === 'en' ? 'fr' : 'en')} className="text-base text-white font-semibold cursor-pointer hover:text-white/80 transition-colors">{currentLocale === 'en' ? 'FR' : 'EN'}</button>
+            <span className="text-white/30">|</span>
+            <a href="#signin" className="text-base text-white/95 hover:text-white transition-colors flex items-center gap-1">
+              {t('utility.signIn')}
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="2 4 5 7 8 4" /></svg>
+            </a>
+            <button className="bg-mint-pale hover:bg-white text-emerald-deep px-5 py-2.5 rounded-lg text-base font-semibold transition-colors cursor-pointer">{t('utility.getStarted')}</button>
           </div>
 
-          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden flex-shrink-0 w-10 h-10 flex items-center justify-center cursor-pointer text-white" aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileMenuOpen}>
+          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden ml-auto w-10 h-10 flex items-center justify-center cursor-pointer text-white" aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileMenuOpen}>
             {mobileMenuOpen ? (
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="6" y1="6" x2="18" y2="18" /><line x1="6" y1="18" x2="18" y2="6" /></svg>
             ) : (
@@ -131,39 +130,29 @@ export default function Header() {
 
         {openMenu && (
           <div id={`panel-${openMenu}`} role="region" aria-label={t(`nav.${openMenu}`)} className="hidden md:block absolute top-full left-0 right-0 bg-white shadow-lg" onMouseEnter={handlePanelMouseEnter} onMouseLeave={handlePanelMouseLeave} style={{ animation: 'popup-slide-down 200ms ease-out' }}>
-            <div className="mx-auto py-10 pr-8 md:pr-16" style={{ paddingLeft: '18vw' }}>
-              <div className="flex flex-col lg:flex-row justify-between gap-12 max-w-6xl">
-                <div className="flex gap-24 flex-wrap">
-                  {MENUS[openMenu].columns.map((col) => (
-                    <div key={col.labelKey}>
-                      <div className="text-xs font-semibold text-[#7A8580] uppercase mb-5" style={{ letterSpacing: '0.08em' }}>
-                        {t(`megaMenu.${openMenu}.columns.${col.labelKey}.label`)}
-                      </div>
-                      <ul className="space-y-4">
-                        {col.linkKeys.map((linkKey) => (
-                          <li key={linkKey}>
-                            <a href="#" onClick={() => setOpenMenu(null)} className="text-base text-[#161616] hover:text-emerald-rich transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-rich rounded-sm">
-                              {t(`megaMenu.${openMenu}.columns.${col.labelKey}.links.${linkKey}`)}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="rounded-xl p-7 flex-shrink-0" style={{ background: '#F6F8F7', width: '400px' }}>
-                  <div className="text-lg font-semibold text-[#161616] mb-2">{t(`supportCards.${MENUS[openMenu].supportCard}.heading`)}</div>
-                  <p className="text-sm text-[#5A6970] mb-4 leading-relaxed">{t(`supportCards.${MENUS[openMenu].supportCard}.body`)}</p>
-                  <a href="#" className="text-sm font-semibold text-emerald-rich hover:text-emerald-deep transition-colors inline-flex items-center gap-1">{t(`supportCards.${MENUS[openMenu].supportCard}.link`)} →</a>
-                </div>
-              </div>
-
-              <div className="mt-10 pt-6 border-t border-gray-200 flex gap-8 max-w-6xl">
-                {MENUS[openMenu].footerLinks.map((linkKey) => (
-                  <a key={linkKey} href="#" className="text-[15px] font-medium text-emerald-rich hover:text-emerald-deep transition-colors">{t(`footerLinks.${linkKey}`)}</a>
+            <div className="max-w-[1600px] mx-auto py-10 px-8 md:px-16 flex justify-between gap-8">
+              <div className="flex gap-5">
+                {MENUS[openMenu].columns.map((col) => (
+                  <div key={col.labelKey} style={{ width: '260px' }}>
+                    <h3 className="text-[15px] font-normal text-[#6B6B6B] mb-3.5">{t(`megaMenu.${openMenu}.columns.${col.labelKey}.label`)}</h3>
+                    <div className="border-t border-[#D9D9D9] mb-6"></div>
+                    <ul className="space-y-5">
+                      {col.linkKeys.map((linkKey) => (
+                        <li key={linkKey}>
+                          <a href="#" onClick={() => setOpenMenu(null)} className="text-base text-[#161616] hover:text-emerald-rich transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-rich rounded-sm">{t(`megaMenu.${openMenu}.columns.${col.labelKey}.links.${linkKey}`)}</a>
+                        </li>
+                      ))}
+                    </ul>
+                    {col.seeAllKey && (
+                      <>
+                        <div className="border-t border-[#D9D9D9] my-5"></div>
+                        <a href="#" onClick={() => setOpenMenu(null)} className="text-base text-[#161616] hover:text-emerald-rich transition-colors">{t(`megaMenu.${openMenu}.columns.${col.labelKey}.links.${col.seeAllKey}`)}</a>
+                      </>
+                    )}
+                  </div>
                 ))}
               </div>
+              <VelaPromoCard />
             </div>
           </div>
         )}
@@ -177,23 +166,23 @@ export default function Header() {
                 <div key={item.key}>
                   <button onClick={() => setMobileOpenMenu(mobileOpenMenu === item.menuKey ? null : item.menuKey!)} className="w-full flex items-center justify-between py-4 text-xl font-semibold text-near-black" aria-expanded={mobileOpenMenu === item.menuKey}>
                     {t(`nav.${item.key}`)}
-                    <svg width="14" height="14" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" style={{ transform: mobileOpenMenu === item.menuKey ? 'rotate(180deg)' : 'rotate(0)' }}>
-                      <polyline points="3 5 6 8 9 5" />
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" style={{ transform: mobileOpenMenu === item.menuKey ? 'rotate(180deg)' : 'rotate(0)' }}>
+                      <polyline points="3 5 7 9 11 5" />
                     </svg>
                   </button>
                   {mobileOpenMenu === item.menuKey && (
                     <div className="pb-6 space-y-6">
                       {MENUS[item.menuKey].columns.map((col) => (
                         <div key={col.labelKey}>
-                          <div className="text-xs font-semibold text-[#7A8580] uppercase mb-3" style={{ letterSpacing: '0.08em' }}>
-                            {t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.label`)}
-                          </div>
+                          <div className="text-[15px] text-[#6B6B6B] mb-2">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.label`)}</div>
+                          <div className="border-t border-[#D9D9D9] mb-3"></div>
                           <ul className="space-y-3 pl-2">
                             {col.linkKeys.map((linkKey) => (
                               <li key={linkKey}>
                                 <a href="#" onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${linkKey}`)}</a>
                               </li>
                             ))}
+                            {col.seeAllKey && <li className="pt-2"><a href="#" onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${col.seeAllKey}`)}</a></li>}
                           </ul>
                         </div>
                       ))}
@@ -206,23 +195,18 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="rounded-xl p-6 mt-8" style={{ background: '#F6F8F7' }}>
-            <div className="text-lg font-semibold text-[#161616] mb-2">{t('supportCards.helpDecide.heading')}</div>
-            <p className="text-sm text-[#5A6970] mb-3">{t('supportCards.helpDecide.body')}</p>
-            <a href="#" className="text-sm font-semibold text-emerald-rich">{t('supportCards.helpDecide.link')} →</a>
-          </div>
+          <div className="mt-8"><VelaPromoCard /></div>
 
-          <div className="flex items-center gap-3 mt-6 pt-6 border-t border-gray-200">
-            <span className="text-sm text-[#5A6970]">Language:</span>
-            <button onClick={() => switchTo('en')} className={`text-lg cursor-pointer ${currentLocale === 'en' ? 'text-near-black font-bold' : 'text-[#5A6970]'}`}>EN</button>
-            <span className="text-gray-400">|</span>
-            <button onClick={() => switchTo('fr')} className={`text-lg cursor-pointer ${currentLocale === 'fr' ? 'text-near-black font-bold' : 'text-[#5A6970]'}`}>FR</button>
-          </div>
-
-          <div className="flex flex-col gap-3 mt-6">
-            <a onClick={closeMobileMenu} href="#talk-to-sales" className="text-center py-3 border border-gray-300 text-near-black rounded-lg font-semibold text-base">{t('utility.talkToSales')}</a>
-            <a onClick={closeMobileMenu} href="#signin" className="text-center py-3 border border-gray-300 text-near-black rounded-lg font-semibold text-base">{t('utility.signIn')}</a>
-            <button onClick={closeMobileMenu} className="bg-emerald-rich text-white py-3 rounded-lg font-semibold text-base">{t('utility.getStarted')} →</button>
+          <div className="mt-6 pt-6 border-t border-gray-200 space-y-3">
+            <a onClick={closeMobileMenu} href="#talk-to-sales" className="block text-center py-3 border border-gray-300 text-near-black rounded-lg font-semibold text-base">{t('utility.talkToSales')}</a>
+            <div className="flex items-center justify-center gap-3">
+              <span className="text-sm text-[#5A6970]">Language:</span>
+              <button onClick={() => switchTo('en')} className={`text-lg cursor-pointer ${currentLocale === 'en' ? 'text-near-black font-bold' : 'text-[#5A6970]'}`}>EN</button>
+              <span className="text-gray-400">|</span>
+              <button onClick={() => switchTo('fr')} className={`text-lg cursor-pointer ${currentLocale === 'fr' ? 'text-near-black font-bold' : 'text-[#5A6970]'}`}>FR</button>
+            </div>
+            <a onClick={closeMobileMenu} href="#signin" className="block text-center py-3 border border-gray-300 text-near-black rounded-lg font-semibold text-base">{t('utility.signIn')}</a>
+            <button onClick={closeMobileMenu} className="w-full bg-emerald-rich text-white py-3 rounded-lg font-semibold text-base">{t('utility.getStarted')} →</button>
           </div>
         </div>
       )}
