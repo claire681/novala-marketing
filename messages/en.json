@@ -9,7 +9,117 @@
       "resources": "Resources"
     },
     "signIn": "Sign in",
-    "getStarted": "Get started"
+    "getStarted": "Get started",
+    "megaMenu": {
+      "products": {
+        "payroll": {
+          "title": "Payroll",
+          "desc": "Automated Canadian payroll with CRA compliance"
+        },
+        "accounting": {
+          "title": "Accounting",
+          "desc": "Books, reconciliation, and reports in one place"
+        },
+        "invoicing": {
+          "title": "Invoicing",
+          "desc": "Send, track, and get paid faster"
+        },
+        "workforce": {
+          "title": "Workforce",
+          "desc": "Scheduling, time tracking, and team management"
+        },
+        "reporting": {
+          "title": "Reporting",
+          "desc": "Financial insights and custom reports"
+        },
+        "compliance": {
+          "title": "Compliance",
+          "desc": "CRA-ready always, all filings automated"
+        }
+      },
+      "features": {
+        "vela": {
+          "title": "Vela AI Assistant",
+          "desc": "Ask questions and get instant answers from your data"
+        },
+        "bankFeeds": {
+          "title": "Bank Feed Integration",
+          "desc": "Connect 200+ Canadian financial institutions"
+        },
+        "craFiling": {
+          "title": "CRA-Ready Filings",
+          "desc": "T4, T4A, ROE, GST/HST filed automatically"
+        },
+        "autoCalc": {
+          "title": "Automated Calculations",
+          "desc": "CPP, EI, and tax calculations for all provinces"
+        },
+        "receipts": {
+          "title": "Receipt Scanning",
+          "desc": "Snap and store receipts from your phone"
+        },
+        "customReports": {
+          "title": "Custom Reports",
+          "desc": "Financial insights on your schedule"
+        }
+      },
+      "businessTypes": {
+        "solo": {
+          "title": "Solo entrepreneur",
+          "desc": "For freelancers and single-person businesses"
+        },
+        "small": {
+          "title": "Small business",
+          "desc": "Teams of 2 to 49 employees"
+        },
+        "midsize": {
+          "title": "Mid-size business",
+          "desc": "Teams of 50 to 500 employees"
+        },
+        "construction": {
+          "title": "Construction & trades",
+          "desc": "Field crews and project accounting"
+        },
+        "professional": {
+          "title": "Professional services",
+          "desc": "Consultants, agencies, and firms"
+        },
+        "wholesale": {
+          "title": "Wholesale & manufacturing",
+          "desc": "Inventory and supply chain"
+        },
+        "healthcare": {
+          "title": "Healthcare & clinics",
+          "desc": "Practices and medical offices"
+        }
+      },
+      "resources": {
+        "helpCenter": {
+          "title": "Help Center",
+          "desc": "Guides, tutorials, and answers"
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "desc": "Set up Novala in minutes"
+        },
+        "payrollCalc": {
+          "title": "Payroll Calculator",
+          "desc": "Free Canadian payroll calculator"
+        },
+        "invoiceGen": {
+          "title": "Invoice Generator",
+          "desc": "Create free invoices instantly"
+        },
+        "blog": {
+          "title": "Blog",
+          "desc": "Business tips and product updates"
+        },
+        "apiDocs": {
+          "title": "API Documentation",
+          "desc": "For developers and integrators"
+        }
+      }
+    }
   },
   "hero": {
     "eyebrow": "RUN YOUR BUSINESS WITH CONFIDENCE",

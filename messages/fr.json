@@ -9,7 +9,117 @@
       "resources": "Ressources"
     },
     "signIn": "Se connecter",
-    "getStarted": "Commencer"
+    "getStarted": "Commencer",
+    "megaMenu": {
+      "products": {
+        "payroll": {
+          "title": "Paie",
+          "desc": "Paie canadienne automatisée avec conformité ARC"
+        },
+        "accounting": {
+          "title": "Comptabilité",
+          "desc": "Livres, rapprochement et rapports en un seul endroit"
+        },
+        "invoicing": {
+          "title": "Facturation",
+          "desc": "Envoyez, suivez et soyez payé plus rapidement"
+        },
+        "workforce": {
+          "title": "Personnel",
+          "desc": "Planification, suivi du temps et gestion d équipe"
+        },
+        "reporting": {
+          "title": "Rapports",
+          "desc": "Analyses financières et rapports personnalisés"
+        },
+        "compliance": {
+          "title": "Conformité",
+          "desc": "Toujours conforme ARC, tous les dépôts automatisés"
+        }
+      },
+      "features": {
+        "vela": {
+          "title": "Assistant IA Vela",
+          "desc": "Posez des questions et obtenez des réponses de vos données"
+        },
+        "bankFeeds": {
+          "title": "Intégration bancaire",
+          "desc": "Connectez 200+ institutions financières canadiennes"
+        },
+        "craFiling": {
+          "title": "Dépôts prêts ARC",
+          "desc": "T4, T4A, RE, TPS/TVH déposés automatiquement"
+        },
+        "autoCalc": {
+          "title": "Calculs automatisés",
+          "desc": "RPC, AE et impôts pour toutes les provinces"
+        },
+        "receipts": {
+          "title": "Numérisation de reçus",
+          "desc": "Photographiez et stockez les reçus depuis votre téléphone"
+        },
+        "customReports": {
+          "title": "Rapports personnalisés",
+          "desc": "Aperçus financiers selon votre horaire"
+        }
+      },
+      "businessTypes": {
+        "solo": {
+          "title": "Entrepreneur solo",
+          "desc": "Pour travailleurs autonomes"
+        },
+        "small": {
+          "title": "Petite entreprise",
+          "desc": "Équipes de 2 à 49 employés"
+        },
+        "midsize": {
+          "title": "Moyenne entreprise",
+          "desc": "Équipes de 50 à 500 employés"
+        },
+        "construction": {
+          "title": "Construction et métiers",
+          "desc": "Équipes de terrain et comptabilité de projet"
+        },
+        "professional": {
+          "title": "Services professionnels",
+          "desc": "Consultants, agences et cabinets"
+        },
+        "wholesale": {
+          "title": "Gros et fabrication",
+          "desc": "Inventaire et chaîne d approvisionnement"
+        },
+        "healthcare": {
+          "title": "Santé et cliniques",
+          "desc": "Cabinets et bureaux médicaux"
+        }
+      },
+      "resources": {
+        "helpCenter": {
+          "title": "Centre d aide",
+          "desc": "Guides, tutoriels et réponses"
+        },
+        "gettingStarted": {
+          "title": "Bien commencer",
+          "desc": "Configurez Novala en quelques minutes"
+        },
+        "payrollCalc": {
+          "title": "Calculateur de paie",
+          "desc": "Calculateur de paie canadien gratuit"
+        },
+        "invoiceGen": {
+          "title": "Générateur de factures",
+          "desc": "Créez des factures gratuites instantanément"
+        },
+        "blog": {
+          "title": "Blogue",
+          "desc": "Conseils d affaires et mises à jour de produits"
+        },
+        "apiDocs": {
+          "title": "Documentation API",
+          "desc": "Pour développeurs et intégrateurs"
+        }
+      }
+    }
   },
   "hero": {
     "eyebrow": "GÉREZ VOTRE ENTREPRISE EN TOUTE CONFIANCE",
