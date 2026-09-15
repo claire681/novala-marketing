@@ -476,5 +476,16 @@
     "openLabel": "Open Vela chat",
     "closeLabel": "Close Vela chat",
     "role": "AI assistant"
+  },
+  "trustLogos": {
+    "heading": "Trusted by 500+ Canadian businesses",
+    "logos": {
+      "maple": "Maple Foods Co.",
+      "northland": "NORTHLAND",
+      "aurora": "Aurora Group",
+      "cascade": "Cascade Ltd",
+      "ravenwood": "Ravenwood",
+      "silverpeak": "SILVERPEAK"
+    }
   }
 }
