@@ -2,8 +2,9 @@
   "header": {
     "logo": "NOVALA",
     "nav": {
-      "product": "Produit",
-      "solutions": "Solutions",
+      "products": "Produits",
+      "features": "Fonctionnalités",
+      "businessTypes": "Types d entreprise",
       "pricing": "Tarifs",
       "resources": "Ressources"
     },
