@@ -1,7 +1,6 @@
 import Header from '@/components/Header';
 import FadeIn from '@/components/FadeIn';
 import Hero from '@/components/sections/Hero';
-import TrustLogos from '@/components/sections/TrustLogos';
 import TrustStrip from '@/components/sections/TrustStrip';
 import Solutions from '@/components/sections/Solutions';
 import OnePlatform from '@/components/sections/OnePlatform';
@@ -20,7 +19,6 @@ export default function HomePage() {
     <>
       <Header />
       <Hero />
-      <TrustLogos />
       <FadeIn><TrustStrip /></FadeIn>
       <FadeIn><Solutions /></FadeIn>
       <FadeIn><OnePlatform /></FadeIn>
