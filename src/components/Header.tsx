@@ -2,32 +2,35 @@
 
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import { useTranslations, useLocale } from 'next-intl';
+import { Link, usePathname, useRouter } from '@/i18n/navigation';
 
 export default function Header() {
   const t = useTranslations('header');
+  const currentLocale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 100);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 100);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   useEffect(() => {
-    if (mobileMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
+    if (mobileMenuOpen) document.body.style.overflow = 'hidden';
+    else document.body.style.overflow = '';
     return () => { document.body.style.overflow = ''; };
   }, [mobileMenuOpen]);
 
   const closeMobileMenu = () => setMobileMenuOpen(false);
+
+  const switchTo = (locale: 'en' | 'fr') => {
+    router.replace(pathname, { locale });
+    closeMobileMenu();
+  };
 
   return (
     <>
@@ -45,6 +48,11 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4 flex-shrink-0">
+            <div className="flex items-center gap-1.5 text-sm border-r border-white/20 pr-4">
+              <button onClick={() => switchTo('en')} className={`transition-colors cursor-pointer ${currentLocale === 'en' ? 'text-white font-bold' : 'text-white/60 hover:text-white'}`}>EN</button>
+              <span className="text-white/40">|</span>
+              <button onClick={() => switchTo('fr')} className={`transition-colors cursor-pointer ${currentLocale === 'fr' ? 'text-white font-bold' : 'text-white/60 hover:text-white'}`}>FR</button>
+            </div>
             <a href="#signin" className="text-sm text-white/90 hover:text-emerald-bright transition-colors">{t('signIn')}</a>
             <button className="bg-emerald-bright hover:bg-emerald-rich text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors cursor-pointer">{t('getStarted')}</button>
           </div>
@@ -67,6 +75,14 @@ export default function Header() {
             <a onClick={closeMobileMenu} href="#pricing" className="text-2xl font-bold text-white hover:text-emerald-bright transition-colors">{t('nav.pricing')}</a>
             <a onClick={closeMobileMenu} href="#resources" className="text-2xl font-bold text-white hover:text-emerald-bright transition-colors">{t('nav.resources')}</a>
           </nav>
+
+          <div className="flex items-center gap-3 mb-8 pb-8 border-b border-white/10">
+            <span className="text-sm text-white/60">Language:</span>
+            <button onClick={() => switchTo('en')} className={`text-lg cursor-pointer ${currentLocale === 'en' ? 'text-white font-bold' : 'text-white/60'}`}>EN</button>
+            <span className="text-white/40">|</span>
+            <button onClick={() => switchTo('fr')} className={`text-lg cursor-pointer ${currentLocale === 'fr' ? 'text-white font-bold' : 'text-white/60'}`}>FR</button>
+          </div>
+
           <div className="flex flex-col gap-3">
             <a onClick={closeMobileMenu} href="#signin" className="text-center py-3 border border-white/20 text-white rounded-lg font-bold text-base transition-colors hover:bg-white/10">{t('signIn')}</a>
             <button onClick={closeMobileMenu} className="bg-emerald-bright hover:bg-emerald-rich text-white py-3 rounded-lg font-bold text-base transition-colors cursor-pointer">{t('getStarted')} →</button>
