@@ -128,7 +128,7 @@ export default function Header() {
               {signInOpen && (
                 <div id="signin-panel" role="menu" className="absolute top-full right-0 mt-2 bg-white shadow-2xl rounded-lg py-3 min-w-[280px]" style={{ animation: 'popup-slide-down 200ms ease-out' }}>
                   {SIGNIN_ITEMS.map((key) => (
-                    <a key={key} href="#" href="https://www.getnovala.com/login" onClick={() => setSignInOpen(false)} className="block px-5 py-2.5 text-[15px] text-[#161616] hover:bg-[#F4FBF7] hover:text-emerald-rich transition-colors">
+                    <a key={key} href="https://www.getnovala.com/login" onClick={() => setSignInOpen(false)} className="block px-5 py-2.5 text-[15px] text-[#161616] hover:bg-[#F4FBF7] hover:text-emerald-rich transition-colors">
                       {t(`signInMenu.${key}`)}
                     </a>
                   ))}
