@@ -20,7 +20,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
             {content.sections.map((section, i) => (
               <section key={i}>
                 <h2 className="text-2xl font-bold text-near-black mb-4">{section.heading}</h2>
-                <p className="text-base text-near-black leading-relaxed">{section.body}</p>
+                {section.body.split('\n\n').map((para, j) => (<p key={j} className="text-base text-near-black leading-relaxed mb-4">{para}</p>))}
               </section>
             ))}
           </div>
