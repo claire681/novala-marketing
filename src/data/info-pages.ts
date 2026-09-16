@@ -9,7 +9,7 @@ export const CAREERS_EN: InfoPage = {
   sections: [
     {
       heading: 'Our story',
-      body: 'Novala is built by BrightCare Home Healthcare Services Inc., a Canadian company that started when we could not find software that actually worked for Canadian small businesses. Every payroll app was built for the US market with Canadian compliance bolted on as an afterthought. Every accounting tool assumed you were operating in dollars, in one country, with one tax authority.\n\nWe built Novala from the ground up for Canadian businesses. That means understanding CRA compliance, provincial tax variations, ROE requirements, T4 and T4A filings, GST and HST rules, and everything else that makes running a Canadian business different from anywhere else in the world.\n\nWhat began as an internal tool has grown into a platform that other Canadian businesses can use to streamline their operations, save time, and stay compliant with less effort.',
+      body: 'Novala is built by Novala, a Canadian company that started when we could not find software that actually worked for Canadian small businesses. Every payroll app was built for the US market with Canadian compliance bolted on as an afterthought. Every accounting tool assumed you were operating in dollars, in one country, with one tax authority.\n\nWe built Novala from the ground up for Canadian businesses. That means understanding CRA compliance, provincial tax variations, ROE requirements, T4 and T4A filings, GST and HST rules, and everything else that makes running a Canadian business different from anywhere else in the world.\n\nWhat began as an internal tool has grown into a platform that other Canadian businesses can use to streamline their operations, save time, and stay compliant with less effort.',
     },
     {
       heading: 'What we value',
@@ -42,7 +42,7 @@ export const CAREERS_FR: InfoPage = {
   sections: [
     {
       heading: 'Notre histoire',
-      body: 'Novala est bâtie par BrightCare Home Healthcare Services Inc. Ce qui a commencé comme un outil interne est devenu une plateforme utilisée par d autres entreprises canadiennes. Nous comprenons la conformité ARC, les variations fiscales provinciales, les exigences RE, les dépôts T4 et T4A, les règles TPS et TVH.',
+      body: 'Novala est bâtie par Novala Ce qui a commencé comme un outil interne est devenu une plateforme utilisée par d autres entreprises canadiennes. Nous comprenons la conformité ARC, les variations fiscales provinciales, les exigences RE, les dépôts T4 et T4A, les règles TPS et TVH.',
     },
     {
       heading: 'Ce que nous valorisons',
@@ -75,7 +75,7 @@ export const ABOUT_EN: InfoPage = {
     },
     {
       heading: 'The company behind Novala',
-      body: 'Novala is developed by BrightCare Home Healthcare Services Inc., a Canadian corporation based in Edmonton, Alberta. Our team brings together experience in accounting, payroll compliance, software engineering, and small business operations.\n\nBrightCare originally built the software for its own operational needs, running payroll, managing invoices, tracking a distributed team of home healthcare workers, and staying compliant with the maze of Canadian tax requirements. When other business owners saw what we had built, they asked if they could use it. Novala is the product of that conversation.\n\nWe are a small team, and we intend to stay that way for a while. Small teams ship better software. Small teams stay close to their customers. Small teams make decisions faster.',
+      body: 'Novala is developed by Novala, a Canadian corporation based in Edmonton, Alberta. Our team brings together experience in accounting, payroll compliance, software engineering, and small business operations.\n\nNovala was built to solve real problems we saw Canadian businesses facing every day: too much time on paperwork, complex tax compliance, and disconnected tools that did not talk to each other. When other business owners saw early versions of what we had built, they asked if they could use it too. Novala is the result of that conversation.\n\nWe are a small team, and we intend to stay that way for a while. Small teams ship better software. Small teams stay close to their customers. Small teams make decisions faster.',
     },
     {
       heading: 'Why we built this',
@@ -109,7 +109,7 @@ export const ABOUT_FR: InfoPage = {
     },
     {
       heading: 'L entreprise derrière Novala',
-      body: 'Novala est développée par BrightCare Home Healthcare Services Inc., une société canadienne basée à Edmonton, Alberta. Notre équipe combine expérience en comptabilité, conformité de paie, ingénierie logicielle et opérations de petites entreprises.\n\nNous sommes une petite équipe, et nous avons l intention de le rester pour un moment. Les petites équipes livrent un meilleur logiciel, restent proches de leurs clients, et prennent des décisions plus rapidement.',
+      body: 'Novala est développée par Novala, une société canadienne basée à Edmonton, Alberta. Notre équipe combine expérience en comptabilité, conformité de paie, ingénierie logicielle et opérations de petites entreprises.\n\nNous sommes une petite équipe, et nous avons l intention de le rester pour un moment. Les petites équipes livrent un meilleur logiciel, restent proches de leurs clients, et prennent des décisions plus rapidement.',
     },
     {
       heading: 'Pourquoi nous l avons construit',
@@ -155,7 +155,7 @@ export const CONTACT_EN: InfoPage = {
     },
     {
       heading: 'Our address',
-      body: 'BrightCare Home Healthcare Services Inc. (operating Novala) is registered in Alberta, Canada. Our headquarters and team are in Edmonton, though we work remotely across the country.\n\nFor legal notices or physical mail, contact us via email first to get the current mailing address.',
+      body: 'Novala is registered in Alberta, Canada. Our headquarters and team are in Edmonton, though we work remotely across the country.\n\nFor legal notices or physical mail, contact us via email first to get the current mailing address.',
     },
     {
       heading: 'Response times',
@@ -178,7 +178,7 @@ export const CONTACT_FR: InfoPage = {
     { heading: 'Ventes', body: 'Intéressé par Novala? Contactez sales@getnovala.com. Notre équipe peut vous guider à travers la plateforme et répondre aux questions de tarification.' },
     { heading: 'Soutien à la clientèle', body: 'Déjà client? Écrivez à support@getnovala.com pour la réponse la plus rapide. Vous pouvez aussi discuter avec Vela (bouton V vert en bas à droite).' },
     { heading: 'Confidentialité et juridique', body: 'Pour la confidentialité, contactez privacy@getnovala.com. Pour les questions juridiques, legal@getnovala.com. Pour la sécurité, security@getnovala.com.' },
-    { heading: 'Notre adresse', body: 'BrightCare Home Healthcare Services Inc. est enregistrée en Alberta, Canada. Notre siège est à Edmonton, mais nous travaillons à distance à travers le pays.' },
+    { heading: 'Notre adresse', body: 'Novala est basée en Alberta, Canada. Notre siège est à Edmonton, mais nous travaillons à distance à travers le pays.' },
     { heading: 'Temps de réponse', body: 'Notre engagement: toutes les demandes par courriel reçoivent une réponse dans un jour ouvrable. La plupart reçoivent une réponse en quelques heures.' },
   ],
   relatedPages: [
