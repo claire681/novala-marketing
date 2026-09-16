@@ -580,12 +580,36 @@
     "dismiss": "Fermer"
   },
   "velaChat": {
-    "greeting": "Bonjour! Je suis Vela, votre assistante. Posez-moi une question sur la paie, la comptabilité ou votre entreprise.",
-    "note": "Inscrivez-vous pour discuter avec Vela avec vos vraies données",
-    "cta": "Commencer gratuitement",
+    "greeting": "Bonjour! Je suis Vela. Je peux vous aider à en savoir plus sur Novala. Que voulez-vous savoir?",
+    "role": "Votre assistante",
     "openLabel": "Ouvrir Vela",
     "closeLabel": "Fermer Vela",
-    "role": "Votre assistante"
+    "sendLabel": "Envoyer",
+    "placeholder": "Posez une question sur Novala...",
+    "suggestedLabel": "Essayez de demander:",
+    "suggested": {
+      "whatIsNovala": {
+        "question": "Qu est-ce que Novala?",
+        "response": "Novala est une plateforme de gestion tout-en-un pour les PME canadiennes. Nous gérons la paie, la comptabilité, la facturation, la gestion du personnel, et plus, tout en conformité avec l ARC. Une seule plateforme pour tous vos besoins."
+      },
+      "howDoesVelaWork": {
+        "question": "Comment fonctionne Vela?",
+        "response": "Une fois inscrit, je deviens votre assistante d entreprise avec vos propres données. Demandez-moi n importe quoi sur votre paie, comptabilité, factures ou équipe."
+      },
+      "features": {
+        "question": "Quelles fonctionnalités sont incluses?",
+        "response": "Novala inclut la Paie (conforme ARC), Comptabilité, Facturation, Suivi du temps, Rapports, Flux bancaires, Numérisation de reçus, et moi (Vela). Tout pour gérer votre entreprise."
+      },
+      "pricing": {
+        "question": "Combien coûte Novala?",
+        "response": "Nous offrons un essai gratuit de 30 jours sans carte de crédit. Les forfaits sont compétitifs. Cliquez sur Forfaits et tarifs ci-dessus pour voir les options."
+      }
+    },
+    "security": "Novala utilise le chiffrement bancaire (SSL 256 bits), stocke vos données dans des centres de données canadiens, et suit les normes SOC 2.",
+    "support": "Nous offrons du soutien par courriel à tous les utilisateurs. Inscrivez-vous pour un essai gratuit de 30 jours.",
+    "compliance": "Oui! Novala est entièrement conforme à l ARC. Nous gérons T4, T4A, RE, TPS/TVH automatiquement.",
+    "defaultResponse": "Excellente question! Pour une réponse détaillée, inscrivez-vous pour un essai gratuit de 30 jours.",
+    "signupLink": "Commencer gratuitement"
   },
   "trustLogos": {
     "heading": "Utilisé par 500+ entreprises canadiennes",

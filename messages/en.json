@@ -580,12 +580,36 @@
     "dismiss": "Dismiss"
   },
   "velaChat": {
-    "greeting": "Hi! I am Vela, your business assistant. Ask me about payroll, accounting, or anything about your business.",
-    "note": "Sign up to chat with Vela using your real business data",
-    "cta": "Get started free",
+    "greeting": "Hi! I am Vela. I can help you learn about Novala and how it can help your business. What would you like to know?",
+    "role": "Your assistant",
     "openLabel": "Open Vela",
     "closeLabel": "Close Vela",
-    "role": "Your assistant"
+    "sendLabel": "Send message",
+    "placeholder": "Ask me about Novala...",
+    "suggestedLabel": "Try asking:",
+    "suggested": {
+      "whatIsNovala": {
+        "question": "What is Novala?",
+        "response": "Novala is an all-in-one business management platform for Canadian small and mid-size businesses. We handle payroll, accounting, invoicing, workforce management, and more, all CRA-compliant. One platform for everything your business needs."
+      },
+      "howDoesVelaWork": {
+        "question": "How does Vela work?",
+        "response": "Once you sign up, I become your business assistant powered by your own data. Ask me anything about your payroll, accounting, invoices, or team, and I answer in plain English with insights from your actual business data."
+      },
+      "features": {
+        "question": "What features are included?",
+        "response": "Novala includes Payroll (CRA-compliant), Accounting, Invoicing, Time Tracking, Reporting, Bank Feeds, Receipt Scanning, Workforce Management, and me (Vela). Everything you need to run your business, all in one platform."
+      },
+      "pricing": {
+        "question": "How much does Novala cost?",
+        "response": "We offer a free 30-day trial with no credit card required. Plans are competitive for Canadian businesses. Click Plans and pricing above to see current options."
+      }
+    },
+    "security": "Novala uses bank-level encryption (256-bit SSL), stores your data in Canadian data centers, and follows SOC 2 compliance standards. Your business data is safe with us.",
+    "support": "We offer email support to all users, with priority support for paid plans. Sign up for a free 30-day trial and you will have full access to our support team.",
+    "compliance": "Yes! Novala is fully CRA-compliant. We handle T4, T4A, ROE, GST/HST, and all Canadian tax requirements automatically. Your filings are always up to date.",
+    "defaultResponse": "Great question! For a detailed answer, sign up for a free 30-day trial and I can help you explore all of Novala once you are inside.",
+    "signupLink": "Get started free"
   },
   "trustLogos": {
     "heading": "Trusted by 500+ Canadian businesses",
