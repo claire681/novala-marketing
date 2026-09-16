@@ -36,7 +36,7 @@ export default function Hero() {
             </button>
             <button className="bg-white/10 backdrop-blur-sm border border-white/40 hover:bg-white/20 hover:border-white text-white px-6 py-4 rounded-lg font-bold text-base transition-colors cursor-pointer">
               ▶ {t('ctaSecondary')}
-            </button>
+            </a>
           </div>
         </div>
       </div>

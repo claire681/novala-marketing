@@ -16,7 +16,7 @@ export default function CTABand() {
       </h2>
       <button className="bg-emerald-bright hover:bg-emerald-rich text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors cursor-pointer" style={{ minWidth: '230px' }}>
         {t('ctaButton')}
-      </button>
+      </a>
       <a href="#" className="absolute bottom-8 text-base font-bold hover:text-emerald-rich transition-colors" style={{ color: '#161616' }}>
         {t('disclosure')}
       </a>

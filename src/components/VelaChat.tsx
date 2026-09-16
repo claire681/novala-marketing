@@ -1,11 +1,23 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
 export default function VelaChat() {
   const t = useTranslations('velaChat');
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const handleHash = () => {
+      if (window.location.hash === '#vela-chat') {
+        setOpen(true);
+        window.history.replaceState(null, '', window.location.pathname);
+      }
+    };
+    window.addEventListener('hashchange', handleHash);
+    handleHash();
+    return () => window.removeEventListener('hashchange', handleHash);
+  }, []);
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
@@ -14,7 +26,6 @@ export default function VelaChat() {
           <span className="text-white font-bold text-xl">V</span>
         </button>
       )}
-
       {open && (
         <div className="bg-white rounded-2xl shadow-2xl w-80 flex flex-col" style={{ animation: 'popup-slide-up 300ms cubic-bezier(0.16, 1, 0.3, 1)' }}>
           <div className="bg-emerald-rich text-white px-5 py-4 rounded-t-2xl flex items-center justify-between">
@@ -28,17 +39,11 @@ export default function VelaChat() {
             <button onClick={() => setOpen(false)} aria-label={t('closeLabel')} className="text-white/80 hover:text-white cursor-pointer">✕</button>
           </div>
           <div className="p-5 space-y-3">
-            <div className="bg-mint-pale text-near-black rounded-2xl p-3 text-sm leading-relaxed">
-              {t('greeting')}
-            </div>
-            <div className="text-xs text-center text-gray-500 py-1">
-              {t('note')}
-            </div>
+            <div className="bg-mint-pale text-near-black rounded-2xl p-3 text-sm leading-relaxed">{t('greeting')}</div>
+            <div className="text-xs text-center text-gray-500 py-1">{t('note')}</div>
           </div>
           <div className="p-4 pt-0">
-            <button className="w-full bg-emerald-rich text-white py-3 rounded-xl font-bold hover:bg-emerald-deep transition-colors cursor-pointer text-sm">
-              {t('cta')} →
-            </button>
+            <a href="https://www.getnovala.com/pricing" className="block text-center bg-emerald-rich text-white py-3 rounded-xl font-bold hover:bg-emerald-deep transition-colors cursor-pointer text-sm">{t('cta')} →</a>
           </div>
         </div>
       )}

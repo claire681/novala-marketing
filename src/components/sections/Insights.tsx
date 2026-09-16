@@ -23,7 +23,7 @@ export default function Insights() {
             </div>
             <div className="text-xs text-[#5A6970]">{t('statPeriod')}</div>
           </div>
-          <button className="bg-white hover:bg-mint-pale text-near-black px-6 py-3.5 rounded-lg font-bold text-sm transition-colors cursor-pointer">{t('cta')} →</button>
+          <a href="#vela-chat" className="inline-block bg-white hover:bg-mint-pale text-near-black px-6 py-3.5 rounded-lg font-bold text-sm transition-colors cursor-pointer">{t('cta')} →</a>
         </div>
       </div>
     </section>
