@@ -140,7 +140,7 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <a href="https://www.getnovala.com/pricing" className="bg-emerald-bright hover:bg-emerald-rich text-white px-5 py-2.5 rounded-lg text-base font-semibold transition-colors cursor-pointer inline-flex items-center gap-2"><span className="hidden lg:inline text-[11px] font-bold bg-white/20 px-2 py-0.5 rounded uppercase tracking-wider">{t('freeTrial')}</span>{t('utility.getStarted')}</a>
+            <a href="https://www.getnovala.com/pricing" className="bg-emerald-bright hover:bg-emerald-rich text-white px-5 py-2.5 rounded-lg text-base font-semibold transition-colors cursor-pointer">{t('utility.getStarted')}</a>
           </div>
 
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden ml-auto w-10 h-10 flex items-center justify-center cursor-pointer text-white" aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileMenuOpen}>
