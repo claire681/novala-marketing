@@ -11,7 +11,7 @@ export default function FeaturesTabs({ features }: Props) {
 
   return (
     <div>
-      <div className="border-b border-white/15 mb-8 overflow-x-auto">
+      <div className="border-b border-white/15 mb-8 overflow-x-auto scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
         <div className="flex gap-1 min-w-max">
           {features.map((feature, i) => (
             <button
@@ -29,11 +29,10 @@ export default function FeaturesTabs({ features }: Props) {
         <h2 className="text-3xl md:text-4xl font-black text-white mb-3">{current.title}</h2>
         <p className="text-base md:text-lg text-white/70 leading-relaxed mb-8">{current.description}</p>
 
-        <div className="text-base md:text-lg text-white leading-loose space-y-2">
+        <div className="text-base md:text-lg text-white leading-loose space-y-1">
           {current.capabilities.map((cap, j) => (
-            <div key={j} className="flex items-start gap-3">
-              <span className="text-emerald-bright font-bold flex-shrink-0">✓</span>
-              <span>{cap}</span>
+            <div key={j}>
+              <span className="text-emerald-bright font-bold mr-3">✓</span>{cap}
             </div>
           ))}
         </div>
