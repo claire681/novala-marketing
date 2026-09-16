@@ -29,6 +29,14 @@ const MENUS: Record<string, MenuConfig> = {
 
 type MenuKey = keyof typeof MENUS;
 
+const CUSTOM_HREFS: Record<string, string> = {
+  construction: "/industry/construction",
+  professional: "/industry/professional-services",
+  wholesale: "/industry/wholesale",
+  healthcare: "/industry/healthcare",
+  velaAI: "#vela-chat",
+};
+
 const SIGNIN_ITEMS = ['novala', 'accountantPortal', 'employeeApp'] as const;
 
 export default function Header() {
@@ -163,7 +171,7 @@ export default function Header() {
                     <ul className="space-y-5">
                       {col.linkKeys.map((linkKey) => (
                         <li key={linkKey}>
-                          <a href="#" onClick={() => setOpenMenu(null)} className="text-base text-[#161616] hover:text-emerald-rich transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-rich rounded-sm">{t(`megaMenu.${openMenu}.columns.${col.labelKey}.links.${linkKey}`)}</a>
+                          <a href={CUSTOM_HREFS[linkKey] || "#"} onClick={() => setOpenMenu(null)} className="text-base text-[#161616] hover:text-emerald-rich transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-rich rounded-sm">{t(`megaMenu.${openMenu}.columns.${col.labelKey}.links.${linkKey}`)}</a>
                         </li>
                       ))}
                     </ul>
@@ -203,10 +211,10 @@ export default function Header() {
                           <ul className="space-y-3 pl-2">
                             {col.linkKeys.map((linkKey) => (
                               <li key={linkKey}>
-                                <a href="#" onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${linkKey}`)}</a>
+                                <a href={CUSTOM_HREFS[linkKey] || "#"} onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${linkKey}`)}</a>
                               </li>
                             ))}
-                            {col.seeAllKey && <li className="pt-2"><a href="#" onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${col.seeAllKey}`)}</a></li>}
+                            {col.seeAllKey && <li className="pt-2"><a href={CUSTOM_HREFS[linkKey] || "#"} onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${col.seeAllKey}`)}</a></li>}
                           </ul>
                         </div>
                       ))}
