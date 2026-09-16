@@ -214,7 +214,7 @@ export default function Header() {
                                 <a href={CUSTOM_HREFS[linkKey] || "#"} onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${linkKey}`)}</a>
                               </li>
                             ))}
-                            {col.seeAllKey && <li className="pt-2"><a href={CUSTOM_HREFS[linkKey] || "#"} onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${col.seeAllKey}`)}</a></li>}
+                            {col.seeAllKey && <li className="pt-2"><a href="#" onClick={closeMobileMenu} className="text-base text-[#161616]">{t(`megaMenu.${item.menuKey}.columns.${col.labelKey}.links.${col.seeAllKey}`)}</a></li>}
                           </ul>
                         </div>
                       ))}
