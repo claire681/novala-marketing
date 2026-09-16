@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import LanguageBanner from '@/components/LanguageBanner';
 import VelaChat from '@/components/VelaChat';
+import CookieConsent from '@/components/CookieConsent';
 import Script from 'next/script';
 import "../globals.css";
 
@@ -40,10 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     alternates: {
       canonical: isEn ? SITE_URL : `${SITE_URL}/fr`,
-      languages: {
-        'en-CA': SITE_URL,
-        'fr-CA': `${SITE_URL}/fr`,
-      },
+      languages: { 'en-CA': SITE_URL, 'fr-CA': `${SITE_URL}/fr` },
     },
     openGraph: {
       type: 'website',
@@ -98,33 +96,21 @@ export default async function LocaleLayout({
     name: 'Novala',
     url: SITE_URL,
     logo: `${SITE_URL}/logo-mark.svg`,
-    description: 'All-in-one business management for Canadian small and mid-size businesses. Payroll, accounting, invoicing, and workforce management with full CRA compliance.',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Edmonton',
-      addressRegion: 'AB',
-      addressCountry: 'CA',
-    },
-    areaServed: {
-      '@type': 'Country',
-      name: 'Canada',
-    },
+    description: 'All-in-one business management for Canadian small and mid-size businesses.',
+    address: { '@type': 'PostalAddress', addressLocality: 'Edmonton', addressRegion: 'AB', addressCountry: 'CA' },
+    areaServed: { '@type': 'Country', name: 'Canada' },
     sameAs: [],
   };
 
   return (
     <html lang={locale}>
       <body className="antialiased">
-        <Script
-          id="structured-data"
-          type="application/ld+json"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        <Script id="structured-data" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <NextIntlClientProvider>
           <LanguageBanner />
           {children}
           <VelaChat />
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>

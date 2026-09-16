@@ -596,5 +596,12 @@
       "ravenwood": "Ravenwood",
       "silverpeak": "SILVERPEAK"
     }
+  },
+  "cookieConsent": {
+    "title": "We use cookies",
+    "body": "We use cookies to improve your experience, analyze traffic, and provide essential features. By clicking Accept, you consent to our use of cookies.",
+    "learnMore": "Learn more",
+    "accept": "Accept all",
+    "reject": "Reject non-essential"
   }
 }

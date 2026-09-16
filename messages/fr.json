@@ -596,5 +596,12 @@
       "ravenwood": "Ravenwood",
       "silverpeak": "SILVERPEAK"
     }
+  },
+  "cookieConsent": {
+    "title": "Nous utilisons des témoins",
+    "body": "Nous utilisons des témoins pour améliorer votre expérience, analyser le trafic et fournir des fonctionnalités essentielles. En cliquant sur Accepter, vous consentez à leur utilisation.",
+    "learnMore": "En savoir plus",
+    "accept": "Tout accepter",
+    "reject": "Refuser non essentiels"
   }
 }
