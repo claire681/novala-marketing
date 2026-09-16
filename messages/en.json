@@ -580,12 +580,12 @@
     "dismiss": "Dismiss"
   },
   "velaChat": {
-    "greeting": "Hi! I am Vela, your AI business assistant. Ask me about payroll, accounting, or anything about your business.",
-    "note": "Sign up to try Vela with your real business data",
+    "greeting": "Hi! I am Vela, your business assistant. Ask me about payroll, accounting, or anything about your business.",
+    "note": "Sign up to chat with Vela using your real business data",
     "cta": "Get started free",
-    "openLabel": "Open Vela chat",
-    "closeLabel": "Close Vela chat",
-    "role": "AI assistant"
+    "openLabel": "Open Vela",
+    "closeLabel": "Close Vela",
+    "role": "Your assistant"
   },
   "trustLogos": {
     "heading": "Trusted by 500+ Canadian businesses",

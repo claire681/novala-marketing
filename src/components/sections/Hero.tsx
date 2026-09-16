@@ -16,7 +16,7 @@ export default function Hero() {
           <p className="mt-8 text-xl text-white/90 leading-relaxed max-w-2xl">{t('subheadline')}</p>
           <div className="flex flex-wrap gap-3 mt-10">
             <a href="https://www.getnovala.com/pricing" className="inline-block bg-emerald-bright hover:bg-emerald-rich text-white px-8 py-4 rounded-lg font-bold text-base transition-colors cursor-pointer shadow-2xl">{t('ctaPrimary')} →</a>
-            <a href="#vela-chat" className="inline-block bg-white/10 backdrop-blur-sm border border-white/40 hover:bg-white/20 hover:border-white text-white px-6 py-4 rounded-lg font-bold text-base transition-colors cursor-pointer">▶ {t('ctaSecondary')}</a>
+            <button className="inline-block bg-white/10 backdrop-blur-sm border border-white/40 hover:bg-white/20 hover:border-white text-white px-6 py-4 rounded-lg font-bold text-base transition-colors cursor-pointer" disabled>▶ {t('ctaSecondary')}</button>
           </div>
         </div>
       </div>
