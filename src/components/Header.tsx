@@ -69,7 +69,7 @@ export default function Header() {
 
   const NAV_ITEMS: { key: string; menuKey?: MenuKey; href?: string }[] = [
     { key: 'productsFeatures', menuKey: 'productsFeatures' },
-    { key: 'plansPricing', href: '#pricing' },
+    { key: 'plansPricing', href: 'https://www.getnovala.com/pricing' },
     { key: 'resources', menuKey: 'resources' },
   ];
 
