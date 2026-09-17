@@ -43,7 +43,7 @@ export default function VelaChat() {
     if (lower.includes('price') || lower.includes('cost') || lower.includes('pricing') || lower.includes('plan') || lower.includes('trial')) return t('suggested.pricing.response');
     if (lower.includes('secure') || lower.includes('security') || lower.includes('safe') || lower.includes('encryption')) return t('security');
     if (lower.includes('support') || lower.includes('help') || lower.includes('contact')) return t('support');
-    if (lower.includes('cra') || lower.includes('compliance') || lower.includes('canadian')) return t('compliance');
+    if (lower.includes('cra') || lower.includes('compliance') || lower.includes('')) return t('compliance');
     return t('defaultResponse');
   };
 

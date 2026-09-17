@@ -15,10 +15,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isEn = locale === 'en';
 
   const title = isEn
-    ? 'Novala - Canadian Payroll, Accounting & Business Management'
+    ? 'Novala - Payroll, Accounting & Business Management'
     : 'Novala - Paie, comptabilité et gestion d entreprise canadienne';
   const description = isEn
-    ? 'All-in-one business management for Canadian small and mid-size businesses. Payroll, accounting, invoicing, workforce management. CRA-compliant. Try free.'
+    ? 'All-in-one business management for small and mid-size businesses. Payroll, accounting, invoicing, workforce management. compliance-ready. Try free.'
     : 'Gestion tout-en-un pour PME canadiennes. Paie, comptabilité, facturation, gestion du personnel. Conforme ARC. Essai gratuit.';
 
   return {
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: { default: title, template: '%s | Novala' },
     description,
     keywords: isEn
-      ? ['payroll canada', 'canadian payroll software', 'accounting software canada', 'CRA compliance', 'small business software', 'novala']
+      ? ['payroll canada', 'payroll software', 'accounting software canada', 'tax compliance', 'small business software', 'novala']
       : ['paie canada', 'logiciel comptabilité canada', 'ARC conformité', 'logiciel PME'],
     authors: [{ name: 'Novala', url: SITE_URL }],
     creator: 'Novala',
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: 'Novala',
       title,
       description,
-      images: [{ url: '/photos/hero.jpg', width: 1200, height: 630, alt: 'Novala for Canadian businesses' }],
+      images: [{ url: '/photos/hero.jpg', width: 1200, height: 630, alt: 'Novala for growing businesses' }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -96,7 +96,7 @@ export default async function LocaleLayout({
     name: 'Novala',
     url: SITE_URL,
     logo: `${SITE_URL}/logo-mark.svg`,
-    description: 'All-in-one business management for Canadian small and mid-size businesses.',
+    description: 'All-in-one business management for small and mid-size businesses.',
     address: { '@type': 'PostalAddress', addressLocality: 'Edmonton', addressRegion: 'AB', addressCountry: 'CA' },
     areaServed: { '@type': 'Country', name: 'Canada' },
     sameAs: [],

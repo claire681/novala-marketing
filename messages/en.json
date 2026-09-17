@@ -130,7 +130,7 @@
     "photoPlaceholder": "[ Hero photo ]"
   },
   "trustStrip": {
-    "eyebrow": "TRUSTED BY BUSINESS OWNERS ACROSS CANADA",
+    "eyebrow": "TRUSTED BY GROWING BUSINESSES EVERYWHERE",
     "item1": "Everything connected",
     "item2": "Less manual work",
     "item3": "Clearer visibility",
@@ -185,7 +185,7 @@
     "items": {
       "payroll": {
         "title": "Payroll",
-        "description": "Automated Canadian payroll with CRA compliance built in."
+        "description": "Automated payroll with tax compliance built in."
       },
       "accounting": {
         "title": "Accounting",
@@ -205,7 +205,7 @@
       },
       "compliance": {
         "title": "Compliance",
-        "description": "CRA-ready records and filings on schedule, every time."
+        "description": "audit-ready records and filings on schedule, every time."
       }
     }
   },
@@ -341,9 +341,9 @@
     "items": {
       "whatIs": {
         "q": "What is Novala?",
-        "a": "Novala is an all-in-one business management platform built for Canadian small and mid-size businesses. It brings together everything you need to run your business in a single connected system.",
+        "a": "Novala is an all-in-one business management platform built for small and mid-size businesses. It brings together everything you need to run your business in a single connected system.",
         "bullets": [
-          "Payroll: Full Canadian compliance from CPP and EI to T4s and ROEs",
+          "Payroll: Full compliance from statutory contributions to year-end tax forms",
           "Accounting: Books, reconciliation, and financial reports in one place",
           "Invoicing: Send, track, and get paid faster",
           "Workforce: Scheduling, time tracking, and team management",
@@ -357,7 +357,7 @@
           "Guided setup wizard walks you through connecting your bank, adding employees, and creating your first invoice",
           "Vela AI assistant answers questions in plain English using your business data",
           "Interactive tutorials and tooltips throughout the app",
-          "Live Canadian support via chat or email during business hours"
+          "Live support via chat or email during business hours"
         ]
       },
       "cost": {
@@ -368,17 +368,17 @@
           "Small business plan for teams up to 25 employees",
           "Growth plan for teams up to 100 employees",
           "Enterprise plan for larger teams with custom needs",
-          "All plans include Vela AI, unlimited invoices, and Canadian support"
+          "All plans include Vela AI, unlimited invoices, and responsive support"
         ]
       },
       "payroll": {
-        "q": "Does Novala handle payroll in Canada?",
-        "a": "Yes. Novala handles Canadian payroll from setup to filing with full CRA compliance built in. Federal and provincial calculations are automatic and always up to date with tax rate changes.",
+        "q": "Does Novala handle payroll worldwide?",
+        "a": "Yes. Novala handles payroll from setup to filing with full tax compliance built in. Federal and provincial calculations are automatic and always up to date with tax rate changes.",
         "bullets": [
           "Automatic CPP, EI, and income tax calculations for all provinces",
           "T4, T4A, and ROE generation with one-click filing",
           "Direct deposit for employees and contractors",
-          "Payroll remittances to CRA on time, every time",
+          "Payroll tax remittances on time, every time",
           "Full payroll history and audit trail"
         ]
       },
@@ -386,7 +386,7 @@
         "q": "Can Novala track my business expenses?",
         "a": "Yes. Novala connects to your business bank accounts to automatically import and categorize transactions. Manual entry is optional, not required.",
         "bullets": [
-          "Automatic bank feed connection with 200+ Canadian financial institutions",
+          "Automatic bank feed connection with 200+ major financial institutions",
           "Snap photos of receipts with your phone to attach to transactions",
           "Custom categories and rules for automatic sorting",
           "Real-time reporting on where your money goes",
@@ -428,11 +428,11 @@
       },
       "security": {
         "q": "Is my data secure?",
-        "a": "Absolutely. Security is a first-class concern at Novala. Your data is protected by bank-level encryption and stored only in Canadian data centers.",
+        "a": "Absolutely. Security is a first-class concern at Novala. Your data is protected by bank-level encryption and stored only in secure global data centers.",
         "bullets": [
           "Bank-level 256-bit SSL encryption for all data in transit",
           "AES-256 encryption at rest with automated backups",
-          "SOC 2 compliant Canadian data centers",
+          "SOC 2 compliant secure global data centers",
           "Two-factor authentication for all users",
           "Never share your information with third parties"
         ]
@@ -507,7 +507,7 @@
           "payments": "Accept payments",
           "cashFlow": "Cash flow",
           "scheduling": "Scheduling",
-          "craFiling": "CRA tax filing",
+          "craFiling": "tax authorities tax filing",
           "t4Forms": "T4 forms"
         }
       },
@@ -590,7 +590,7 @@
     "suggested": {
       "whatIsNovala": {
         "question": "What is Novala?",
-        "response": "Novala is an all-in-one business management platform for Canadian small and mid-size businesses. We handle payroll, accounting, invoicing, workforce management, and more, all CRA-compliant. One platform for everything your business needs."
+        "response": "Novala is an all-in-one business management platform for small and mid-size businesses. We handle payroll, accounting, invoicing, workforce management, and more, all compliance-ready. One platform for everything your business needs."
       },
       "howDoesVelaWork": {
         "question": "How does Vela work?",
@@ -598,21 +598,21 @@
       },
       "features": {
         "question": "What features are included?",
-        "response": "Novala includes Payroll (CRA-compliant), Accounting, Invoicing, Time Tracking, Reporting, Bank Feeds, Receipt Scanning, Workforce Management, and me (Vela). Everything you need to run your business, all in one platform."
+        "response": "Novala includes Payroll (compliance-ready), Accounting, Invoicing, Time Tracking, Reporting, Bank Feeds, Receipt Scanning, Workforce Management, and me (Vela). Everything you need to run your business, all in one platform."
       },
       "pricing": {
         "question": "How much does Novala cost?",
-        "response": "We offer a free 30-day trial with no credit card required. Plans are competitive for Canadian businesses. Click Plans and pricing above to see current options."
+        "response": "We offer a free 30-day trial with no credit card required. Plans are competitive for growing businesses. Click Plans and pricing above to see current options."
       }
     },
-    "security": "Novala uses bank-level encryption (256-bit SSL), stores your data in Canadian data centers, and follows SOC 2 compliance standards. Your business data is safe with us.",
+    "security": "Novala uses bank-level encryption (256-bit SSL), stores your data in secure global data centers, and follows SOC 2 compliance standards. Your business data is safe with us.",
     "support": "We offer email support to all users, with priority support for paid plans. Sign up for a free 30-day trial and you will have full access to our support team.",
-    "compliance": "Yes! Novala is fully CRA-compliant. We handle T4, T4A, ROE, GST/HST, and all Canadian tax requirements automatically. Your filings are always up to date.",
+    "compliance": "Yes! Novala is fully compliant. We handle employment records and tax forms, sales tax, and all tax requirements automatically. Your filings are always up to date.",
     "defaultResponse": "Great question! For a detailed answer, sign up for a free 30-day trial and I can help you explore all of Novala once you are inside.",
     "signupLink": "Get started free"
   },
   "trustLogos": {
-    "heading": "Trusted by 500+ Canadian businesses",
+    "heading": "Trusted by 500+ growing businesses",
     "logos": {
       "maple": "Maple Foods Co.",
       "northland": "NORTHLAND",

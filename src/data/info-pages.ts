@@ -4,12 +4,12 @@ export interface InfoPage { eyebrow: string; title: string; intro: string; secti
 
 export const CAREERS_EN: InfoPage = {
   eyebrow: 'CAREERS',
-  title: 'Join us in building the future of Canadian business',
-  intro: 'We are a small, ambitious team based in Edmonton, Alberta. We believe Canadian businesses deserve better tools than they have been given, and we are building them from the ground up. If you care about craft, empathy, and solving real problems for real businesses, we want to hear from you.',
+  title: 'Join us in building the future of  business',
+  intro: 'We are a small, ambitious team based in Edmonton, Alberta. We believe businesses deserve better tools than they have been given, and we are building them from the ground up. If you care about craft, empathy, and solving real problems for real businesses, we want to hear from you.',
   sections: [
     {
       heading: 'Our story',
-      body: 'Novala is built by Novala, a Canadian company that started when we could not find software that actually worked for Canadian small businesses. Every payroll app was built for the US market with Canadian compliance bolted on as an afterthought. Every accounting tool assumed you were operating in dollars, in one country, with one tax authority.\n\nWe built Novala from the ground up for Canadian businesses. That means understanding CRA compliance, provincial tax variations, ROE requirements, T4 and T4A filings, GST and HST rules, and everything else that makes running a Canadian business different from anywhere else in the world.\n\nWhat began as an internal tool has grown into a platform that other Canadian businesses can use to streamline their operations, save time, and stay compliant with less effort.',
+      body: 'Novala is built by Novala, a  company that started when we could not find software that actually worked for small businesses. Every payroll app was built for the US market with  compliance bolted on as an afterthought. Every accounting tool assumed you were operating in dollars, in one country, with one tax authority.\n\nWe built Novala from the ground up for growing businesses. That means understanding tax compliance, provincial tax variations, ROE requirements, T4 and T4A filings, GST and HST rules, and everything else that makes running a  business different from anywhere else in the world.\n\nWhat began as an internal tool has grown into a platform that other businesses can use to streamline their operations, save time, and stay compliant with less effort.',
     },
     {
       heading: 'What we value',
@@ -17,11 +17,11 @@ export const CAREERS_EN: InfoPage = {
     },
     {
       heading: 'How we work',
-      body: 'Novala is a remote-first company with a strong Canadian presence. Our core hours are in the Mountain time zone, but we accommodate flexible schedules for team members across the country. We meet in person quarterly for team offsites, planning sessions, and just to get to know each other.\n\nWe use modern tools and modern practices. Code review on every change, continuous deployment, comprehensive testing. We invest in developer experience because good tools multiply what a small team can build. If you have opinions about your dev environment, we want to hear them.',
+      body: 'Novala is a remote-first company with a strong  presence. Our core hours are in the Mountain time zone, but we accommodate flexible schedules for team members across the country. We meet in person quarterly for team offsites, planning sessions, and just to get to know each other.\n\nWe use modern tools and modern practices. Code review on every change, continuous deployment, comprehensive testing. We invest in developer experience because good tools multiply what a small team can build. If you have opinions about your dev environment, we want to hear them.',
     },
     {
       heading: 'Current openings',
-      body: 'We are not actively recruiting for specific roles right now, but we are always interested in hearing from exceptional candidates. If Novala resonates with you (the mission, the product, the way we work), we would love to hear your story.\n\nParticularly interested in: senior full-stack engineers with TypeScript and Next.js experience, product designers with taste and technical fluency, and Canadian tax specialists who want to shape a product used by thousands of businesses.',
+      body: 'We are not actively recruiting for specific roles right now, but we are always interested in hearing from exceptional candidates. If Novala resonates with you (the mission, the product, the way we work), we would love to hear your story.\n\nParticularly interested in: senior full-stack engineers with TypeScript and Next.js experience, product designers with taste and technical fluency, and  tax specialists who want to shape a product used by thousands of businesses.',
     },
     {
       heading: 'How to apply',
@@ -66,24 +66,24 @@ export const CAREERS_FR: InfoPage = {
 
 export const ABOUT_EN: InfoPage = {
   eyebrow: 'ABOUT NOVALA',
-  title: 'Software built for Canadian businesses, by Canadians',
-  intro: 'Novala is an all-in-one business management platform designed specifically for Canadian small and mid-size businesses. We handle the hard parts of payroll, accounting, and workforce management so you can focus on running your business, serving your customers, and building what you set out to build.',
+  title: 'Software built for growing businesses, by s',
+  intro: 'Novala is an all-in-one business management platform designed specifically for small and mid-size businesses. We handle the hard parts of payroll, accounting, and workforce management so you can focus on running your business, serving your customers, and building what you set out to build.',
   sections: [
     {
       heading: 'Our mission',
-      body: 'Canadian businesses have long been underserved by generic international software. The tools available were either too basic (spreadsheets, disconnected apps), too expensive (enterprise systems designed for Fortune 500 companies), or too American (built for US tax law with Canadian compliance added later as an afterthought).\n\nOur mission is to build software that Canadian businesses actually want to use. Tools that just work, priced fairly, and built with our specific tax laws, compliance requirements, and business realities in mind.\n\nWe measure success by the time we save you, the compliance headaches we prevent, and the insights we surface. If Novala makes your business easier to run, we have done our job.',
+      body: 'businesses have long been underserved by generic international software. The tools available were either too basic (spreadsheets, disconnected apps), too expensive (enterprise systems designed for Fortune 500 companies), or too American (built for US tax law with  compliance added later as an afterthought).\n\nOur mission is to build software that businesses actually want to use. Tools that just work, priced fairly, and built with our specific tax laws, compliance requirements, and business realities in mind.\n\nWe measure success by the time we save you, the compliance headaches we prevent, and the insights we surface. If Novala makes your business easier to run, we have done our job.',
     },
     {
       heading: 'The company behind Novala',
-      body: 'Novala is developed by Novala, a Canadian corporation based in Edmonton, Alberta. Our team brings together experience in accounting, payroll compliance, software engineering, and small business operations.\n\nNovala was built to solve real problems we saw Canadian businesses facing every day: too much time on paperwork, complex tax compliance, and disconnected tools that did not talk to each other. When other business owners saw early versions of what we had built, they asked if they could use it too. Novala is the result of that conversation.\n\nWe are a small team, and we intend to stay that way for a while. Small teams ship better software. Small teams stay close to their customers. Small teams make decisions faster.',
+      body: 'Novala is developed by Novala, a  corporation based in Edmonton, Alberta. Our team brings together experience in accounting, payroll compliance, software engineering, and small business operations.\n\nNovala was built to solve real problems we saw businesses facing every day: too much time on paperwork, complex tax compliance, and disconnected tools that did not talk to each other. When other business owners saw early versions of what we had built, they asked if they could use it too. Novala is the result of that conversation.\n\nWe are a small team, and we intend to stay that way for a while. Small teams ship better software. Small teams stay close to their customers. Small teams make decisions faster.',
     },
     {
       heading: 'Why we built this',
-      body: 'Every Canadian small business owner we talked to had the same story: they were spending too much time on paperwork, tax filings, and administrative work, and not enough time actually running their business. The tools they were using were either American products that did not quite fit, expensive enterprise systems that were overkill, or a patchwork of spreadsheets and disconnected apps that created more work than they saved.\n\nNovala exists to change that. Every feature we build has to earn its place by solving a real problem for a real Canadian business. Every workflow has to save someone time or prevent a compliance mistake. Every dollar we charge has to be worth many more dollars in value.',
+      body: 'Every  small business owner we talked to had the same story: they were spending too much time on paperwork, tax filings, and administrative work, and not enough time actually running their business. The tools they were using were either American products that did not quite fit, expensive enterprise systems that were overkill, or a patchwork of spreadsheets and disconnected apps that created more work than they saved.\n\nNovala exists to change that. Every feature we build has to earn its place by solving a real problem for a real  business. Every workflow has to save someone time or prevent a compliance mistake. Every dollar we charge has to be worth many more dollars in value.',
     },
     {
       heading: 'What we believe',
-      body: 'We believe software should be a tool that amplifies what people can do, not a bureaucracy that gets in the way. We believe pricing should be simple and transparent, not designed to trap customers or force them into upsells. We believe support should be easy to reach and staffed by people who actually understand the product.\n\nWe believe Canadian businesses deserve first-class software built for their specific reality, not a US product with a maple leaf sticker. That belief drives every product decision we make.',
+      body: 'We believe software should be a tool that amplifies what people can do, not a bureaucracy that gets in the way. We believe pricing should be simple and transparent, not designed to trap customers or force them into upsells. We believe support should be easy to reach and staffed by people who actually understand the product.\n\nWe believe businesses deserve first-class software built for their specific reality, not a US product with a maple leaf sticker. That belief drives every product decision we make.',
     },
     {
       heading: 'Get in touch',
@@ -159,7 +159,7 @@ export const CONTACT_EN: InfoPage = {
     },
     {
       heading: 'Response times',
-      body: 'Our commitment: all email inquiries get a response within one business day. Most get a response within a few hours. Complex technical questions may take longer to fully resolve, but we will always acknowledge receipt promptly.\n\nWe are a Canadian company operating in the Mountain time zone. Emails sent overnight or on weekends will be answered when the team is back online.',
+      body: 'Our commitment: all email inquiries get a response within one business day. Most get a response within a few hours. Complex technical questions may take longer to fully resolve, but we will always acknowledge receipt promptly.\n\nWe are a  company operating in the Mountain time zone. Emails sent overnight or on weekends will be answered when the team is back online.',
     },
   ],
   relatedPages: [
@@ -198,8 +198,8 @@ export const SECURITY_EN: InfoPage = {
       body: 'All data transmitted between your device and Novala is protected with 256-bit SSL/TLS encryption. This is the same standard used by online banking and is considered military-grade.\n\nAll data stored in Novala is encrypted at rest using AES-256, the industry-standard encryption algorithm. Database files, backups, log files, and file attachments are all encrypted. Even if someone gained physical access to our servers, they would not be able to read your data without the encryption keys.\n\nEncryption keys are managed through a hardware security module (HSM) and rotated regularly. Access to keys is limited to a small number of authorized systems and logged.',
     },
     {
-      heading: 'Canadian data residency',
-      body: 'Your data is stored in Canadian data centers, specifically in the AWS Canada (Central) region located in Montreal. Your data does not leave Canada. This ensures compliance with Canadian data residency requirements and protects your data from foreign government access requests.\n\nWe do not transfer personal data outside Canada except when strictly necessary for specific integrated services (for example, credit card processing may involve international networks), and only after careful legal review.\n\nBackups are also stored in Canadian data centers, in a geographically separate region to protect against localized outages or disasters.',
+      heading: ' data residency',
+      body: 'Your data is stored in secure global data centers, specifically in the AWS Canada (Central) region located in Montreal. Your data does not leave Canada. This ensures compliance with  data residency requirements and protects your data from foreign government access requests.\n\nWe do not transfer personal data outside Canada except when strictly necessary for specific integrated services (for example, credit card processing may involve international networks), and only after careful legal review.\n\nBackups are also stored in secure global data centers, in a geographically separate region to protect against localized outages or disasters.',
     },
     {
       heading: 'Access controls',
@@ -207,7 +207,7 @@ export const SECURITY_EN: InfoPage = {
     },
     {
       heading: 'Compliance and certifications',
-      body: 'Novala follows SOC 2 Type II compliance standards. This includes controls over security, availability, processing integrity, confidentiality, and privacy. Our compliance is validated through annual audits by independent third parties.\n\nWe undergo regular penetration testing to identify and address vulnerabilities before they can be exploited. Findings are prioritized and remediated according to their severity, with critical issues addressed within days.\n\nOur payroll processing complies with all applicable Canadian tax and employment laws, and we work directly with the CRA to ensure our filings meet current requirements.',
+      body: 'Novala follows SOC 2 Type II compliance standards. This includes controls over security, availability, processing integrity, confidentiality, and privacy. Our compliance is validated through annual audits by independent third parties.\n\nWe undergo regular penetration testing to identify and address vulnerabilities before they can be exploited. Findings are prioritized and remediated according to their severity, with critical issues addressed within days.\n\nOur payroll processing complies with all applicable  tax and employment laws, and we work directly with the tax authorities to ensure our filings meet current requirements.',
     },
     {
       heading: 'Employee training and access',
@@ -260,7 +260,7 @@ export const HELP_EN: InfoPage = {
     },
     {
       heading: 'Email support',
-      body: 'For account-specific questions, technical issues, or anything that requires a human, email support@getnovala.com. Our team is based in Canada and responds within one business day, usually within a few hours during the day.\n\nWhen emailing support, please include: your account email (so we can find your account), a clear description of what you are trying to do, what actually happened, any error messages you saw, and screenshots or a screen recording if applicable. The more context you give us upfront, the faster we can help.\n\nFor time-sensitive issues like payroll not processing or urgent billing questions, put URGENT in the subject line.',
+      body: 'For account-specific questions, technical issues, or anything that requires a human, email support@getnovala.com. Our team is based worldwide and responds within one business day, usually within a few hours during the day.\n\nWhen emailing support, please include: your account email (so we can find your account), a clear description of what you are trying to do, what actually happened, any error messages you saw, and screenshots or a screen recording if applicable. The more context you give us upfront, the faster we can help.\n\nFor time-sensitive issues like payroll not processing or urgent billing questions, put URGENT in the subject line.',
     },
     {
       heading: 'Getting started with Novala',
@@ -268,7 +268,7 @@ export const HELP_EN: InfoPage = {
     },
     {
       heading: 'Popular topics',
-      body: 'Some things customers ask about most often: setting up automatic CRA remittances, generating year-end T4 and T4A slips, importing data from QuickBooks or Wave, setting up multi-province payroll, creating custom reports, connecting your bank for automatic transaction imports.\n\nAll of these are supported in Novala. If you need help with any of them, email support and we will point you to the right feature or walk you through it.',
+      body: 'Some things customers ask about most often: setting up automatic tax authorities remittances, generating year-end T4 and T4A slips, importing data from QuickBooks or Wave, setting up multi-province payroll, creating custom reports, connecting your bank for automatic transaction imports.\n\nAll of these are supported in Novala. If you need help with any of them, email support and we will point you to the right feature or walk you through it.',
     },
     {
       heading: 'System status',

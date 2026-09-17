@@ -3,19 +3,19 @@ export interface FeaturesContent { title: string; subtitle: string; ctaHeading: 
 
 export const FEATURES_EN: FeaturesContent = {
   title: 'Everything you need to run your business',
-  subtitle: 'All the tools your Canadian small or mid-size business needs, in one platform. No more juggling between different apps.',
+  subtitle: 'All the tools your  small or mid-size business needs, in one platform. No more juggling between different apps.',
   ctaHeading: 'Ready to see it all in action?',
   ctaSubheading: 'Start your free 30-day trial. No credit card required.',
   ctaButton: 'Get started free',
   features: [
-    { title: 'Payroll', description: 'Run payroll for your team with full Canadian compliance. Save hours every pay period.', capabilities: ['Automated CPP, EI, and income tax calculations', 'CRA-compliant filings (T4, T4A, ROE)', 'Direct deposit to employees', 'Multi-province support (all 10 provinces + 3 territories)', 'Statutory holiday tracking', 'Vacation pay accruals'] },
+    { title: 'Payroll', description: 'Run payroll for your team with Full compliance. Save hours every pay period.', capabilities: ['Automated CPP, EI, and income tax calculations', 'compliance-ready filings (employment records and tax forms)', 'Direct deposit to employees', 'Multi-province support (all 10 provinces + 3 territories)', 'Statutory holiday tracking', 'Vacation pay accruals'] },
     { title: 'Accounting', description: 'Keep your books clean with automated bookkeeping and reporting.', capabilities: ['Automated bookkeeping', 'Bank reconciliation', 'Chart of accounts', 'Journal entries', 'Balance sheets and income statements', 'Cash flow tracking'] },
     { title: 'Invoicing', description: 'Send professional invoices and get paid faster.', capabilities: ['Custom invoice templates', 'Send invoices via email', 'Track invoice status (sent, viewed, paid)', 'Automatic payment reminders', 'Recurring invoices', 'Multi-currency support'] },
     { title: 'Workforce', description: 'Manage your team from hiring to payroll in one place.', capabilities: ['Employee onboarding', 'Time tracking and scheduling', 'PTO and vacation management', 'Benefits administration', 'Employee self-service portal', 'HR document management'] },
     { title: 'Reporting', description: 'Real-time financial insights to make better decisions.', capabilities: ['Financial reports (P&L, Balance Sheet, Cash Flow)', 'Custom reports', 'Real-time dashboards', 'Year-over-year comparisons', 'Export to Excel and PDF', 'Automated report scheduling'] },
     { title: 'Vela Assistant', description: 'Your business assistant answers questions from your own data.', capabilities: ['Natural language queries', 'Instant insights from your data', 'Payroll cost previews', 'Cash flow forecasting', 'Anomaly detection', 'Available on desktop and mobile'] },
-    { title: 'Bank & Payments', description: 'Connect your accounts and automate reconciliation.', capabilities: ['Bank feed integration (200+ Canadian institutions)', 'Receipt scanning', 'Expense tracking', 'Bill payments', 'Payment reconciliation', 'Multi-account support'] },
-    { title: 'Security', description: 'Enterprise-grade security to protect your business data.', capabilities: ['256-bit SSL encryption', 'SOC 2 compliance', 'Canadian data centers', 'Two-factor authentication', 'Full CRA compliance', 'Regular security audits'] },
+    { title: 'Bank & Payments', description: 'Connect your accounts and automate reconciliation.', capabilities: ['Bank feed integration (200+  institutions)', 'Receipt scanning', 'Expense tracking', 'Bill payments', 'Payment reconciliation', 'Multi-account support'] },
+    { title: 'Security', description: 'Enterprise-grade security to protect your business data.', capabilities: ['256-bit SSL encryption', 'SOC 2 compliance', 'secure global data centers', 'Two-factor authentication', 'Full tax compliance', 'Regular security audits'] },
   ],
 };
 

@@ -21,11 +21,11 @@ export const CONSTRUCTION_EN: IndustryContent = {
   slug: 'construction',
   eyebrow: 'FOR CONSTRUCTION AND TRADES',
   heroTitle: 'Payroll and accounting built for construction crews',
-  heroSubtitle: 'Track hours across job sites, handle project costs, manage subcontractors, and stay compliant with Canadian construction payroll requirements. All in one platform designed for how construction businesses actually work.',
+  heroSubtitle: 'Track hours across job sites, handle project costs, manage subcontractors, and stay compliant with  construction payroll requirements. All in one platform designed for how construction businesses actually work.',
   heroPhoto: '/photos/construction.jpg',
   introEyebrow: 'WHY CONSTRUCTION BUSINESSES CHOOSE NOVALA',
-  introTitle: 'Software built for the reality of running a construction business in Canada',
-  introBody: 'Running a construction business is nothing like running a retail store or a professional services firm. You have crews spread across multiple job sites, workers with different pay rates and union agreements, materials and equipment costs that fluctuate by project, WCB requirements that vary by province, and safety records that need to be tracked for every worker.\n\nMost business software was not built with any of this in mind. Generic payroll tools assume everyone works in one office. Generic accounting tools do not know what job costing is. Novala was built specifically to handle the operational complexity of Canadian construction businesses, from small residential contractors to mid-size commercial builders.',
+  introTitle: 'Software built for the reality of running a construction business worldwide',
+  introBody: 'Running a construction business is nothing like running a retail store or a professional services firm. You have crews spread across multiple job sites, workers with different pay rates and union agreements, materials and equipment costs that fluctuate by project, WCB requirements that vary by province, and safety records that need to be tracked for every worker.\n\nMost business software was not built with any of this in mind. Generic payroll tools assume everyone works in one office. Generic accounting tools do not know what job costing is. Novala was built specifically to handle the operational complexity of  construction businesses, from small residential contractors to mid-size commercial builders.',
   features: [
     {
       heading: 'Multi-site time tracking your crew will actually use',
@@ -61,7 +61,7 @@ export const PROFESSIONAL_EN: IndustryContent = {
   slug: 'professional-services',
   eyebrow: 'FOR PROFESSIONAL SERVICES',
   heroTitle: 'Time tracking and billing built for consultants, agencies, and firms',
-  heroSubtitle: 'Track billable hours accurately, invoice clients professionally, understand project profitability, and manage a team of consultants across multiple engagements. Built for the specific realities of professional services in Canada.',
+  heroSubtitle: 'Track billable hours accurately, invoice clients professionally, understand project profitability, and manage a team of consultants across multiple engagements. Built for the specific realities of professional services worldwide.',
   heroPhoto: '/photos/professional-services.jpg',
   introEyebrow: 'WHY PROFESSIONAL SERVICES FIRMS CHOOSE NOVALA',
   introTitle: 'Software built for how you actually bill and get paid',
@@ -101,7 +101,7 @@ export const WHOLESALE_EN: IndustryContent = {
   slug: 'wholesale',
   eyebrow: 'FOR WHOLESALE AND MANUFACTURING',
   heroTitle: 'Inventory, orders, and payroll for wholesalers and manufacturers',
-  heroSubtitle: 'Track inventory across locations, manage suppliers and purchase orders, handle production costs, and run payroll for warehouse and production teams. Built for the operational complexity of wholesale and manufacturing businesses in Canada.',
+  heroSubtitle: 'Track inventory across locations, manage suppliers and purchase orders, handle production costs, and run payroll for warehouse and production teams. Built for the operational complexity of wholesale and manufacturing businesses worldwide.',
   heroPhoto: '/photos/wholesale.jpg',
   introEyebrow: 'WHY WHOLESALE BUSINESSES CHOOSE NOVALA',
   introTitle: 'Software that connects your warehouse, orders, and accounting',
@@ -126,7 +126,7 @@ export const WHOLESALE_EN: IndustryContent = {
   faq: [
     { question: 'Do you support serial number tracking?', answer: 'Yes. For products where you need to track individual units (electronics, high-value items, warranty-tracked products), Novala supports serial number tracking through receiving, storage, and sale.' },
     { question: 'Can we handle multiple currencies for international suppliers?', answer: 'Yes. Purchase orders can be created in any currency, and exchange rates are captured at receiving for accurate cost accounting. Payments to foreign suppliers handle currency conversion.' },
-    { question: 'Do you integrate with shipping carriers?', answer: 'We are working on integrations with Canada Post, Purolator, and other major Canadian carriers. In the meantime, you can generate packing slips and shipping documents that work with any carrier.' },
+    { question: 'Do you integrate with shipping carriers?', answer: 'We are working on integrations with Canada Post, Purolator, and other major  carriers. In the meantime, you can generate packing slips and shipping documents that work with any carrier.' },
     { question: 'Can we track landed cost accurately?', answer: 'Yes. Beyond the supplier invoice, you can add freight, duties, customs fees, and other landing costs to a receipt. These are allocated across the items in the shipment for accurate product costing.' },
   ],
   relatedTitle: 'EXPLORE OTHER INDUSTRIES',
@@ -140,12 +140,12 @@ export const WHOLESALE_EN: IndustryContent = {
 export const HEALTHCARE_EN: IndustryContent = {
   slug: 'healthcare',
   eyebrow: 'FOR HEALTHCARE AND CLINICS',
-  heroTitle: 'Payroll and practice management for Canadian healthcare providers',
-  heroSubtitle: 'Handle practitioner scheduling, patient billing, insurance claims, and payroll for medical and dental practices, physiotherapy clinics, and other healthcare businesses. Built with the compliance and workflow requirements of Canadian healthcare in mind.',
+  heroTitle: 'Payroll and practice management for  healthcare providers',
+  heroSubtitle: 'Handle practitioner scheduling, patient billing, insurance claims, and payroll for medical and dental practices, physiotherapy clinics, and other healthcare businesses. Built with the compliance and workflow requirements of  healthcare in mind.',
   heroPhoto: '/photos/healthcare.jpg',
   introEyebrow: 'WHY HEALTHCARE PRACTICES CHOOSE NOVALA',
-  introTitle: 'Software built for the operational complexity of Canadian healthcare',
-  introBody: 'Running a healthcare practice in Canada means juggling patient care, insurance billing, practitioner schedules, staff payroll, and regulatory compliance. Provincial health plans have their own billing codes and rules. Extended health insurance plans each have different reimbursement processes. Practitioners often work at multiple clinics with different rates.\n\nGeneric business software cannot handle this complexity. Healthcare-specific software often costs enterprise prices and requires long implementations. Novala is designed to give small and mid-size Canadian healthcare practices the operational tools they need at a price that works for a growing practice.',
+  introTitle: 'Software built for the operational complexity of  healthcare',
+  introBody: 'Running a healthcare practice worldwide means juggling patient care, insurance billing, practitioner schedules, staff payroll, and regulatory compliance. Provincial health plans have their own billing codes and rules. Extended health insurance plans each have different reimbursement processes. Practitioners often work at multiple clinics with different rates.\n\nGeneric business software cannot handle this complexity. Healthcare-specific software often costs enterprise prices and requires long implementations. Novala is designed to give small and mid-size  healthcare practices the operational tools they need at a price that works for a growing practice.',
   features: [
     {
       heading: 'Practitioner scheduling and time management',
@@ -154,7 +154,7 @@ export const HEALTHCARE_EN: IndustryContent = {
     },
     {
       heading: 'Patient billing and insurance handling',
-      body: 'Track patient billing including private pay, extended health insurance, and provincial health plan components. Generate receipts patients can submit to their insurers. Track outstanding balances and send automated payment reminders.\n\nFor practices that direct-bill insurance, integrate with major Canadian insurance providers for faster reimbursement. Track denied claims and appeal them through the system.',
+      body: 'Track patient billing including private pay, extended health insurance, and provincial health plan components. Generate receipts patients can submit to their insurers. Track outstanding balances and send automated payment reminders.\n\nFor practices that direct-bill insurance, integrate with major  insurance providers for faster reimbursement. Track denied claims and appeal them through the system.',
     },
     {
       heading: 'Payroll for healthcare staff',
@@ -166,7 +166,7 @@ export const HEALTHCARE_EN: IndustryContent = {
   faq: [
     { question: 'Does Novala replace my EMR or practice management system?', answer: 'No. Novala handles the business side (payroll, accounting, billing) and works alongside your existing EMR or clinical system. We can integrate with common healthcare software when needed.' },
     { question: 'Is patient data stored in Novala?', answer: 'Novala stores billing information (patient name, service, amount) but not clinical health records. Clinical records stay in your EMR. This keeps Novala\'s compliance footprint smaller and focused on financial operations.' },
-    { question: 'How do you handle direct billing to insurance providers?', answer: 'For practices that direct-bill, we integrate with major Canadian insurance providers to submit claims electronically. Track claim status, handle denials, and reconcile payments as they come in.' },
+    { question: 'How do you handle direct billing to insurance providers?', answer: 'For practices that direct-bill, we integrate with major  insurance providers to submit claims electronically. Track claim status, handle denials, and reconcile payments as they come in.' },
     { question: 'Can you handle multiple practitioners with different pay structures?', answer: 'Yes. Each practitioner can have a different compensation structure: hourly, salaried, per-session, or percentage of revenue. Novala calculates correct pay for each based on their agreed structure.' },
   ],
   relatedTitle: 'EXPLORE OTHER INDUSTRIES',
