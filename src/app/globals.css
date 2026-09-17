@@ -15,15 +15,11 @@
 
 body {
   background: white;
-  color: #000000;
+  color: var(--color-near-black);
   font-family: var(--font-family-brand);
-  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
 }
-p, span, li, a, div { color: inherit; }
-h1, h2, h3, h4, h5, h6 { color: #000000; font-weight: 700; }
 
 /* Vela animation keyframes */
 @keyframes vela-blink {
