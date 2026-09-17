@@ -5,7 +5,7 @@ import TrustStrip from '@/components/sections/TrustStrip';
 import Solutions from '@/components/sections/Solutions';
 import OnePlatform from '@/components/sections/OnePlatform';
 import Features from '@/components/sections/Features';
-import MeetVela from '@/components/sections/MeetVela';
+import VelaIntro from '@/components/sections/VelaIntro';
 import Insights from '@/components/sections/Insights';
 import Testimonial from '@/components/sections/Testimonial';
 import FAQ from '@/components/sections/FAQ';
@@ -23,7 +23,7 @@ export default function HomePage() {
       <FadeIn><Solutions /></FadeIn>
       <FadeIn><OnePlatform /></FadeIn>
       <FadeIn><Features /></FadeIn>
-      <FadeIn><MeetVela /></FadeIn>
+      <FadeIn><VelaIntro /></FadeIn>
       <FadeIn><Insights /></FadeIn>
       <FadeIn><Testimonial /></FadeIn>
       <FadeIn><FAQ /></FadeIn>
