@@ -21,7 +21,7 @@ export default function Solutions() {
         <div className="rounded-2xl p-12" style={{ background: '#1E3A8A' }}>
           <svg width="52" height="52" viewBox="0 0 42 42" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mb-9"><circle cx="21" cy="21" r="12" /><circle cx="21" cy="21" r="4" fill="#fff" /></svg>
           <h3 className="text-3xl font-light text-white mb-8">{t('sizeCards.new.title')}</h3>
-          <p className="text-base text-white/90 leading-relaxed mb-10">{t('sizeCards.new.description')}</p>
+          <p className="text-base text-white leading-relaxed mb-10">{t('sizeCards.new.description')}</p>
           <a href="/features" className="text-sm text-white underline">{t('learnMore')}</a>
         </div>
         <div className="bg-emerald-rich rounded-2xl p-12">
@@ -33,7 +33,7 @@ export default function Solutions() {
         <div className="rounded-2xl p-12" style={{ background: '#0A0A0A' }}>
           <svg width="52" height="52" viewBox="0 0 42 42" fill="none" stroke="#00A651" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mb-9"><circle cx="21" cy="14" r="4" /><path d="M13 30 C 13 24, 17 22, 21 22 C 25 22, 29 24, 29 30" /><circle cx="9" cy="17" r="3" /><path d="M4 30 C 4 26, 6 24, 9 24" /><circle cx="33" cy="17" r="3" /><path d="M38 30 C 38 26, 36 24, 33 24" /></svg>
           <h3 className="text-3xl font-light text-white mb-8">{t('sizeCards.mid.title')}</h3>
-          <p className="text-base text-white/90 leading-relaxed mb-10">{t('sizeCards.mid.description')}</p>
+          <p className="text-base text-white leading-relaxed mb-10">{t('sizeCards.mid.description')}</p>
           <a href="/features" className="text-sm text-white underline">{t('learnMore')}</a>
         </div>
       </div>

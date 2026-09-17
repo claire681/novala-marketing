@@ -14,7 +14,7 @@ export default async function FeaturesPage({ params }: { params: Promise<{ local
         <div className="max-w-7xl mx-auto px-8 md:px-16">
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">{content.title}</h1>
-            <p className="text-lg md:text-xl text-white/70 leading-relaxed">{content.subtitle}</p>
+            <p className="text-lg md:text-xl text-white leading-relaxed">{content.subtitle}</p>
           </div>
 
           <FeaturesTabs features={content.features} />

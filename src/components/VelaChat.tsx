@@ -80,7 +80,7 @@ export default function VelaChat() {
                 <div className="text-xs opacity-80">{t('role')}</div>
               </div>
             </div>
-            <button onClick={() => setOpen(false)} aria-label={t('closeLabel')} className="text-white/80 hover:text-white cursor-pointer text-lg">✕</button>
+            <button onClick={() => setOpen(false)} aria-label={t('closeLabel')} className="text-white hover:text-white cursor-pointer text-lg">✕</button>
           </div>
 
           <div ref={scrollRef} className="flex-1 overflow-y-auto p-5 space-y-3">

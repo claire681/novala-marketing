@@ -86,7 +86,7 @@ export default function Header() {
       <div className="p-8 relative" style={{ background: 'linear-gradient(#0E2A2A, #0E2A2A) padding-box, linear-gradient(135deg, #00A651, #4EDDA0) border-box', border: '2px solid transparent', borderRadius: '16px' }}>
         <div className="inline-block px-2.5 py-1 rounded text-[11px] font-bold uppercase mb-4 tracking-wider" style={{ background: '#F4FBF7', color: '#023E22' }}>{t('promoCard.newLabel')}</div>
         <h3 className="text-white text-3xl font-normal mb-3 leading-tight">{t('promoCard.heading')}</h3>
-        <p className="text-white/80 text-[15px] leading-relaxed mb-6">{t('promoCard.body')}</p>
+        <p className="text-white text-[15px] leading-relaxed mb-6">{t('promoCard.body')}</p>
         <a href="#vela" onClick={() => setOpenMenu(null)} className="inline-block bg-emerald-bright hover:bg-emerald-rich text-white font-bold px-7 py-3.5 rounded-lg transition-colors">{t('promoCard.cta')} →</a>
       </div>
     </div>
@@ -123,9 +123,9 @@ export default function Header() {
               {t('utility.talkToSales')}
               <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="2 4 5 7 8 4" /></svg>
             </a>
-            <span className="text-white/30">|</span>
-            <button onClick={() => switchTo(currentLocale === 'en' ? 'fr' : 'en')} className="text-base text-white font-semibold cursor-pointer hover:text-white/80 transition-colors">{currentLocale === 'en' ? 'FR' : 'EN'}</button>
-            <span className="text-white/30">|</span>
+            <span className="text-white/60">|</span>
+            <button onClick={() => switchTo(currentLocale === 'en' ? 'fr' : 'en')} className="text-base text-white font-semibold cursor-pointer hover:text-white transition-colors">{currentLocale === 'en' ? 'FR' : 'EN'}</button>
+            <span className="text-white/60">|</span>
             <div className="relative" onMouseEnter={handleSignInMouseEnter} onMouseLeave={handleSignInMouseLeave}>
               <button aria-expanded={signInOpen} aria-controls="signin-panel" onClick={() => setSignInOpen(!signInOpen)} className="text-base text-white/95 hover:text-white transition-colors flex items-center gap-1 cursor-pointer">
                 {t('utility.signIn')}

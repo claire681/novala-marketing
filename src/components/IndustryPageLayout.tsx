@@ -14,7 +14,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
           <div className="relative z-20 max-w-5xl mx-auto">
             <div className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: '#00A651' }}>{content.eyebrow}</div>
             <h1 className="text-4xl md:text-6xl font-black text-white leading-tight mb-6 max-w-3xl">{content.heroTitle}</h1>
-            <p className="text-lg text-white/90 leading-relaxed max-w-2xl">{content.heroSubtitle}</p>
+            <p className="text-lg text-white leading-relaxed max-w-2xl">{content.heroSubtitle}</p>
           </div>
         </section>
 

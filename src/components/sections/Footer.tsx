@@ -103,9 +103,9 @@ export default function Footer() {
           </div>
           <div className="text-sm md:text-right">
             <a href="/terms" className="hover:text-emerald-bright transition-colors">{t('legal.legal')}</a>
-            <span className="mx-2.5 text-white/50">|</span>
+            <span className="mx-2.5 text-white/80">|</span>
             <a href="/privacy" className="hover:text-emerald-bright transition-colors">{t('legal.privacy')}</a>
-            <span className="mx-2.5 text-white/50">|</span>
+            <span className="mx-2.5 text-white/80">|</span>
             <a href="/security" className="hover:text-emerald-bright transition-colors">{t('legal.security')}</a>
           </div>
         </div>

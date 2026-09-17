@@ -17,7 +17,7 @@ export default function Newsletter() {
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-white text-center mb-8 leading-tight">
         {t('heading')}
       </h2>
-      <p className="text-xl text-white/90 text-center mb-14 max-w-4xl mx-auto leading-relaxed">
+      <p className="text-xl text-white text-center mb-14 max-w-4xl mx-auto leading-relaxed">
         {t('subheadline')}
       </p>
 
@@ -25,7 +25,7 @@ export default function Newsletter() {
         <div className="text-center max-w-md mx-auto bg-white/10 border border-emerald-bright rounded-xl p-8">
           <div className="text-6xl mb-4">✓</div>
           <div className="text-xl font-bold text-white mb-2">{t('thanksTitle')}</div>
-          <div className="text-white/80">{t('thanksText')}</div>
+          <div className="text-white">{t('thanksText')}</div>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="max-w-6xl mx-auto">

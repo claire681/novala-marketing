@@ -11,7 +11,7 @@ export default function OnePlatform() {
           <div className="text-xs font-bold text-emerald-bright uppercase tracking-widest mb-4">{t('eyebrow')}</div>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-2">{t('headline1')}</h2>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6">{t('headline2')}</h2>
-          <p className="text-lg text-white/80 mb-8 max-w-md leading-relaxed">{t('subheadline')}</p>
+          <p className="text-lg text-white mb-8 max-w-md leading-relaxed">{t('subheadline')}</p>
           <a href="/features" className="inline-block bg-emerald-bright hover:bg-emerald-rich text-white px-6 py-3.5 rounded-lg font-bold text-sm transition-colors cursor-pointer">{t('cta')} →</a>
         </div>
         <div className="rounded-3xl overflow-hidden shadow-2xl">
