@@ -238,31 +238,24 @@ export default function VelaIntro() {
 
           <div className={sceneClass('endcard')} style={{ justifyContent: 'center' }}>
             <div style={{ opacity: logoIn ? 1 : 0, transform: `scale(${logoIn ? 1 : 0.94})`, transition: 'opacity 1100ms cubic-bezier(0.16, 1, 0.3, 1), transform 1100ms cubic-bezier(0.16, 1, 0.3, 1)', filter: 'drop-shadow(0 0 40px rgba(0,166,81,0.4))' }}>
-              <Image src="/logo-mark.svg" alt="Novala" width={400} height={99} priority style={{ height: 'clamp(48px, 8vw, 96px)', width: 'auto' }} />
+              <Image src="/logo-mark.svg" alt="Novala" width={400} height={99} priority unoptimized style={{ height: 'clamp(48px, 8vw, 96px)', width: 'auto' }} />
             </div>
           </div>
 
           {/* Scenes 6, 8, 10, 12 continue in next file — split for readability */}
           <VelaIntroDynamicScenes visibleScene={visibleScene} sceneClass={sceneClass} dashIn={dashIn} chat1In={chat1In} chat2In={chat2In} pillIn={pillIn} typed1={typed1} typed2={typed2} showStatus1={showStatus1} showAnswer1={showAnswer1} status1Idx={status1Idx} sparkDrawn={sparkDrawn} showStatus2={showStatus2} showAnswer2={showAnswer2} sendPulse={sendPulse} t={t} />
 
-          <div className="absolute bottom-3 left-0 right-0 text-center pointer-events-none" style={{ fontFamily: 'system-ui, sans-serif', fontSize: '10px', color: bg === 'dark' || bg === 'end' ? 'rgba(255,255,255,0.45)' : 'rgba(0,0,0,0.4)', transition: 'color 500ms' }}>
-            {t('disclaimer')}
-          </div>
-
           <button onClick={togglePlay} aria-label={t('playButton')} className="absolute bottom-3 right-3 rounded-full flex items-center justify-center cursor-pointer z-30" style={{ width: '36px', height: '36px', border: '1px solid rgba(255,255,255,0.25)', background: 'rgba(0,0,0,0.5)', color: '#FFF', fontSize: '13px', backdropFilter: 'blur(10px)' }}>
             {playing ? '⏸' : '▶'}
           </button>
         </div>
 
-        <div className="text-center mt-4" style={{ fontFamily: 'system-ui, sans-serif', fontSize: '11px', color: 'rgba(255,255,255,0.6)', letterSpacing: '0.03em' }}>
-          Scene {currentSceneNum} of 15 · 0:{String(Math.floor(currentTime / 1000)).padStart(2, '0')} / 0:47
         </div>
-      </div>
 
-      <style jsx>{`
+      <style jsx global>{`
         .v-char { display: inline-block; opacity: 0; filter: blur(6px); transition: opacity 500ms cubic-bezier(0.16, 1, 0.3, 1), filter 500ms cubic-bezier(0.16, 1, 0.3, 1); }
-        .v-reveal.v-in :global(.v-char) { opacity: 1; filter: blur(0); }
-        .v-reveal.v-out :global(.v-char) { opacity: 0; filter: blur(6px); }
+        .v-reveal.v-in .v-char { opacity: 1; filter: blur(0); }
+        .v-reveal.v-out .v-char { opacity: 0; filter: blur(6px); }
         .v-scene { position: absolute; inset: 0; opacity: 0; pointer-events: none; transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1); display: flex; align-items: center; }
         .v-scene.v-visible { opacity: 1; }
         @media (prefers-reduced-motion: reduce) {

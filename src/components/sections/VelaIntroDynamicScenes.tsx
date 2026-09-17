@@ -38,7 +38,7 @@ export function VelaIntroDynamicScenes(props: Props) {
         <div style={{ width: '100%', height: '100%', background: '#FFF', borderRadius: '14px', boxShadow: '0 12px 40px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04)', overflow: 'hidden', display: 'flex', flexDirection: 'column', transform: dashIn ? 'scale(1)' : 'scale(0.96)', opacity: dashIn ? 1 : 0, transition: 'transform 900ms cubic-bezier(0.16, 1, 0.3, 1), opacity 900ms cubic-bezier(0.16, 1, 0.3, 1)' }}>
           <div style={{ background: '#0E2A2A', padding: '10px 18px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <Image src="/logo-mark.svg" alt="Novala" width={80} height={20} style={{ height: '16px', width: 'auto' }} />
+              <Image src="/logo-mark.svg" alt="Novala" width={80} height={20} unoptimized style={{ height: '16px', width: 'auto' }} />
               <span style={{ width: '3px', height: '3px', borderRadius: '50%', background: 'rgba(255,255,255,0.35)' }} />
               <span style={{ fontFamily: 'var(--font-jakarta), system-ui, sans-serif', fontSize: '11px', color: 'rgba(255,255,255,0.85)' }}>{t('dashboard.clientName')}</span>
             </div>
