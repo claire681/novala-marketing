@@ -628,5 +628,126 @@
     "learnMore": "En savoir plus",
     "accept": "Tout accepter",
     "reject": "Refuser non essentiels"
+  },
+  "velaIntro": {
+    "scenes": {
+      "introducing": "Nous vous présentons",
+      "vela": "Vela",
+      "anyQuestion": "Toute question,",
+      "answeredInstantly": "une réponse instantanée.",
+      "usingPowerOf": "Grâce à la puissance",
+      "yourBusinessData": "de vos données d'entreprise.",
+      "nowAvailableIn": "Maintenant disponible dans",
+      "novala": "Novala"
+    },
+    "dashboard": {
+      "clientName": "Meridian Design Studio",
+      "date": "Lundi, 16 sept.",
+      "tabs": {
+        "payroll": "Paie",
+        "accounting": "Comptabilité",
+        "salesAndGetPaid": "Ventes et paiements",
+        "workforce": "Personnel",
+        "reports": "Rapports"
+      },
+      "todayLabel": "Aujourd'hui",
+      "monthLabel": "Ce mois",
+      "tasks": {
+        "payrollRun": {
+          "text": "Paie versée à 14 employés",
+          "meta": "32 480 $"
+        },
+        "transactionsCategorized": {
+          "text": "23 transactions catégorisées",
+          "meta": "Automatique"
+        },
+        "bankReconciled": {
+          "text": "Banque conciliée au 15 sept.",
+          "meta": "RBC · Chèque"
+        },
+        "timesheetsToReview": {
+          "text": "Feuilles de temps à vérifier",
+          "meta": "Vérifier"
+        },
+        "invoicesToSend": {
+          "text": "Factures à envoyer",
+          "meta": "8 050 $"
+        },
+        "gstFilingDue": {
+          "text": "Déclaration TPS due le 30 sept.",
+          "meta": "14 jours"
+        }
+      },
+      "stats": {
+        "revenue": {
+          "label": "Revenus",
+          "value": "48 320 $",
+          "delta": "↑ 12 %"
+        },
+        "expenses": {
+          "label": "Dépenses",
+          "value": "36 740 $",
+          "delta": "↑ 4 %"
+        },
+        "netProfit": {
+          "label": "Bénéfice net",
+          "value": "11 580 $",
+          "delta": "24 % de marge"
+        }
+      }
+    },
+    "qa1": {
+      "question": "Comment sont mes marges bénéficiaires cette année ?",
+      "status": [
+        "Analyse de vos revenus et dépenses...",
+        "Examen de vos marges bénéficiaires...",
+        "Personnalisation de votre rapport..."
+      ],
+      "label": "Marge bénéficiaire nette",
+      "percentage": "24",
+      "percentageSuffix": " %",
+      "delta": "↑ 5 pts vs 2025",
+      "incomeLabel": "Revenus",
+      "incomeValue": "486 k$",
+      "expensesLabel": "Dépenses",
+      "expensesValue": "369 k$",
+      "netLabel": "Bénéfice net",
+      "netValue": "117 k$",
+      "monthLabels": [
+        "Jan",
+        "Mars",
+        "Mai",
+        "Juil.",
+        "Sept."
+      ]
+    },
+    "qa2": {
+      "question": "Quelles factures sont en retard ?",
+      "status": "Recherche des factures en retard...",
+      "heading": "Factures en retard",
+      "summaryPre": "Vous avez ",
+      "summaryAmount": "12 180 $",
+      "summaryPost": " en retard sur 6 factures.",
+      "invoices": [
+        {
+          "customer": "Meridian Design Studio",
+          "days": "18 jours en retard",
+          "amount": "4 850 $"
+        },
+        {
+          "customer": "Northline Construction Ltd",
+          "days": "12 jours en retard",
+          "amount": "3 200 $"
+        },
+        {
+          "customer": "Cascade Wholesale Inc",
+          "days": "7 jours en retard",
+          "amount": "2 470 $"
+        }
+      ]
+    },
+    "disclaimer": "Images d'écran simulées. Les fonctionnalités peuvent varier selon le forfait.",
+    "velaHeader": "Vela",
+    "playButton": "Lire ou pause"
   }
 }

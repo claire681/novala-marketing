@@ -628,5 +628,126 @@
     "learnMore": "Learn more",
     "accept": "Accept all",
     "reject": "Reject non-essential"
+  },
+  "velaIntro": {
+    "scenes": {
+      "introducing": "Introducing",
+      "vela": "Vela",
+      "anyQuestion": "Any question,",
+      "answeredInstantly": "answered instantly.",
+      "usingPowerOf": "Using the power of",
+      "yourBusinessData": "your business data.",
+      "nowAvailableIn": "Now available in",
+      "novala": "Novala"
+    },
+    "dashboard": {
+      "clientName": "Meridian Design Studio",
+      "date": "Monday, Sept 16",
+      "tabs": {
+        "payroll": "Payroll",
+        "accounting": "Accounting",
+        "salesAndGetPaid": "Sales & Get Paid",
+        "workforce": "Workforce",
+        "reports": "Reports"
+      },
+      "todayLabel": "Today",
+      "monthLabel": "This month",
+      "tasks": {
+        "payrollRun": {
+          "text": "Payroll run for 14 employees",
+          "meta": "$32,480"
+        },
+        "transactionsCategorized": {
+          "text": "23 transactions categorized",
+          "meta": "Automatic"
+        },
+        "bankReconciled": {
+          "text": "Bank reconciled to Sept 15",
+          "meta": "RBC · Chequing"
+        },
+        "timesheetsToReview": {
+          "text": "Timesheets to review",
+          "meta": "Review"
+        },
+        "invoicesToSend": {
+          "text": "Invoices to send",
+          "meta": "$8,050"
+        },
+        "gstFilingDue": {
+          "text": "GST filing due Sept 30",
+          "meta": "14 days"
+        }
+      },
+      "stats": {
+        "revenue": {
+          "label": "Revenue",
+          "value": "$48,320",
+          "delta": "↑ 12%"
+        },
+        "expenses": {
+          "label": "Expenses",
+          "value": "$36,740",
+          "delta": "↑ 4%"
+        },
+        "netProfit": {
+          "label": "Net profit",
+          "value": "$11,580",
+          "delta": "24% margin"
+        }
+      }
+    },
+    "qa1": {
+      "question": "How are my profit margins this year?",
+      "status": [
+        "Analyzing your income and expenses...",
+        "Reviewing your profit margins...",
+        "Customizing your profit margin report..."
+      ],
+      "label": "Net profit margin",
+      "percentage": "24",
+      "percentageSuffix": "%",
+      "delta": "↑ 5pt vs 2025",
+      "incomeLabel": "Income",
+      "incomeValue": "$486K",
+      "expensesLabel": "Expenses",
+      "expensesValue": "$369K",
+      "netLabel": "Net profit",
+      "netValue": "$117K",
+      "monthLabels": [
+        "Jan",
+        "Mar",
+        "May",
+        "Jul",
+        "Sep"
+      ]
+    },
+    "qa2": {
+      "question": "Which invoices are overdue?",
+      "status": "Finding invoices past their due date...",
+      "heading": "Overdue invoices",
+      "summaryPre": "You have ",
+      "summaryAmount": "$12,180",
+      "summaryPost": " overdue across 6 invoices.",
+      "invoices": [
+        {
+          "customer": "Meridian Design Studio",
+          "days": "18 days overdue",
+          "amount": "$4,850"
+        },
+        {
+          "customer": "Northline Construction Ltd",
+          "days": "12 days overdue",
+          "amount": "$3,200"
+        },
+        {
+          "customer": "Cascade Wholesale Inc",
+          "days": "7 days overdue",
+          "amount": "$2,470"
+        }
+      ]
+    },
+    "disclaimer": "Screen images simulated. Features may vary by plan.",
+    "velaHeader": "Vela",
+    "playButton": "Play or pause"
   }
 }
