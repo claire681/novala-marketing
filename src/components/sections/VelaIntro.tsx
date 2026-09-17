@@ -98,6 +98,15 @@ export default function VelaIntro() {
     return () => observer.disconnect();
   }, []);
 
+  // Reset timeline to start when scrolling into view
+  useEffect(() => {
+    if (inView) {
+      clockStartRef.current = performance.now();
+      lastAtRef.current = -1;
+      typingRef.current = { target: null, text: '', speed: 60, start: 0 };
+    }
+  }, [inView]);
+
   useEffect(() => {
     const handler = () => setInView(!document.hidden && inView);
     document.addEventListener('visibilitychange', handler);
