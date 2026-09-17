@@ -43,7 +43,7 @@ const timeline = [
 
 function splitLetters(text: string) {
   return text.split('').map((ch, i) => (
-    <span key={i} className="v-char" style={{ transitionDelay: `${i * 30}ms` }}>
+    <span key={i} className="v-char" style={{ transitionDelay: `${i * 45}ms` }}>
       {ch === ' ' ? '\u00A0' : ch}
     </span>
   ));
@@ -206,7 +206,7 @@ export default function VelaIntro() {
     else { clockStartRef.current += performance.now() - pauseAtRef.current; if (typingRef.current.target) typingRef.current.start += performance.now() - pauseAtRef.current; setPlaying(true); }
   };
 
-  const cardBgStyle = { backgroundColor: bg === 'dark' ? '#0E2A2A' : bg === 'cream' ? 'transparent' : bg === 'grain' ? '#F5F5F7' : '#023E22' };
+  const cardBgStyle = { backgroundColor: bg === 'dark' ? '#0E2A2A' : bg === 'cream' ? 'transparent' : bg === 'grain' ? '#F5F5F7' : '#000000' };
   const revealClass = (key: string) => `v-reveal ${revealStates[key] === 'in' ? 'v-in' : revealStates[key] === 'out' ? 'v-out' : ''}`;
   const sceneClass = (name: string) => `v-scene ${visibleScene === name ? 'v-visible' : ''}`;
 
@@ -264,7 +264,7 @@ export default function VelaIntro() {
         </div>
 
       <style jsx global>{`
-        .v-char { display: inline-block; opacity: 0; filter: blur(6px); transition: opacity 500ms cubic-bezier(0.16, 1, 0.3, 1), filter 500ms cubic-bezier(0.16, 1, 0.3, 1); }
+        .v-char { display: inline-block; opacity: 0; filter: blur(6px); transition: opacity 900ms cubic-bezier(0.16, 1, 0.3, 1), filter 900ms cubic-bezier(0.16, 1, 0.3, 1); }
         .v-reveal.v-in .v-char { opacity: 1; filter: blur(0); }
         .v-reveal.v-out .v-char { opacity: 0; filter: blur(6px); }
         .v-scene { position: absolute; inset: 0; opacity: 0; pointer-events: none; transform: translateY(15px) scale(0.99); filter: blur(4px); transition: opacity 1000ms cubic-bezier(0.16, 1, 0.3, 1), transform 1000ms cubic-bezier(0.16, 1, 0.3, 1), filter 1000ms cubic-bezier(0.16, 1, 0.3, 1); display: flex; align-items: center; }
