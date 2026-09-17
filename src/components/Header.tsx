@@ -77,7 +77,7 @@ export default function Header() {
 
   const NAV_ITEMS: { key: string; menuKey?: MenuKey; href?: string }[] = [
     { key: 'productsFeatures', menuKey: 'productsFeatures' },
-    { key: 'plansPricing', href: 'https://www.getnovala.com/pricing' },
+    { key: 'plansPricing', href: 'https://app.getnovala.com/pricing' },
     { key: 'resources', menuKey: 'resources' },
   ];
 
@@ -136,7 +136,7 @@ export default function Header() {
               {signInOpen && (
                 <div id="signin-panel" role="menu" className="absolute top-full right-0 mt-2 bg-white shadow-2xl rounded-lg py-3 min-w-[280px]" style={{ animation: 'popup-slide-down 200ms ease-out' }}>
                   {SIGNIN_ITEMS.map((key) => (
-                    <a key={key} href="https://www.getnovala.com/login" onClick={() => setSignInOpen(false)} className="block px-5 py-2.5 text-[15px] text-[#161616] hover:bg-[#F4FBF7] hover:text-emerald-rich transition-colors">
+                    <a key={key} href="https://app.getnovala.com/login" onClick={() => setSignInOpen(false)} className="block px-5 py-2.5 text-[15px] text-[#161616] hover:bg-[#F4FBF7] hover:text-emerald-rich transition-colors">
                       {t(`signInMenu.${key}`)}
                     </a>
                   ))}
@@ -148,7 +148,7 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <a href="https://www.getnovala.com/pricing" className="bg-emerald-bright hover:bg-emerald-rich text-white px-5 py-2.5 rounded-lg text-base font-semibold transition-colors cursor-pointer">{t('utility.getStarted')}</a>
+            <a href="https://app.getnovala.com/pricing" className="bg-emerald-bright hover:bg-emerald-rich text-white px-5 py-2.5 rounded-lg text-base font-semibold transition-colors cursor-pointer">{t('utility.getStarted')}</a>
           </div>
 
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden ml-auto w-10 h-10 flex items-center justify-center cursor-pointer text-white" aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileMenuOpen}>
@@ -237,7 +237,7 @@ export default function Header() {
               <span className="text-gray-400">|</span>
               <button onClick={() => switchTo('fr')} className={`text-lg cursor-pointer ${currentLocale === 'fr' ? 'text-near-black font-bold' : 'text-[#5A6970]'}`}>FR</button>
             </div>
-            <a onClick={closeMobileMenu} href="https://www.getnovala.com/login" className="block text-center py-3 border border-gray-300 text-near-black rounded-lg font-semibold text-base">{t('utility.signIn')}</a>
+            <a onClick={closeMobileMenu} href="https://app.getnovala.com/login" className="block text-center py-3 border border-gray-300 text-near-black rounded-lg font-semibold text-base">{t('utility.signIn')}</a>
             <button onClick={closeMobileMenu} className="w-full bg-emerald-rich text-white py-3 rounded-lg font-semibold text-base">{t('utility.getStarted')} →</button>
           </div>
         </div>

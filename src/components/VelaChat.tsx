@@ -109,7 +109,7 @@ export default function VelaChat() {
               <button type="submit" aria-label={t('sendLabel')} disabled={!input.trim()} className="bg-emerald-rich text-white w-10 h-10 rounded-full hover:bg-emerald-deep disabled:opacity-50 disabled:cursor-not-allowed transition-colors cursor-pointer flex items-center justify-center text-lg flex-shrink-0">→</button>
             </form>
             <div className="text-center text-[11px] text-gray-500 mt-2">
-              <a href="https://www.getnovala.com/pricing" className="text-emerald-rich font-semibold hover:text-emerald-deep">{t('signupLink')} →</a>
+              <a href="https://app.getnovala.com/pricing" className="text-emerald-rich font-semibold hover:text-emerald-deep">{t('signupLink')} →</a>
             </div>
           </div>
         </div>

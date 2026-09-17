@@ -22,7 +22,7 @@ export default async function FeaturesPage({ params }: { params: Promise<{ local
           <div className="rounded-3xl p-12 text-center mt-16" style={{ background: 'linear-gradient(135deg, #023E22, #046A38)' }}>
             <h2 className="text-3xl md:text-4xl font-black text-white mb-4">{content.ctaHeading}</h2>
             <p className="text-lg text-white/85 mb-8">{content.ctaSubheading}</p>
-            <a href="https://www.getnovala.com/pricing" className="inline-block bg-emerald-bright hover:bg-white hover:text-emerald-deep text-white px-10 py-4 rounded-lg font-bold text-lg transition-colors">{content.ctaButton} →</a>
+            <a href="https://app.getnovala.com/pricing" className="inline-block bg-emerald-bright hover:bg-white hover:text-emerald-deep text-white px-10 py-4 rounded-lg font-bold text-lg transition-colors">{content.ctaButton} →</a>
           </div>
         </div>
       </main>

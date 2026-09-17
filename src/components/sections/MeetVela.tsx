@@ -165,7 +165,7 @@ export default function MeetVela() {
       </div>
 
       <div className="text-center mt-14">
-        <a href="https://www.getnovala.com/pricing" className="inline-block bg-emerald-bright hover:bg-emerald-rich text-white px-8 py-4 rounded-lg font-bold transition-colors cursor-pointer">
+        <a href="https://app.getnovala.com/pricing" className="inline-block bg-emerald-bright hover:bg-emerald-rich text-white px-8 py-4 rounded-lg font-bold transition-colors cursor-pointer">
           {t('cta')} →
         </a>
       </div>
