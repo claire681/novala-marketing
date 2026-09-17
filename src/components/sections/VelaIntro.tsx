@@ -206,7 +206,7 @@ export default function VelaIntro() {
     else { clockStartRef.current += performance.now() - pauseAtRef.current; if (typingRef.current.target) typingRef.current.start += performance.now() - pauseAtRef.current; setPlaying(true); }
   };
 
-  const cardBgStyle = { backgroundColor: bg === 'dark' ? '#0E2A2A' : bg === 'cream' ? '#FAF7F2' : bg === 'grain' ? '#F5F5F7' : '#023E22' };
+  const cardBgStyle = { backgroundColor: bg === 'dark' ? '#0E2A2A' : bg === 'cream' ? 'transparent' : bg === 'grain' ? '#F5F5F7' : '#023E22' };
   const revealClass = (key: string) => `v-reveal ${revealStates[key] === 'in' ? 'v-in' : revealStates[key] === 'out' ? 'v-out' : ''}`;
   const sceneClass = (name: string) => `v-scene ${visibleScene === name ? 'v-visible' : ''}`;
 
@@ -215,6 +215,8 @@ export default function VelaIntro() {
       <div className="max-w-6xl mx-auto px-4">
         <div ref={cardRef} className="v-card relative w-full mx-auto rounded-3xl overflow-hidden" style={{ aspectRatio: '16/9', maxWidth: '1100px', boxShadow: '0 30px 80px rgba(0,0,0,0.5), 0 12px 32px rgba(0,0,0,0.3)', transition: 'background-color 900ms cubic-bezier(0.16, 1, 0.3, 1)', ...cardBgStyle }} aria-label="Vela introduction animation">
 
+          {bg === 'cream' && <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #FFFFFF 0%, #E8F5EE 100%)' }} />}
+          {bg === 'cream' && <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #FFFFFF 0%, #E8F5EE 100%)' }} />}
           {bg === 'grain' && <div className="absolute inset-0" style={{ backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.9"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/></filter><rect width="200" height="200" filter="url(%23n)"/></svg>')`, opacity: 0.6 }} />}
           {bg === 'dark' && <div className="absolute pointer-events-none" style={{ top: '-100px', right: '-100px', width: '380px', height: '380px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(29,158,117,0.45), transparent 70%)' }} />}
 
@@ -265,8 +267,8 @@ export default function VelaIntro() {
         .v-char { display: inline-block; opacity: 0; filter: blur(6px); transition: opacity 500ms cubic-bezier(0.16, 1, 0.3, 1), filter 500ms cubic-bezier(0.16, 1, 0.3, 1); }
         .v-reveal.v-in .v-char { opacity: 1; filter: blur(0); }
         .v-reveal.v-out .v-char { opacity: 0; filter: blur(6px); }
-        .v-scene { position: absolute; inset: 0; opacity: 0; pointer-events: none; transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1); display: flex; align-items: center; }
-        .v-scene.v-visible { opacity: 1; }
+        .v-scene { position: absolute; inset: 0; opacity: 0; pointer-events: none; transform: translateY(15px) scale(0.99); filter: blur(4px); transition: opacity 1000ms cubic-bezier(0.16, 1, 0.3, 1), transform 1000ms cubic-bezier(0.16, 1, 0.3, 1), filter 1000ms cubic-bezier(0.16, 1, 0.3, 1); display: flex; align-items: center; }
+        .v-scene.v-visible { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
         @media (prefers-reduced-motion: reduce) {
           .v-scene, .v-char, .v-reveal { transition: none !important; }
         }
