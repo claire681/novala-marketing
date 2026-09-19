@@ -1,2 +1,751 @@
-{ "header": { "logoAlt": "Novala", "nav": { "productsFeatures": "Produits et fonctionnalités", "plansPricing": "Forfaits et tarifs", "resources": "Ressources" }, "utility": { "talkToSales": "Parler aux ventes", "signIn": "Connexion", "getStarted": "Commencer" }, "promoCard": { "newLabel": "NOUVEAU", "heading": "Rencontrez Vela", "body": "Posez des questions en français simple et obtenez des réponses de vos propres données.", "cta": "En savoir plus" }, "megaMenu": { "productsFeatures": { "columns": { "products": { "label": "Produits", "links": { "accounting": "Comptabilité", "payroll": "Paie", "invoicing": "Facturation", "timeTracking": "Suivi du temps", "businessManagement": "Gestion d entreprise" } }, "features": { "label": "Fonctionnalités", "links": { "bookkeeping": "Tenue de livres", "getInsights": "Obtenir des analyses", "planAhead": "Planifier l avenir", "expenseTracking": "Suivi des dépenses", "manageBills": "Gérer les factures", "receiptCapture": "Capture de reçus", "reporting": "Rapports", "cashFlow": "Flux de trésorerie", "manageCustomers": "Gérer les clients", "directDeposit": "Dépôt direct", "velaAI": "Vela IA", "seeAllFeatures": "Voir toutes les fonctionnalités" } }, "businessStage": { "label": "Étape d entreprise", "links": { "newBusiness": "Nouvelle entreprise", "smallBusiness": "Petite entreprise", "midSized": "Moyenne entreprise", "freelance": "Travailleur autonome" } }, "industry": { "label": "Secteur", "links": { "construction": "Construction", "professional": "Services professionnels", "wholesale": "Gros et fabrication", "healthcare": "Santé", "retail": "Détail", "restaurants": "Restaurants", "nonprofit": "OSBL", "seeAllIndustries": "Voir tous les secteurs" } } } }, "resources": { "columns": { "compare": { "label": "Comparer", "links": { "vsQuickbooks": "Novala vs QuickBooks", "vsXero": "Novala vs Xero", "vsWave": "Novala vs Wave" } }, "exploreNovala": { "label": "Explorer Novala", "links": { "whatsNew": "Quoi de neuf", "moveToNovala": "Passer à Novala", "appsIntegrations": "Apps et intégrations" } }, "freeTools": { "label": "Outils et modèles gratuits", "links": { "invoiceGen": "Générateur de factures", "payrollCalc": "Calculateur de paie", "timesheetCalc": "Calculateur de feuille de temps", "invoiceTemplates": "Modèles de factures", "employeeCostCalc": "Calculateur de coût employé", "seeAllTools": "Voir tous les outils" } }, "learnSupport": { "label": "Apprendre et soutien", "links": { "blog": "Blogue", "guides": "Guides", "tutorials": "Tutoriels", "productSupport": "Support produit" } } } } }, "signInMenu": { "novala": "Novala", "accountantPortal": "Novala pour comptables", "employeeApp": "Novala pour employés", "needHelp": "Besoin d aide pour vous connecter?" }, "freeTrial": "Essai gratuit 30 jours" }, "hero": { "eyebrow": "GÉREZ VOTRE ENTREPRISE EN TOUTE CONFIANCE", "headline1": "Sachez ce qui arrive.", "headline2": "Gérez ce qui suit.", "subheadline": "Paie, comptabilité, gestion de la main d'oeuvre, facturation et plus encore, dans une seule plateforme.", "ctaPrimary": "Commencer gratuitement", "ctaSecondary": "Voir la démo", "photoPlaceholder": "[ Photo hero ]" }, "trustStrip": { "eyebrow": "APPROUVÉ PAR DES ENTREPRENEURS PARTOUT dans le monde", "item1": "Tout connecté", "item2": "Moins de travail manuel", "item3": "Visibilité claire", "item4": "Conçu pour grandir" }, "solutions": { "heading": "Des solutions conçues pour votre entreprise", "learnMore": "En savoir plus", "sizeCards": { "new": { "title": "Nouvelle entreprise", "description": "Gérez vos livres et votre première saison fiscale en toute confiance." }, "small": { "title": "Petite entreprise", "description": "Gérez les finances quotidiennes, payez votre équipe et suivez votre comptabilité." }, "mid": { "title": "Entreprise de taille moyenne", "description": "Rationalisez les opérations complexes et gérez votre équipe dans un système intégré." } }, "industries": { "construction": { "title": "Construction et métiers", "description": "Construisez avec un flux connecté du démarrage du projet à la facture finale." }, "professional": { "title": "Services professionnels", "description": "Gestion financière intelligente pour plus de temps avec vos clients." }, "wholesale": { "title": "Vente en gros et fabrication", "description": "Simplifiez les opérations tout en gérant les stocks, les ventes et la trésorerie." }, "healthcare": { "title": "Santé et cliniques", "description": "Simplifiez la planification du personnel, la facturation et la paie en un seul système." } } }, "onePlatform": { "eyebrow": "TOUTES LES OPÉRATIONS COMMERCIALES", "headline1": "Une plateforme.", "headline2": "Une voie plus claire.", "subheadline": "Novala rassemble tout ce dont vous avez besoin pour gérer votre entreprise.", "cta": "Explorer toutes les fonctionnalités" }, "features": { "eyebrow": "OUTILS PUISSANTS", "heading": "Six catégories. Un seul système.", "items": { "payroll": { "title": "Paie", "description": "paie automatisée avec conformité autorités fiscales intégrée." }, "accounting": { "title": "Comptabilité", "description": "Livres, rapports et rapprochement, dans un seul système." }, "invoicing": { "title": "Facturation", "description": "Envoyez, suivez et soyez payé plus rapidement." }, "workforce": { "title": "Personnel", "description": "Planification et suivi du temps que votre équipe utilisera vraiment." }, "reporting": { "title": "Rapports", "description": "Aperçus en temps réel de chaque partie de votre entreprise." }, "compliance": { "title": "Conformité", "description": "Registres prêts pour l'autorités fiscales et déclarations à l'heure, à chaque fois." } } }, "meetVela": { "eyebrow": "RENCONTREZ VELA", "headline1": "Demandez tout.", "headline2": "Sachez tout.", "cta": "Essayez Vela gratuitement", "workingLabel": "Traitement…", "pills": { "accounting": "Comptabilité", "salesGetPaid": "Ventes et paiements", "payroll": "Paie", "workforce": "Personnel" }, "questions": { "payroll": { "pillKey": "payroll", "text": "Combien coûtera la paie ce vendredi?", "working": "Analyse des heures et des taux", "label": "PAIE · VENDREDI", "value": "142 540 $", "sub": "Total projeté", "grid": [ { "k": "EMPLOYÉS", "v": "47" }, { "k": "HEURES", "v": "3 720" }, { "k": "HEURES SUP", "v": "184", "tint": "warning" }, { "k": "FONDS", "v": "✓ Prêt", "tint": "success" } ] }, "accounting": { "pillKey": "accounting", "text": "Quelles sont mes marges bénéficiaires cette année?", "working": "Analyse des revenus et dépenses", "label": "PROFIT · CUM", "value": "+24 %", "sub": "vs année précédente", "grid": [ { "k": "REVENUS", "v": "1,2 M$" }, { "k": "DÉPENSES", "v": "912 K$" }, { "k": "NET", "v": "288 K$", "tint": "success" }, { "k": "TENDANCE", "v": "↑ Croissance" } ] }, "invoices": { "pillKey": "salesGetPaid", "text": "Quelles factures sont en retard?", "working": "Vérification des comptes clients", "label": "FACTURES EN RETARD", "value": "12 180 $", "sub": "3 en retard", "grid": [ { "k": "PLUS ANCIENNE", "v": "42 jours" }, { "k": "JRS MOYENS", "v": "18" }, { "k": "À RISQUE", "v": "4 200 $", "tint": "warning" }, { "k": "ACTION", "v": "Envoyer rappel" } ] } } }, "insights": { "eyebrow": "CONÇU POUR L AVENIR", "headline": "Transformez vos données en véritables opportunités.", "statLabel": "RENTABILITÉ", "statValue": "+24%", "statPeriod": "6 derniers mois", "cta": "Voir comment ça marche", "photoPlaceholder": "[ Photo insights ]" }, "testimonial": { "eyebrow": "HISTOIRES CLIENTS", "items": { "t1": { "quote": "Novala me donne une visibilité complète sur mon entreprise. Tout ce dont j ai besoin pour la paie et la conformité est au même endroit.", "author": "Propriétaire d entreprise", "role": "Petite entreprise" }, "t2": { "quote": "La configuration a pris un après-midi. Vela a répondu à toutes mes questions sans que j aie besoin d appeler le support.", "author": "Fondateur", "role": "Équipe en croissance" }, "t3": { "quote": "La conformité fiscale était ma plus grande inquiétude. Maintenant, cela se fait automatiquement en arrière-plan.", "author": "Propriétaire", "role": "Entreprise de services" } } }, "faq": { "heading": "Questions fréquentes", "seeMore": "Voir plus de questions fréquentes", "items": { "whatIs": { "q": "Qu est-ce que Novala?", "a": "Novala est une plateforme de gestion tout-en-un pour les petites et moyennes entreprises. Elle réunit tout ce dont vous avez besoin pour gérer votre entreprise.", "bullets": [ "Paie: Conformité complète du RPC et AE aux T4 et RE", "Comptabilité: Livres, rapprochement et rapports financiers en un seul endroit", "Facturation: Envoyez, suivez et soyez payé plus rapidement", "Personnel: Planification, suivi du temps et gestion d équipe", "Vela IA: Posez des questions et obtenez des réponses de vos données" ] }, "easyToLearn": { "q": "Novala est-il facile à apprendre?", "a": "Absolument. Novala est conçu pour les propriétaires d entreprise, pas les comptables. La plateforme offre une expérience guidée dès le premier jour.", "bullets": [ "Assistant de configuration guidé pour connecter votre banque et ajouter des employés", "Assistant IA Vela répond en français simple à partir de vos données", "Tutoriels interactifs et info-bulles dans toute l application", "Soutien en direct par chat ou courriel" ] }, "cost": { "q": "Combien coûte Novala?", "a": "Les tarifs sont simples et évoluent avec votre entreprise. Aucun contrat à long terme et vous pouvez commencer par un essai gratuit.", "bullets": [ "Forfait Solo pour les travailleurs autonomes", "Forfait Petite entreprise pour équipes jusqu à 25 employés", "Forfait Croissance pour équipes jusqu à 100 employés", "Forfait Entreprise pour équipes plus grandes", "Tous les forfaits incluent Vela IA et le soutien " ] }, "payroll": { "q": "Novala gère-t-il la paie dans le monde?", "a": "Oui. Novala gère la paie de la configuration au dépôt avec la conformité autorités fiscales complète intégrée. Les calculs fédéraux et provinciaux sont automatiques.", "bullets": [ "Calculs automatiques RPC, AE et impôt sur le revenu pour toutes les provinces", "Génération T4, T4A et RE avec dépôt en un clic", "Dépôt direct pour employés et sous-traitants", "Versements de paie à l autorités fiscales à temps, à chaque fois", "Historique complet de paie et piste d audit" ] }, "expenses": { "q": "Novala peut-il suivre mes dépenses?", "a": "Oui. Novala se connecte à vos comptes bancaires pour importer et catégoriser automatiquement les transactions.", "bullets": [ "Connexion bancaire automatique avec 200+ institutions ", "Photographiez vos reçus avec votre téléphone", "Catégories et règles personnalisées", "Rapports en temps réel sur vos dépenses", "Associez les dépenses à des projets ou clients" ] }, "businessSize": { "q": "Pour quelle taille d entreprise?", "a": "Novala sert les entreprises de toutes tailles, des travailleurs autonomes aux moyennes entreprises. La plateforme évolue avec vous.", "bullets": [ "Entrepreneurs solos et travailleurs autonomes", "Petites entreprises (2 à 49 employés)", "Moyennes entreprises (50 à 500 employés)", "Organisations plus grandes avec besoins personnalisés", "Entreprises de services et de produits" ] }, "importData": { "q": "Puis-je importer mes données?", "a": "Oui. Novala offre une importation guidée depuis toutes les plateformes comptables majeures.", "bullets": [ "QuickBooks Online et QuickBooks Desktop", "Xero, FreshBooks, Wave et Sage", "Relevés bancaires en format CSV ou OFX", "Plan comptable, clients, fournisseurs et soldes", "Transactions historiques préservées pour les rapports" ] }, "mobile": { "q": "Novala fonctionne-t-il sur mobile?", "a": "Oui. L application web est entièrement responsive et fonctionne sur tout navigateur mobile. Une application dédiée arrive pour les employés.", "bullets": [ "Application web complète sur tout navigateur mobile", "Approuvez la paie et envoyez des factures depuis votre téléphone", "Photographiez les reçus en déplacement", "Application mobile pour employés arrive sur iOS et Android", "Notifications push pour approbations et rappels" ] }, "security": { "q": "Mes données sont-elles sécurisées?", "a": "Absolument. La sécurité est une priorité chez Novala. Vos données sont protégées par un chiffrement de niveau bancaire.", "bullets": [ "Chiffrement SSL 256 bits de niveau bancaire en transit", "Chiffrement AES-256 au repos avec sauvegardes automatiques", "centres de données sécurisés conformes SOC 2", "Authentification à deux facteurs pour tous les utilisateurs", "Jamais de partage avec des tiers" ] }, "needAccountant": { "q": "Ai-je besoin d un comptable?", "a": "Non. Novala est conçu pour les propriétaires sans expertise comptable. Cela dit, vous pouvez inviter votre comptable à collaborer.", "bullets": [ "Flux guidés expliquent chaque étape en français simple", "Vela IA répond aux questions comptables", "Collaboration comptable intégrée avec accès par rôle", "Dossiers fiscaux de fin d année générés automatiquement", "Plusieurs clients utilisent Novala indépendamment" ] } } }, "ctaBand": { "heading": "Faites la suite avec Novala", "ctaButton": "Voir les forfaits et tarifs", "disclosure": "Informations importantes sur les tarifs et le produit" }, "newsletter": { "heading": "Recevez des conseils d experts pour votre entreprise", "subheadline": "Inscrivez-vous pour recevoir des conseils sur la paie, la comptabilité, les taxes et le personnel, directement dans votre boîte de réception.", "thanksTitle": "Merci de votre inscription", "thanksText": "Nous vous enverrons bientôt les derniers conseils.", "cta": "S abonner", "consent": "J accepte de recevoir les courriels marketing de Novala. Je peux me désabonner à tout moment.", "fields": { "firstName": { "label": "Prénom *", "placeholder": "Prénom" }, "lastName": { "label": "Nom *", "placeholder": "Nom" }, "businessName": { "label": "Nom de l entreprise", "placeholder": "Nom de l entreprise" }, "email": { "label": "Courriel professionnel *", "placeholder": "nom@entreprise.com" }, "phone": { "label": "Téléphone (optionnel)", "placeholder": "+1 555 000 0000" }, "employees": { "label": "Employés (optionnel)", "placeholder": "Choisir la taille" } } }, "footer": { "columns": { "products": { "title": "Produits", "links": { "payroll": "Paie", "accounting": "Comptabilité", "invoicing": "Facturation", "workforce": "Personnel", "vela": "Assistant Vela" } }, "features": { "title": "Fonctionnalités", "links": { "payments": "Accepter les paiements", "cashFlow": "Flux de trésorerie", "scheduling": "Planification", "craFiling": "Déclaration autorités fiscales", "t4Forms": "Formulaires T4" } }, "resources": { "title": "Ressources", "links": { "sbHub": "Centre PME", "payrollCalc": "Calculateur de paie", "invoiceGen": "Générateur de factures", "guides": "Guides", "blog": "Blogue" } }, "learn": { "title": "Apprendre et Soutien", "links": { "helpCenter": "Centre d aide", "gettingStarted": "Bien commencer", "tutorials": "Tutoriels", "contactSupport": "Contacter le soutien", "systemStatus": "État du système" } } }, "sitemap": "Plan du site", "country": { "label": "Canada (Français)" }, "corporate": { "about": "À propos de Novala", "careers": "Carrières", "press": "Presse", "partners": "Partenaires" }, "copyright": "© 2026 Novala. Tous droits réservés.", "trademark": "Novala et Vela sont des marques de commerce de Novala.", "legal": { "legal": "Mentions légales", "privacy": "Confidentialité", "security": "Sécurité" } }, "onboardingPopup": { "eyebrow": "PERSONNALISEZ", "title": "Créons votre vue personnalisée.", "subtitle": "Répondez à 2 questions rapides pour voir ce qui vous convient.", "q1Label": "Combien d employés avez-vous?", "q1Options": { "solo": "Juste moi", "small": "2 à 9", "large": "10+" }, "q2Label": "Vos besoins d entreprise?", "q2Note": "Sélectionnez tout ce qui s applique", "q2Options": { "getPaid": "Être payé", "payTeam": "Payer l équipe", "expenses": "Suivre les dépenses", "customers": "Clients", "salesTax": "taxe de vente", "reports": "Rapports" }, "ctaPrimary": "Trouver ma solution", "ctaSecondary": "Non merci", "closeLabel": "Fermer" }, "languageBanner": { "message": "Cette page est disponible en {language}", "switchTo": "Passer à {language}", "dismiss": "Fermer" }, "velaChat": { "greeting": "Bonjour! Je suis Vela. Je peux vous aider à en savoir plus sur Novala. Que voulez-vous savoir?", "role": "Votre assistante", "openLabel": "Ouvrir Vela", "closeLabel": "Fermer Vela", "sendLabel": "Envoyer", "placeholder": "Posez une question sur Novala...", "suggestedLabel": "Essayez de demander:", "suggested": { "whatIsNovala": { "question": "Qu est-ce que Novala?", "response": "Novala est une plateforme de gestion tout-en-un pour les PME. Nous gérons la paie, la comptabilité, la facturation, la gestion du personnel, et plus, tout en conformité avec l autorités fiscales. Une seule plateforme pour tous vos besoins." }, "howDoesVelaWork": { "question": "Comment fonctionne Vela?", "response": "Une fois inscrit, je deviens votre assistante d entreprise avec vos propres données. Demandez-moi n importe quoi sur votre paie, comptabilité, factures ou équipe." }, "features": { "question": "Quelles fonctionnalités sont incluses?", "response": "Novala inclut la Paie (conforme), Comptabilité, Facturation, Suivi du temps, Rapports, Flux bancaires, Numérisation de reçus, et moi (Vela). Tout pour gérer votre entreprise." }, "pricing": { "question": "Combien coûte Novala?", "response": "Nous offrons un essai gratuit de 30 jours sans carte de crédit. Les forfaits sont compétitifs. Cliquez sur Forfaits et tarifs ci-dessus pour voir les options." } }, "security": "Novala utilise le chiffrement bancaire (SSL 256 bits), stocke vos données dans des centres de données sécurisés, et suit les normes SOC 2.", "support": "Nous offrons du soutien par courriel à tous les utilisateurs. Inscrivez-vous pour un essai gratuit de 30 jours.", "compliance": "Oui! Novala est entièrement conforme à l autorités fiscales. Nous gérons T4, T4A, RE, taxe de vente automatiquement.", "defaultResponse": "Excellente question! Pour une réponse détaillée, inscrivez-vous pour un essai gratuit de 30 jours.", "signupLink": "Commencer gratuitement" }, "trustLogos": { "heading": "Utilisé par 500+ entreprises", "logos": { "maple": "Maple Foods Co.", "northland": "NORTHLAND", "aurora": "Aurora Group", "cascade": "Cascade Ltd", "ravenwood": "Ravenwood", "silverpeak": "SILVERPEAK" } }, "cookieConsent": { "title": "Nous utilisons des témoins", "body": "Nous utilisons des témoins pour améliorer votre expérience, analyser le trafic et fournir des fonctionnalités essentielles. En cliquant sur Accepter, vous consentez à leur utilisation.", "learnMore": "En savoir plus", "accept": "Tout accepter", "reject": "Refuser non essentiels" }, "velaIntro": { "scenes": { "introducing": "Nous vous présentons", "vela": "Vela", "anyQuestion": "Toute question,", "answeredInstantly": "une réponse instantanée.", "usingPowerOf": "Grâce à la puissance", "yourBusinessData": "de vos données d'entreprise.", "nowAvailableIn": "Maintenant disponible dans", "novala": "Novala" }, "dashboard": { "clientName": "Meridian Design Studio", "date": "Lundi, 16 sept.", "tabs": { "payroll": "Paie", "accounting": "Comptabilité", "salesAndGetPaid": "Ventes et paiements", "workforce": "Personnel", "reports": "Rapports" }, "todayLabel": "Aujourd'hui", "monthLabel": "Ce mois", "tasks": { "payrollRun": { "text": "Paie versée à 14 employés", "meta": "32 480 $" }, "transactionsCategorized": { "text": "23 transactions catégorisées", "meta": "Automatique" }, "bankReconciled": { "text": "Banque conciliée au 15 sept.", "meta": "RBC · Chèque" }, "timesheetsToReview": { "text": "Feuilles de temps à vérifier", "meta": "Vérifier" }, "invoicesToSend": { "text": "Factures à envoyer", "meta": "8 050 $" }, "gstFilingDue": { "text": "Déclaration TPS due le 30 sept.", "meta": "14 jours" } }, "stats": { "revenue": { "label": "Revenus", "value": "48 320 $", "delta": "↑ 12 %" }, "expenses": { "label": "Dépenses", "value": "36 740 $", "delta": "↑ 4 %" }, "netProfit": { "label": "Bénéfice net", "value": "11 580 $", "delta": "24 % de marge" } } }, "qa1": { "question": "Comment sont mes marges bénéficiaires cette année ?", "status": [ "Analyse de vos revenus et dépenses...", "Examen de vos marges bénéficiaires...", "Personnalisation de votre rapport..." ], "label": "Marge bénéficiaire nette", "percentage": "24", "percentageSuffix": " %", "delta": "↑ 5 pts vs 2025", "incomeLabel": "Revenus", "incomeValue": "486 k$", "expensesLabel": "Dépenses", "expensesValue": "369 k$", "netLabel": "Bénéfice net", "netValue": "117 k$", "monthLabels": [ "Jan", "Mars", "Mai", "Juil.", "Sept." ] }, "qa2": { "question": "Quelles factures sont en retard ?", "status": "Recherche des factures en retard...", "heading": "Factures en retard", "summaryPre": "Vous avez ", "summaryAmount": "12 180 $", "summaryPost": " en retard sur 6 factures.", "invoices": [ { "customer": "Meridian Design Studio", "days": "18 jours en retard", "amount": "4 850 $" }, { "customer": "Northline Construction Ltd", "days": "12 jours en retard", "amount": "3 200 $" }, { "customer": "Cascade Wholesale Inc", "days": "7 jours en retard", "amount": "2 470 $" } ] }, "disclaimer": "Images d'écran simulées. Les fonctionnalités peuvent varier selon le forfait.", "velaHeader": "Vela", "playButton": "Lire ou pause" }
+{
+  "header": {
+    "logoAlt": "Novala",
+    "nav": {
+      "productsFeatures": "Produits et fonctionnalités",
+      "plansPricing": "Forfaits et tarifs",
+      "resources": "Ressources"
+    },
+    "utility": {
+      "talkToSales": "Parler aux ventes",
+      "signIn": "Connexion",
+      "getStarted": "Commencer"
+    },
+    "promoCard": {
+      "newLabel": "NOUVEAU",
+      "heading": "Rencontrez Vela",
+      "body": "Posez des questions en français simple et obtenez des réponses de vos propres données.",
+      "cta": "En savoir plus"
+    },
+    "megaMenu": {
+      "productsFeatures": {
+        "columns": {
+          "products": {
+            "label": "Produits",
+            "links": {
+              "accounting": "Comptabilité",
+              "payroll": "Paie",
+              "invoicing": "Facturation",
+              "timeTracking": "Suivi du temps",
+              "businessManagement": "Gestion d entreprise"
+            }
+          },
+          "features": {
+            "label": "Fonctionnalités",
+            "links": {
+              "bookkeeping": "Tenue de livres",
+              "getInsights": "Obtenir des analyses",
+              "planAhead": "Planifier l avenir",
+              "expenseTracking": "Suivi des dépenses",
+              "manageBills": "Gérer les factures",
+              "receiptCapture": "Capture de reçus",
+              "reporting": "Rapports",
+              "cashFlow": "Flux de trésorerie",
+              "manageCustomers": "Gérer les clients",
+              "directDeposit": "Dépôt direct",
+              "velaAI": "Vela IA",
+              "seeAllFeatures": "Voir toutes les fonctionnalités"
+            }
+          },
+          "businessStage": {
+            "label": "Étape d entreprise",
+            "links": {
+              "newBusiness": "Nouvelle entreprise",
+              "smallBusiness": "Petite entreprise",
+              "midSized": "Moyenne entreprise",
+              "freelance": "Travailleur autonome"
+            }
+          },
+          "industry": {
+            "label": "Secteur",
+            "links": {
+              "construction": "Construction",
+              "professional": "Services professionnels",
+              "wholesale": "Gros et fabrication",
+              "healthcare": "Santé",
+              "retail": "Détail",
+              "restaurants": "Restaurants",
+              "nonprofit": "OSBL",
+              "seeAllIndustries": "Voir tous les secteurs"
+            }
+          }
+        }
+      },
+      "resources": {
+        "columns": {
+          "compare": {
+            "label": "Comparer",
+            "links": {
+              "vsQuickbooks": "Novala vs QuickBooks",
+              "vsXero": "Novala vs Xero",
+              "vsWave": "Novala vs Wave"
+            }
+          },
+          "exploreNovala": {
+            "label": "Explorer Novala",
+            "links": {
+              "whatsNew": "Quoi de neuf",
+              "moveToNovala": "Passer à Novala",
+              "appsIntegrations": "Apps et intégrations"
+            }
+          },
+          "freeTools": {
+            "label": "Outils et modèles gratuits",
+            "links": {
+              "invoiceGen": "Générateur de factures",
+              "payrollCalc": "Calculateur de paie",
+              "timesheetCalc": "Calculateur de feuille de temps",
+              "invoiceTemplates": "Modèles de factures",
+              "employeeCostCalc": "Calculateur de coût employé",
+              "seeAllTools": "Voir tous les outils"
+            }
+          },
+          "learnSupport": {
+            "label": "Apprendre et soutien",
+            "links": {
+              "blog": "Blogue",
+              "guides": "Guides",
+              "tutorials": "Tutoriels",
+              "productSupport": "Support produit"
+            }
+          }
+        }
+      }
+    },
+    "signInMenu": {
+      "novala": "Novala",
+      "accountantPortal": "Novala pour comptables",
+      "employeeApp": "Novala pour employés",
+      "needHelp": "Besoin d aide pour vous connecter?"
+    },
+    "freeTrial": "Essai gratuit 30 jours"
+  },
+  "hero": {
+    "eyebrow": "GÉREZ VOTRE ENTREPRISE EN TOUTE CONFIANCE",
+    "headline1": "Sachez ce qui arrive.",
+    "headline2": "Gérez ce qui suit.",
+    "subheadline": "Paie, comptabilité, gestion de la main d'oeuvre, facturation et plus encore, dans une seule plateforme.",
+    "ctaPrimary": "Commencer gratuitement",
+    "ctaSecondary": "Voir la démo",
+    "photoPlaceholder": "[ Photo hero ]"
+  },
+  "trustStrip": {
+    "eyebrow": "CONCU POUR ETRE VOTRE DERNIER CHANGEMENT",
+    "headline": "Vous venez d'un autre outil? Nous vous aidons a migrer.",
+    "subheadline": "Apportez vos donnees, employes et historique depuis n'importe quel systeme comptable ou de paie."
+  },
+  "solutions": {
+    "heading": "Des solutions conçues pour votre entreprise",
+    "learnMore": "En savoir plus",
+    "sizeCards": {
+      "new": {
+        "title": "Nouvelle entreprise",
+        "description": "Gérez vos livres et votre première saison fiscale en toute confiance."
+      },
+      "small": {
+        "title": "Petite entreprise",
+        "description": "Gérez les finances quotidiennes, payez votre équipe et suivez votre comptabilité."
+      },
+      "mid": {
+        "title": "Entreprise de taille moyenne",
+        "description": "Rationalisez les opérations complexes et gérez votre équipe dans un système intégré."
+      }
+    },
+    "industries": {
+      "construction": {
+        "title": "Construction et métiers",
+        "description": "Construisez avec un flux connecté du démarrage du projet à la facture finale."
+      },
+      "professional": {
+        "title": "Services professionnels",
+        "description": "Gestion financière intelligente pour plus de temps avec vos clients."
+      },
+      "wholesale": {
+        "title": "Vente en gros et fabrication",
+        "description": "Simplifiez les opérations tout en gérant les stocks, les ventes et la trésorerie."
+      },
+      "healthcare": {
+        "title": "Santé et cliniques",
+        "description": "Simplifiez la planification du personnel, la facturation et la paie en un seul système."
+      }
+    }
+  },
+  "onePlatform": {
+    "eyebrow": "TOUTES LES OPÉRATIONS COMMERCIALES",
+    "headline1": "Une plateforme.",
+    "headline2": "Une voie plus claire.",
+    "subheadline": "Novala rassemble tout ce dont vous avez besoin pour gérer votre entreprise.",
+    "cta": "Explorer toutes les fonctionnalités"
+  },
+  "features": {
+    "eyebrow": "OUTILS PUISSANTS",
+    "heading": "Six catégories. Un seul système.",
+    "items": {
+      "payroll": {
+        "title": "Paie",
+        "description": "paie automatisée avec conformité autorités fiscales intégrée."
+      },
+      "accounting": {
+        "title": "Comptabilité",
+        "description": "Livres, rapports et rapprochement, dans un seul système."
+      },
+      "invoicing": {
+        "title": "Facturation",
+        "description": "Envoyez, suivez et soyez payé plus rapidement."
+      },
+      "workforce": {
+        "title": "Personnel",
+        "description": "Planification et suivi du temps que votre équipe utilisera vraiment."
+      },
+      "reporting": {
+        "title": "Rapports",
+        "description": "Aperçus en temps réel de chaque partie de votre entreprise."
+      },
+      "compliance": {
+        "title": "Conformité",
+        "description": "Registres prêts pour l'autorités fiscales et déclarations à l'heure, à chaque fois."
+      }
+    }
+  },
+  "meetVela": {
+    "eyebrow": "RENCONTREZ VELA",
+    "headline1": "Demandez tout.",
+    "headline2": "Sachez tout.",
+    "cta": "Essayez Vela gratuitement",
+    "workingLabel": "Traitement…",
+    "pills": {
+      "accounting": "Comptabilité",
+      "salesGetPaid": "Ventes et paiements",
+      "payroll": "Paie",
+      "workforce": "Personnel"
+    },
+    "questions": {
+      "payroll": {
+        "pillKey": "payroll",
+        "text": "Combien coûtera la paie ce vendredi?",
+        "working": "Analyse des heures et des taux",
+        "label": "PAIE · VENDREDI",
+        "value": "142 540 $",
+        "sub": "Total projeté",
+        "grid": [
+          {
+            "k": "EMPLOYÉS",
+            "v": "47"
+          },
+          {
+            "k": "HEURES",
+            "v": "3 720"
+          },
+          {
+            "k": "HEURES SUP",
+            "v": "184",
+            "tint": "warning"
+          },
+          {
+            "k": "FONDS",
+            "v": "✓ Prêt",
+            "tint": "success"
+          }
+        ]
+      },
+      "accounting": {
+        "pillKey": "accounting",
+        "text": "Quelles sont mes marges bénéficiaires cette année?",
+        "working": "Analyse des revenus et dépenses",
+        "label": "PROFIT · CUM",
+        "value": "+24 %",
+        "sub": "vs année précédente",
+        "grid": [
+          {
+            "k": "REVENUS",
+            "v": "1,2 M$"
+          },
+          {
+            "k": "DÉPENSES",
+            "v": "912 K$"
+          },
+          {
+            "k": "NET",
+            "v": "288 K$",
+            "tint": "success"
+          },
+          {
+            "k": "TENDANCE",
+            "v": "↑ Croissance"
+          }
+        ]
+      },
+      "invoices": {
+        "pillKey": "salesGetPaid",
+        "text": "Quelles factures sont en retard?",
+        "working": "Vérification des comptes clients",
+        "label": "FACTURES EN RETARD",
+        "value": "12 180 $",
+        "sub": "3 en retard",
+        "grid": [
+          {
+            "k": "PLUS ANCIENNE",
+            "v": "42 jours"
+          },
+          {
+            "k": "JRS MOYENS",
+            "v": "18"
+          },
+          {
+            "k": "À RISQUE",
+            "v": "4 200 $",
+            "tint": "warning"
+          },
+          {
+            "k": "ACTION",
+            "v": "Envoyer rappel"
+          }
+        ]
+      }
+    }
+  },
+  "insights": {
+    "eyebrow": "CONÇU POUR L AVENIR",
+    "headline": "Transformez vos données en véritables opportunités.",
+    "statLabel": "RENTABILITÉ",
+    "statValue": "+24%",
+    "statPeriod": "6 derniers mois",
+    "cta": "Voir comment ça marche",
+    "photoPlaceholder": "[ Photo insights ]"
+  },
+  "testimonial": {
+    "eyebrow": "HISTOIRES CLIENTS",
+    "items": {
+      "t1": {
+        "quote": "Novala me donne une visibilité complète sur mon entreprise. Tout ce dont j ai besoin pour la paie et la conformité est au même endroit.",
+        "author": "Propriétaire d entreprise",
+        "role": "Petite entreprise"
+      },
+      "t2": {
+        "quote": "La configuration a pris un après-midi. Vela a répondu à toutes mes questions sans que j aie besoin d appeler le support.",
+        "author": "Fondateur",
+        "role": "Équipe en croissance"
+      },
+      "t3": {
+        "quote": "La conformité fiscale était ma plus grande inquiétude. Maintenant, cela se fait automatiquement en arrière-plan.",
+        "author": "Propriétaire",
+        "role": "Entreprise de services"
+      }
+    }
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "seeMore": "Voir plus de questions fréquentes",
+    "items": {
+      "whatIs": {
+        "q": "Qu est-ce que Novala?",
+        "a": "Novala est une plateforme de gestion tout-en-un pour les petites et moyennes entreprises. Elle réunit tout ce dont vous avez besoin pour gérer votre entreprise.",
+        "bullets": [
+          "Paie: Conformité complète du RPC et AE aux T4 et RE",
+          "Comptabilité: Livres, rapprochement et rapports financiers en un seul endroit",
+          "Facturation: Envoyez, suivez et soyez payé plus rapidement",
+          "Personnel: Planification, suivi du temps et gestion d équipe",
+          "Vela IA: Posez des questions et obtenez des réponses de vos données"
+        ]
+      },
+      "easyToLearn": {
+        "q": "Novala est-il facile à apprendre?",
+        "a": "Absolument. Novala est conçu pour les propriétaires d entreprise, pas les comptables. La plateforme offre une expérience guidée dès le premier jour.",
+        "bullets": [
+          "Assistant de configuration guidé pour connecter votre banque et ajouter des employés",
+          "Assistant IA Vela répond en français simple à partir de vos données",
+          "Tutoriels interactifs et info-bulles dans toute l application",
+          "Soutien en direct par chat ou courriel"
+        ]
+      },
+      "cost": {
+        "q": "Combien coûte Novala?",
+        "a": "Les tarifs sont simples et évoluent avec votre entreprise. Aucun contrat à long terme et vous pouvez commencer par un essai gratuit.",
+        "bullets": [
+          "Forfait Solo pour les travailleurs autonomes",
+          "Forfait Petite entreprise pour équipes jusqu à 25 employés",
+          "Forfait Croissance pour équipes jusqu à 100 employés",
+          "Forfait Entreprise pour équipes plus grandes",
+          "Tous les forfaits incluent Vela IA et le soutien "
+        ]
+      },
+      "payroll": {
+        "q": "Novala gère-t-il la paie dans le monde?",
+        "a": "Oui. Novala gère la paie de la configuration au dépôt avec la conformité autorités fiscales complète intégrée. Les calculs fédéraux et provinciaux sont automatiques.",
+        "bullets": [
+          "Calculs automatiques RPC, AE et impôt sur le revenu pour toutes les provinces",
+          "Génération T4, T4A et RE avec dépôt en un clic",
+          "Dépôt direct pour employés et sous-traitants",
+          "Versements de paie à l autorités fiscales à temps, à chaque fois",
+          "Historique complet de paie et piste d audit"
+        ]
+      },
+      "expenses": {
+        "q": "Novala peut-il suivre mes dépenses?",
+        "a": "Oui. Novala se connecte à vos comptes bancaires pour importer et catégoriser automatiquement les transactions.",
+        "bullets": [
+          "Connexion bancaire automatique avec 200+ institutions ",
+          "Photographiez vos reçus avec votre téléphone",
+          "Catégories et règles personnalisées",
+          "Rapports en temps réel sur vos dépenses",
+          "Associez les dépenses à des projets ou clients"
+        ]
+      },
+      "businessSize": {
+        "q": "Pour quelle taille d entreprise?",
+        "a": "Novala sert les entreprises de toutes tailles, des travailleurs autonomes aux moyennes entreprises. La plateforme évolue avec vous.",
+        "bullets": [
+          "Entrepreneurs solos et travailleurs autonomes",
+          "Petites entreprises (2 à 49 employés)",
+          "Moyennes entreprises (50 à 500 employés)",
+          "Organisations plus grandes avec besoins personnalisés",
+          "Entreprises de services et de produits"
+        ]
+      },
+      "importData": {
+        "q": "Puis-je importer mes données?",
+        "a": "Oui. Novala offre une importation guidée depuis toutes les plateformes comptables majeures.",
+        "bullets": [
+          "QuickBooks Online et QuickBooks Desktop",
+          "Xero, FreshBooks, Wave et Sage",
+          "Relevés bancaires en format CSV ou OFX",
+          "Plan comptable, clients, fournisseurs et soldes",
+          "Transactions historiques préservées pour les rapports"
+        ]
+      },
+      "mobile": {
+        "q": "Novala fonctionne-t-il sur mobile?",
+        "a": "Oui. L application web est entièrement responsive et fonctionne sur tout navigateur mobile. Une application dédiée arrive pour les employés.",
+        "bullets": [
+          "Application web complète sur tout navigateur mobile",
+          "Approuvez la paie et envoyez des factures depuis votre téléphone",
+          "Photographiez les reçus en déplacement",
+          "Application mobile pour employés arrive sur iOS et Android",
+          "Notifications push pour approbations et rappels"
+        ]
+      },
+      "security": {
+        "q": "Mes données sont-elles sécurisées?",
+        "a": "Absolument. La sécurité est une priorité chez Novala. Vos données sont protégées par un chiffrement de niveau bancaire.",
+        "bullets": [
+          "Chiffrement SSL 256 bits de niveau bancaire en transit",
+          "Chiffrement AES-256 au repos avec sauvegardes automatiques",
+          "centres de données sécurisés conformes SOC 2",
+          "Authentification à deux facteurs pour tous les utilisateurs",
+          "Jamais de partage avec des tiers"
+        ]
+      },
+      "needAccountant": {
+        "q": "Ai-je besoin d un comptable?",
+        "a": "Non. Novala est conçu pour les propriétaires sans expertise comptable. Cela dit, vous pouvez inviter votre comptable à collaborer.",
+        "bullets": [
+          "Flux guidés expliquent chaque étape en français simple",
+          "Vela IA répond aux questions comptables",
+          "Collaboration comptable intégrée avec accès par rôle",
+          "Dossiers fiscaux de fin d année générés automatiquement",
+          "Plusieurs clients utilisent Novala indépendamment"
+        ]
+      }
+    }
+  },
+  "ctaBand": {
+    "heading": "Faites la suite avec Novala",
+    "ctaButton": "Voir les forfaits et tarifs",
+    "disclosure": "Informations importantes sur les tarifs et le produit"
+  },
+  "newsletter": {
+    "heading": "Recevez des conseils d experts pour votre entreprise",
+    "subheadline": "Inscrivez-vous pour recevoir des conseils sur la paie, la comptabilité, les taxes et le personnel, directement dans votre boîte de réception.",
+    "thanksTitle": "Merci de votre inscription",
+    "thanksText": "Nous vous enverrons bientôt les derniers conseils.",
+    "cta": "S abonner",
+    "consent": "J accepte de recevoir les courriels marketing de Novala. Je peux me désabonner à tout moment.",
+    "fields": {
+      "firstName": {
+        "label": "Prénom *",
+        "placeholder": "Prénom"
+      },
+      "lastName": {
+        "label": "Nom *",
+        "placeholder": "Nom"
+      },
+      "businessName": {
+        "label": "Nom de l entreprise",
+        "placeholder": "Nom de l entreprise"
+      },
+      "email": {
+        "label": "Courriel professionnel *",
+        "placeholder": "nom@entreprise.com"
+      },
+      "phone": {
+        "label": "Téléphone (optionnel)",
+        "placeholder": "+1 555 000 0000"
+      },
+      "employees": {
+        "label": "Employés (optionnel)",
+        "placeholder": "Choisir la taille"
+      }
+    }
+  },
+  "footer": {
+    "columns": {
+      "products": {
+        "title": "Produits",
+        "links": {
+          "payroll": "Paie",
+          "accounting": "Comptabilité",
+          "invoicing": "Facturation",
+          "workforce": "Personnel",
+          "vela": "Assistant Vela"
+        }
+      },
+      "features": {
+        "title": "Fonctionnalités",
+        "links": {
+          "payments": "Accepter les paiements",
+          "cashFlow": "Flux de trésorerie",
+          "scheduling": "Planification",
+          "craFiling": "Déclaration autorités fiscales",
+          "t4Forms": "Formulaires T4"
+        }
+      },
+      "resources": {
+        "title": "Ressources",
+        "links": {
+          "sbHub": "Centre PME",
+          "payrollCalc": "Calculateur de paie",
+          "invoiceGen": "Générateur de factures",
+          "guides": "Guides",
+          "blog": "Blogue"
+        }
+      },
+      "learn": {
+        "title": "Apprendre et Soutien",
+        "links": {
+          "helpCenter": "Centre d aide",
+          "gettingStarted": "Bien commencer",
+          "tutorials": "Tutoriels",
+          "contactSupport": "Contacter le soutien",
+          "systemStatus": "État du système"
+        }
+      }
+    },
+    "sitemap": "Plan du site",
+    "country": {
+      "label": "Canada (Français)"
+    },
+    "corporate": {
+      "about": "À propos de Novala",
+      "careers": "Carrières",
+      "press": "Presse",
+      "partners": "Partenaires"
+    },
+    "copyright": "© 2026 Novala. Tous droits réservés.",
+    "trademark": "Novala et Vela sont des marques de commerce de Novala.",
+    "legal": {
+      "legal": "Mentions légales",
+      "privacy": "Confidentialité",
+      "security": "Sécurité"
+    }
+  },
+  "onboardingPopup": {
+    "eyebrow": "PERSONNALISEZ",
+    "title": "Créons votre vue personnalisée.",
+    "subtitle": "Répondez à 2 questions rapides pour voir ce qui vous convient.",
+    "q1Label": "Combien d employés avez-vous?",
+    "q1Options": {
+      "solo": "Juste moi",
+      "small": "2 à 9",
+      "large": "10+"
+    },
+    "q2Label": "Vos besoins d entreprise?",
+    "q2Note": "Sélectionnez tout ce qui s applique",
+    "q2Options": {
+      "getPaid": "Être payé",
+      "payTeam": "Payer l équipe",
+      "expenses": "Suivre les dépenses",
+      "customers": "Clients",
+      "salesTax": "taxe de vente",
+      "reports": "Rapports"
+    },
+    "ctaPrimary": "Trouver ma solution",
+    "ctaSecondary": "Non merci",
+    "closeLabel": "Fermer"
+  },
+  "languageBanner": {
+    "message": "Cette page est disponible en {language}",
+    "switchTo": "Passer à {language}",
+    "dismiss": "Fermer"
+  },
+  "velaChat": {
+    "greeting": "Bonjour! Je suis Vela. Je peux vous aider à en savoir plus sur Novala. Que voulez-vous savoir?",
+    "role": "Votre assistante",
+    "openLabel": "Ouvrir Vela",
+    "closeLabel": "Fermer Vela",
+    "sendLabel": "Envoyer",
+    "placeholder": "Posez une question sur Novala...",
+    "suggestedLabel": "Essayez de demander:",
+    "suggested": {
+      "whatIsNovala": {
+        "question": "Qu est-ce que Novala?",
+        "response": "Novala est une plateforme de gestion tout-en-un pour les PME. Nous gérons la paie, la comptabilité, la facturation, la gestion du personnel, et plus, tout en conformité avec l autorités fiscales. Une seule plateforme pour tous vos besoins."
+      },
+      "howDoesVelaWork": {
+        "question": "Comment fonctionne Vela?",
+        "response": "Une fois inscrit, je deviens votre assistante d entreprise avec vos propres données. Demandez-moi n importe quoi sur votre paie, comptabilité, factures ou équipe."
+      },
+      "features": {
+        "question": "Quelles fonctionnalités sont incluses?",
+        "response": "Novala inclut la Paie (conforme), Comptabilité, Facturation, Suivi du temps, Rapports, Flux bancaires, Numérisation de reçus, et moi (Vela). Tout pour gérer votre entreprise."
+      },
+      "pricing": {
+        "question": "Combien coûte Novala?",
+        "response": "Nous offrons un essai gratuit de 30 jours sans carte de crédit. Les forfaits sont compétitifs. Cliquez sur Forfaits et tarifs ci-dessus pour voir les options."
+      }
+    },
+    "security": "Novala utilise le chiffrement bancaire (SSL 256 bits), stocke vos données dans des centres de données sécurisés, et suit les normes SOC 2.",
+    "support": "Nous offrons du soutien par courriel à tous les utilisateurs. Inscrivez-vous pour un essai gratuit de 30 jours.",
+    "compliance": "Oui! Novala est entièrement conforme à l autorités fiscales. Nous gérons T4, T4A, RE, taxe de vente automatiquement.",
+    "defaultResponse": "Excellente question! Pour une réponse détaillée, inscrivez-vous pour un essai gratuit de 30 jours.",
+    "signupLink": "Commencer gratuitement"
+  },
+  "trustLogos": {
+    "heading": "Utilisé par 500+ entreprises",
+    "logos": {
+      "maple": "Maple Foods Co.",
+      "northland": "NORTHLAND",
+      "aurora": "Aurora Group",
+      "cascade": "Cascade Ltd",
+      "ravenwood": "Ravenwood",
+      "silverpeak": "SILVERPEAK"
+    }
+  },
+  "cookieConsent": {
+    "title": "Nous utilisons des témoins",
+    "body": "Nous utilisons des témoins pour améliorer votre expérience, analyser le trafic et fournir des fonctionnalités essentielles. En cliquant sur Accepter, vous consentez à leur utilisation.",
+    "learnMore": "En savoir plus",
+    "accept": "Tout accepter",
+    "reject": "Refuser non essentiels"
+  },
+  "velaIntro": {
+    "scenes": {
+      "introducing": "Nous vous présentons",
+      "vela": "Vela",
+      "anyQuestion": "Toute question,",
+      "answeredInstantly": "une réponse instantanée.",
+      "usingPowerOf": "Grâce à la puissance",
+      "yourBusinessData": "de vos données d'entreprise.",
+      "nowAvailableIn": "Maintenant disponible dans",
+      "novala": "Novala"
+    },
+    "dashboard": {
+      "clientName": "Meridian Design Studio",
+      "date": "Lundi, 16 sept.",
+      "tabs": {
+        "payroll": "Paie",
+        "accounting": "Comptabilité",
+        "salesAndGetPaid": "Ventes et paiements",
+        "workforce": "Personnel",
+        "reports": "Rapports"
+      },
+      "todayLabel": "Aujourd'hui",
+      "monthLabel": "Ce mois",
+      "tasks": {
+        "payrollRun": {
+          "text": "Paie versée à 14 employés",
+          "meta": "32 480 $"
+        },
+        "transactionsCategorized": {
+          "text": "23 transactions catégorisées",
+          "meta": "Automatique"
+        },
+        "bankReconciled": {
+          "text": "Banque conciliée au 15 sept.",
+          "meta": "RBC · Chèque"
+        },
+        "timesheetsToReview": {
+          "text": "Feuilles de temps à vérifier",
+          "meta": "Vérifier"
+        },
+        "invoicesToSend": {
+          "text": "Factures à envoyer",
+          "meta": "8 050 $"
+        },
+        "gstFilingDue": {
+          "text": "Déclaration TPS due le 30 sept.",
+          "meta": "14 jours"
+        }
+      },
+      "stats": {
+        "revenue": {
+          "label": "Revenus",
+          "value": "48 320 $",
+          "delta": "↑ 12 %"
+        },
+        "expenses": {
+          "label": "Dépenses",
+          "value": "36 740 $",
+          "delta": "↑ 4 %"
+        },
+        "netProfit": {
+          "label": "Bénéfice net",
+          "value": "11 580 $",
+          "delta": "24 % de marge"
+        }
+      }
+    },
+    "qa1": {
+      "question": "Comment sont mes marges bénéficiaires cette année ?",
+      "status": [
+        "Analyse de vos revenus et dépenses...",
+        "Examen de vos marges bénéficiaires...",
+        "Personnalisation de votre rapport..."
+      ],
+      "label": "Marge bénéficiaire nette",
+      "percentage": "24",
+      "percentageSuffix": " %",
+      "delta": "↑ 5 pts vs 2025",
+      "incomeLabel": "Revenus",
+      "incomeValue": "486 k$",
+      "expensesLabel": "Dépenses",
+      "expensesValue": "369 k$",
+      "netLabel": "Bénéfice net",
+      "netValue": "117 k$",
+      "monthLabels": [
+        "Jan",
+        "Mars",
+        "Mai",
+        "Juil.",
+        "Sept."
+      ]
+    },
+    "qa2": {
+      "question": "Quelles factures sont en retard ?",
+      "status": "Recherche des factures en retard...",
+      "heading": "Factures en retard",
+      "summaryPre": "Vous avez ",
+      "summaryAmount": "12 180 $",
+      "summaryPost": " en retard sur 6 factures.",
+      "invoices": [
+        {
+          "customer": "Meridian Design Studio",
+          "days": "18 jours en retard",
+          "amount": "4 850 $"
+        },
+        {
+          "customer": "Northline Construction Ltd",
+          "days": "12 jours en retard",
+          "amount": "3 200 $"
+        },
+        {
+          "customer": "Cascade Wholesale Inc",
+          "days": "7 jours en retard",
+          "amount": "2 470 $"
+        }
+      ]
+    },
+    "disclaimer": "Images d'écran simulées. Les fonctionnalités peuvent varier selon le forfait.",
+    "velaHeader": "Vela",
+    "playButton": "Lire ou pause"
+  }
 }
