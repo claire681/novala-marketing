@@ -4,7 +4,10 @@
     "nav": {
       "productsFeatures": "Produits et fonctionnalités",
       "plansPricing": "Forfaits et tarifs",
-      "resources": "Ressources"
+      "resources": "Ressources",
+      "solutions": "Solutions",
+      "industries": "Industries",
+      "accountants": "Comptables"
     },
     "utility": {
       "talkToSales": "Parler aux ventes",
@@ -107,6 +110,51 @@
               "guides": "Guides",
               "tutorials": "Tutoriels",
               "productSupport": "Support produit"
+            }
+          }
+        }
+      },
+      "solutions": {
+        "columns": {
+          "byBusinessSize": {
+            "label": "Par taille d entreprise",
+            "links": {
+              "smallBusinesses": "Petites entreprises",
+              "growingTeams": "Equipes en croissance"
+            }
+          },
+          "byBusinessNeed": {
+            "label": "Par besoin",
+            "links": {
+              "payroll": "Paie",
+              "accounting": "Comptabilite",
+              "invoicing": "Facturation",
+              "expenses": "Depenses",
+              "reports": "Rapports et insights",
+              "velaAI": "Assistant Vela AI"
+            }
+          }
+        }
+      },
+      "industries": {
+        "columns": {
+          "primary": {
+            "label": "Industries",
+            "links": {
+              "construction": "Construction",
+              "healthcare": "Sante",
+              "hospitality": "Hotellerie",
+              "professionalServices": "Services professionnels"
+            }
+          },
+          "secondary": {
+            "label": "Plus d industries",
+            "links": {
+              "retail": "Commerce de detail",
+              "nonprofits": "Sans but lucratif",
+              "transportation": "Transport",
+              "foodBeverage": "Alimentation et boissons",
+              "allIndustries": "Voir toutes les industries"
             }
           }
         }

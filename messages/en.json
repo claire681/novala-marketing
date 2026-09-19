@@ -4,7 +4,10 @@
     "nav": {
       "productsFeatures": "Products & features",
       "plansPricing": "Plans & pricing",
-      "resources": "Resources"
+      "resources": "Resources",
+      "solutions": "Solutions",
+      "industries": "Industries",
+      "accountants": "Accountants"
     },
     "utility": {
       "talkToSales": "Talk to sales",
@@ -107,6 +110,51 @@
               "guides": "Guides",
               "tutorials": "Tutorials",
               "productSupport": "Product support"
+            }
+          }
+        }
+      },
+      "solutions": {
+        "columns": {
+          "byBusinessSize": {
+            "label": "By business size",
+            "links": {
+              "smallBusinesses": "Small businesses",
+              "growingTeams": "Growing teams"
+            }
+          },
+          "byBusinessNeed": {
+            "label": "By business need",
+            "links": {
+              "payroll": "Payroll",
+              "accounting": "Accounting",
+              "invoicing": "Invoicing",
+              "expenses": "Expenses",
+              "reports": "Reports and insights",
+              "velaAI": "Vela AI assistant"
+            }
+          }
+        }
+      },
+      "industries": {
+        "columns": {
+          "primary": {
+            "label": "Industries",
+            "links": {
+              "construction": "Construction",
+              "healthcare": "Healthcare",
+              "hospitality": "Hospitality",
+              "professionalServices": "Professional services"
+            }
+          },
+          "secondary": {
+            "label": "More industries",
+            "links": {
+              "retail": "Retail",
+              "nonprofits": "Nonprofits",
+              "transportation": "Transportation",
+              "foodBeverage": "Food and beverage",
+              "allIndustries": "See all industries"
             }
           }
         }

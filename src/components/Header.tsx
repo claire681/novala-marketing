@@ -17,7 +17,19 @@ const MENUS: Record<string, MenuConfig> = {
       { labelKey: 'industry', linkKeys: ['construction', 'professional', 'wholesale', 'healthcare', 'retail', 'restaurants', 'nonprofit'], seeAllKey: 'seeAllIndustries' },
     ],
   },
-  resources: {
+  solutions: {
+    columns: [
+      { labelKey: 'byBusinessSize', linkKeys: ['smallBusinesses', 'growingTeams'] },
+      { labelKey: 'byBusinessNeed', linkKeys: ['payroll', 'accounting', 'invoicing', 'expenses', 'reports', 'velaAI'] },
+    ],
+  },
+  industries: {
+    columns: [
+      { labelKey: 'primary', linkKeys: ['construction', 'healthcare', 'hospitality', 'professionalServices'] },
+      { labelKey: 'secondary', linkKeys: ['retail', 'nonprofits', 'transportation', 'foodBeverage'], seeAllKey: 'allIndustries' },
+    ],
+  },
+    resources: {
     columns: [
       { labelKey: 'compare', linkKeys: ['vsQuickbooks', 'vsXero', 'vsWave'] },
       { labelKey: 'exploreNovala', linkKeys: ['whatsNew', 'moveToNovala', 'appsIntegrations'] },
@@ -79,6 +91,9 @@ export default function Header() {
     { key: 'productsFeatures', menuKey: 'productsFeatures' },
     { key: 'plansPricing', href: 'https://app.getnovala.com/pricing' },
     { key: 'resources', menuKey: 'resources' },
+      { key: 'solutions', menuKey: 'solutions' },
+      { key: 'industries', menuKey: 'industries' },
+      { key: 'accountants', href: '#accountants' },
   ];
 
   const VelaPromoCard = () => (
