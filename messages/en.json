@@ -225,7 +225,32 @@
     "headline1": "One platform.",
     "headline2": "A clearer way forward.",
     "subheadline": "Novala brings together everything you need to run your business.",
-    "cta": "Explore all features"
+    "cta": "Explore all features",
+    "cards": {
+      "payroll": {
+        "label": "Payroll",
+        "value": "48 employees paid",
+        "sub": "Next: Fri Sep 26"
+      },
+      "accounting": {
+        "label": "Accounting",
+        "value": "Books reconciled",
+        "sub": "Updated 2 hours ago"
+      },
+      "invoicing": {
+        "label": "Invoicing",
+        "value": "12 sent today",
+        "sub": "$8,450 outstanding"
+      },
+      "taxFilings": {
+        "label": "Tax filings",
+        "value": "All up to date",
+        "sub": "Next filing: Oct 15"
+      },
+      "vela": {
+        "message": "Cash flow is strong. Ready to hire your next 3 employees."
+      }
+    }
   },
   "features": {
     "eyebrow": "POWERFUL TOOLS",

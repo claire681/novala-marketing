@@ -225,7 +225,32 @@
     "headline1": "Une plateforme.",
     "headline2": "Une voie plus claire.",
     "subheadline": "Novala rassemble tout ce dont vous avez besoin pour gérer votre entreprise.",
-    "cta": "Explorer toutes les fonctionnalités"
+    "cta": "Explorer toutes les fonctionnalités",
+    "cards": {
+      "payroll": {
+        "label": "Paie",
+        "value": "48 employes payes",
+        "sub": "Prochain: ven 26 sept"
+      },
+      "accounting": {
+        "label": "Comptabilite",
+        "value": "Livres reconcilies",
+        "sub": "Mis a jour il y a 2 heures"
+      },
+      "invoicing": {
+        "label": "Facturation",
+        "value": "12 envoyees aujourd hui",
+        "sub": "8 450$ en attente"
+      },
+      "taxFilings": {
+        "label": "Declarations fiscales",
+        "value": "Tout a jour",
+        "sub": "Prochaine: 15 oct"
+      },
+      "vela": {
+        "message": "Tresorerie solide. Pret a embaucher vos 3 prochains employes."
+      }
+    }
   },
   "features": {
     "eyebrow": "OUTILS PUISSANTS",
