@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <section className="relative min-h-[85vh] pt-40 pb-20 px-8 md:px-16 overflow-hidden">
       <Image src="/photos/hero-people.jpg" alt="Novala for growing businesses" fill className="object-cover z-0" priority sizes="100vw" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/35 z-10"></div>
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/10 z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
       <div className="relative z-20 max-w-7xl mx-auto">
         <div className="max-w-3xl">
           <div className="text-xs font-bold text-emerald-bright uppercase tracking-widest mb-6">{t('eyebrow')}</div>
