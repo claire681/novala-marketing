@@ -9,9 +9,60 @@ export default function Insights() {
 
   return (
     <section className="py-24 px-8 md:px-16" style={{ background: 'linear-gradient(135deg, #0A0A0A, #000000)' }}>
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-        <div className="rounded-3xl overflow-hidden shadow-2xl">
-          <Image src="/photos/insights.jpg" alt="Business insights dashboard" width={1440} height={1080} className="w-full h-auto" />
+      <div className="max-w-7xl mx-auto grid md:grid-cols-[3fr_2fr] gap-12 items-center">
+        <div className="relative">
+          <div className="rounded-3xl overflow-hidden shadow-2xl">
+            <Image src="/photos/insights.jpg" alt="Business insights dashboard" width={1440} height={1080} className="w-full h-auto" />
+          </div>
+          <div className="hidden md:block absolute z-10" style={{ top: '8%', left: '-4%', transform: 'rotate(-2deg)' }}>
+            <div className="bg-white rounded-2xl px-5 py-4 shadow-2xl border-l-4 border-[#4F46E5]" style={{ minWidth: '210px', boxShadow: '0 20px 40px rgba(0,0,0,0.18), 0 4px 8px rgba(0,0,0,0.06)' }}>
+              <div className="flex items-center gap-2 mb-2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                <div className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#4F46E5' }}>{t('cards.payroll.label')}</div>
+              </div>
+              <div className="text-lg font-extrabold text-black leading-tight">{t('cards.payroll.value')}</div>
+              <div className="text-xs text-gray-500 mt-1">{t('cards.payroll.sub')}</div>
+            </div>
+          </div>
+          <div className="hidden md:block absolute z-10" style={{ top: '6%', right: '-4%', transform: 'rotate(2deg)' }}>
+            <div className="bg-white rounded-2xl px-5 py-4 shadow-2xl border-l-4 border-[#F59E0B]" style={{ minWidth: '210px', boxShadow: '0 20px 40px rgba(0,0,0,0.18), 0 4px 8px rgba(0,0,0,0.06)' }}>
+              <div className="flex items-center gap-2 mb-2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><line x1="8" y1="7" x2="16" y2="7"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="17" x2="12" y2="17"/></svg>
+                <div className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#F59E0B' }}>{t('cards.accounting.label')}</div>
+              </div>
+              <div className="text-lg font-extrabold text-black leading-tight">{t('cards.accounting.value')}</div>
+              <div className="text-xs text-gray-500 mt-1">{t('cards.accounting.sub')}</div>
+            </div>
+          </div>
+          <div className="hidden md:block absolute z-10" style={{ bottom: '8%', left: '-2%', transform: 'rotate(-1.5deg)' }}>
+            <div className="bg-white rounded-2xl px-5 py-4 shadow-2xl border-l-4 border-[#EC4899]" style={{ minWidth: '210px', boxShadow: '0 20px 40px rgba(0,0,0,0.18), 0 4px 8px rgba(0,0,0,0.06)' }}>
+              <div className="flex items-center gap-2 mb-2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EC4899" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="12" y2="17"/></svg>
+                <div className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#EC4899' }}>{t('cards.invoicing.label')}</div>
+              </div>
+              <div className="text-lg font-extrabold text-black leading-tight">{t('cards.invoicing.value')}</div>
+              <div className="text-xs text-gray-500 mt-1">{t('cards.invoicing.sub')}</div>
+            </div>
+          </div>
+          <div className="hidden md:block absolute z-10" style={{ bottom: '10%', right: '-4%', transform: 'rotate(2deg)' }}>
+            <div className="bg-white rounded-2xl px-5 py-4 shadow-2xl border-l-4 border-[#0891B2]" style={{ minWidth: '210px', boxShadow: '0 20px 40px rgba(0,0,0,0.18), 0 4px 8px rgba(0,0,0,0.06)' }}>
+              <div className="flex items-center gap-2 mb-2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0891B2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 11 11 13 15 9"/></svg>
+                <div className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#0891B2' }}>{t('cards.taxFilings.label')}</div>
+              </div>
+              <div className="text-lg font-extrabold text-black leading-tight">{t('cards.taxFilings.value')}</div>
+              <div className="text-xs text-gray-500 mt-1">{t('cards.taxFilings.sub')}</div>
+            </div>
+          </div>
+          <div className="hidden md:block absolute z-20" style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%) rotate(-1deg)' }}>
+            <div className="rounded-2xl px-5 py-4 border border-white/10" style={{ background: 'linear-gradient(135deg, #023E22, #046A38)', minWidth: '260px', boxShadow: '0 24px 48px rgba(0,0,0,0.35), 0 8px 16px rgba(4,106,56,0.2)' }}>
+              <div className="flex items-center gap-2.5 mb-2">
+                <div className="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-extrabold" style={{ background: '#00A651', boxShadow: '0 4px 12px rgba(0, 166, 81, 0.5)' }}>V</div>
+                <div className="text-xs font-bold" style={{ color: '#00A651', letterSpacing: '0.05em' }}>Vela</div>
+              </div>
+              <div className="text-sm font-semibold text-white leading-snug">{t('cards.vela.message')}</div>
+            </div>
+          </div>
         </div>
         <div>
           <div className="text-xs font-bold text-white uppercase tracking-widest mb-4">{t('eyebrow')}</div>
