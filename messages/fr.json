@@ -130,9 +130,11 @@
     "photoPlaceholder": "[ Photo hero ]"
   },
   "trustStrip": {
-    "eyebrow": "CONCU POUR ETRE VOTRE DERNIER CHANGEMENT",
-    "headline": "Vous venez d'un autre outil? Nous vous aidons a migrer.",
-    "subheadline": "Apportez vos donnees, employes et historique depuis n'importe quel systeme comptable ou de paie."
+    "eyebrow": "APPROUVE PAR LES ENTREPRISES EN CROISSANCE PARTOUT",
+    "item1": "Tout connecte",
+    "item2": "Moins de travail manuel",
+    "item3": "Meilleure visibilite",
+    "item4": "Concu pour grandir"
   },
   "solutions": {
     "heading": "Des solutions conçues pour votre entreprise",

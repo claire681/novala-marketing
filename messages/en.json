@@ -130,9 +130,11 @@
     "photoPlaceholder": "[ Hero photo ]"
   },
   "trustStrip": {
-    "eyebrow": "MADE TO BE YOUR LAST SWITCH",
-    "headline": "Coming from another tool? We'll help you move.",
-    "subheadline": "Bring your data, employees, and history from any accounting or payroll system."
+    "eyebrow": "TRUSTED BY GROWING BUSINESSES EVERYWHERE",
+    "item1": "Everything connected",
+    "item2": "Less manual work",
+    "item3": "Clearer visibility",
+    "item4": "Built to grow"
   },
   "solutions": {
     "heading": "Solutions built for businesses like yours",
