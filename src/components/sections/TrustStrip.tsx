@@ -28,7 +28,7 @@ export default function TrustStrip() {
           <div className="flex flex-wrap justify-around items-center gap-8 md:gap-12">
             {COMPETITORS.map((c) => (
               <div key={c.name} className="text-center group">
-                <div className="w-[110px] h-[60px] rounded-lg bg-white border border-gray-200 flex items-center justify-center mb-2 grayscale opacity-70 group-hover:opacity-100 group-hover:grayscale-0 transition-all p-3">
+                <div className="w-[110px] h-[60px] rounded-lg bg-white border border-gray-200 flex items-center justify-center mb-2  p-3">
                   <Image src={`/logos/${c.slug}.svg`} alt={c.name} width={c.width} height={c.height} unoptimized style={{ maxWidth: c.width, maxHeight: c.height, width: 'auto', height: 'auto' }} />
                 </div>
                 <div className="text-[11px] uppercase tracking-wider text-gray-400 font-semibold">{c.name}</div>
